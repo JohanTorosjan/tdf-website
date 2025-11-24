@@ -1,0 +1,8 @@
+# Arrêter le conteneur
+docker-compose down
+
+# Reconstruire l'image pour inclure la nouvelle dépendance
+docker-compose build --no-cache dev
+
+# Relancer
+docker-compose --profile dev up dev
