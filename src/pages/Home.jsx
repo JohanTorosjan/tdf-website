@@ -1,27 +1,22 @@
 // src/pages/Home.js
 import React from 'react';
+import logomain from "../assets/logo-main.png";
+import fed from "../assets/fed.svg";
 
 import './Home.css';
-import { useEffect } from 'react';
 
 // src/pages/Home.jsx
 function Home() {
-  useEffect(() => {
-    // Scroll à 30% de la hauteur de l'écran par exemple
-window.scrollTo({
-  top: window.innerHeight * 0.3,
-  behavior: 'auto'
-});
 
-  }, []); // Le tableau vide [] signifie "au premier chargement uniquement"
 
 
   return (
     <div className="page-container">
       <div className="page-background"></div>
       <div className="page-content">
-        {/* Votre contenu ici */}
-        <h1>Home</h1>
+                <img className="logo-center" src={logomain} alt="Mon illustration" />
+                <img className="logo-bottom-right" src={fed} alt="Mon illustration" />
+
       </div>
     </div>
   );

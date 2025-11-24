@@ -25,9 +25,41 @@
 }
 
 
+
+
+
+.logo-center {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60dvw;   /* taille responsive */
+  height: auto;
+}
+
+/* Logo en bas à droite */
+.logo-bottom-right {
+  position: absolute;
+  bottom: 5dvh;
+  right: 5dvw;
+  width: 12dvw;  /* taille responsive */
+  height: auto;
+}
+
 @media (max-width: 768px) {
     .page-background{
              background-image: url("../assets/main-tel.jpg");
 
+    }
+    .logo-center{
+  width: 80dvw;   /* taille responsive */
+    top: 62%;
+  left: 50%;
+    }
+    .logo-bottom-right{
+          bottom: 5dvh;
+  right: 5dvw;
+  width: 23dvw;  /* taille responsive */
+        
     }
 }

@@ -10,6 +10,7 @@ import Contacts from './pages/Contacts';
 import Talents from './pages/Talents';
 import NotFound from './pages/NotFound';
 import Header from './components/Header'; 
+import Footer from './components/Footer'; 
 
 import './App.css';
 
@@ -36,7 +37,7 @@ function App() {
           </main>
 
           <footer className="app-footer">
-            <p>&copy; 2024 - Tous droits réservés</p>
+            <Footer/>
           </footer>
         </div>
       </PasswordProtection>
