@@ -1,0 +1,32 @@
+/* src/pages/talents.css */
+.talents-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.talents-hero {
+  width: 100%;
+  height: 50dvh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.talents-title {
+position: absolute;
+top:  25dvh;
+align-self: center;
+z-index: 10000;
+color: white;
+font-size: 2rem;
+}
+
+
+.talents-content {
+  flex: 1;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  width: 100%;
+}

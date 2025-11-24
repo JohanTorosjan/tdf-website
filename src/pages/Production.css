@@ -1,0 +1,32 @@
+/* src/pages/production.css */
+.production-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.production-hero {
+  width: 100%;
+  height: 50dvh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.production-title {
+position: absolute;
+top:  25dvh;
+align-self: center;
+z-index: 10000;
+color: white;
+font-size: 2rem;
+}
+
+
+.production-content {
+  flex: 1;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  width: 100%;
+}
