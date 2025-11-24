@@ -1,4 +1,4 @@
-// src/App.js - OPTION 1 : Toutes les routes protégées
+// src/App.js
 import React from 'react';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import PasswordProtection from './components/PasswordProtection';
@@ -9,6 +9,8 @@ import Series from './pages/Series';
 import Contacts from './pages/Contacts';
 import Talents from './pages/Talents';
 import NotFound from './pages/NotFound';
+import Header from './components/Header'; 
+
 import './App.css';
 
 function App() {
@@ -16,28 +18,26 @@ function App() {
     <BrowserRouter>
       <PasswordProtection>
         <div className="App">
-          <nav>
-            <ul>
-              <li><Link to="/">Home</Link></li>
-              <li><Link to="/the-series">The Series</Link></li>
-              <li><Link to="/scripts">Scripts</Link></li>
-              <li><Link to="/an-outstanding-production">An outstanding production</Link></li>
-              <li><Link to="/talents">Talents</Link></li>
-              <li><Link to="/contacts">Contacts</Link></li>
-              
-            </ul>
-          </nav>
+          <header className="app-header">
+          <Header /> 
 
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/the-series" element={<Series />} />
-            <Route path="/scripts" element={<Scripts />} />
-            <Route path="/an-outstanding-production" element={<Production />} />
-            <Route path="/talents" element={<Talents />} />
-            <Route path="/contacts" element={<Contacts />} />
+          </header>
 
-            <Route path="*" element={<NotFound />} />
-          </Routes>
+          <main className="app-main">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/the-series" element={<Series />} />
+              <Route path="/scripts" element={<Scripts />} />
+              <Route path="/an-outstanding-production" element={<Production />} />
+              <Route path="/talents" element={<Talents />} />
+              <Route path="/contacts" element={<Contacts />} />
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+          </main>
+
+          <footer className="app-footer">
+            <p>&copy; 2024 - Tous droits réservés</p>
+          </footer>
         </div>
       </PasswordProtection>
     </BrowserRouter>
