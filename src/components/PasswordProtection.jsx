@@ -32,8 +32,17 @@ const PasswordProtection = ({ children }) => {
       setError('Mot de passe incorrect');
       setPassword('');
     }
-  };
 
+  };
+    const handleChange = (e) => {
+        const value = e.target.value;
+        setPassword(value);
+
+        if (value === CORRECT_PASSWORD) {
+            setIsAuthenticated(true);
+            sessionStorage.setItem(AUTH_KEY, 'true');
+        }
+    }
   if (isAuthenticated) {
     return <>{children}</>;
   }
@@ -41,22 +50,21 @@ const PasswordProtection = ({ children }) => {
   return (
     <div className="password-container">
       <div className="password-box">
-        <h1>Accès protégé</h1>
-        <p>Veuillez entrer le mot de passe pour accéder au site</p>
         
         <form onSubmit={handleSubmit}>
+            
           <input
             type="password"
             value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            placeholder="Mot de passe"
+            onChange={handleChange}
+            placeholder="Password"
             autoFocus
             className="password-input"
           />
           {error && <p className="error-message">{error}</p>}
-          <button type="submit" className="password-button">
-            Accéder
-          </button>
+          {/* <button type="submit" className="password-button">
+            Login
+          </button> */}
         </form>
       </div>
     </div>

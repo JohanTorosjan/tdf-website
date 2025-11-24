@@ -1,0 +1,33 @@
+/* Style qui sera réutilisable pour toutes les pages */
+.page-container {
+  position: relative;
+  min-height: 100%;   
+
+}
+
+.page-background {
+    background-image: url("../assets/main.jpg");
+  position: absolute; /* Au lieu de fixed */
+  top: 0;
+  left: 0;
+  width: 100%;
+ height: 100%;
+  background-size: cover;
+  background-position: center top;
+  z-index: -1;
+}
+
+.page-content {
+  position: relative;
+  z-index: 1;
+  min-height: 100dvh; /* Même hauteur pour pouvoir scroller */
+  padding: 2rem;
+}
+
+
+@media (max-width: 768px) {
+    .page-background{
+             background-image: url("../assets/main-tel.jpg");
+
+    }
+}

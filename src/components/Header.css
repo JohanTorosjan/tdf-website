@@ -3,15 +3,14 @@
 .app-header {
   width: 100%;
   padding: 1rem 2rem;
-  background-color: #ffffff;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.7); /* Noir avec 70% d'opacité */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   position: sticky;
   top: 0;
   z-index: 1000;
+  backdrop-filter: blur(8px); /* Effet de flou pour un rendu plus moderne */
 }
-
 .app-nav {
-  max-width: 1400px;
   margin: 0 auto;
   position: relative;
   display: flex;
@@ -54,7 +53,7 @@
 .burger-button span {
   width: 100%;
   height: 3px;
-  background-color: #333;
+  background-color: white;
   transition: all 0.3s ease;
   border-radius: 2px;
 }
@@ -89,10 +88,11 @@
 
 .nav-menu a {
   text-decoration: none;
-  color: #333;
   font-size: 1rem;
   font-weight: 500;
   transition: color 0.3s ease;
+  color: #ffffff;
+
 }
 
 .nav-menu a:hover {
@@ -130,11 +130,16 @@
     box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
     transition: right 0.3s ease;
     overflow-y: auto;
+    background-color: rgba(0, 0, 0, 0.7); /* Noir avec 70% d'opacité */
+
+
   }
 
   /* Menu ouvert */
   .nav-menu.open {
     right: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Noir avec 70% d'opacité */
+
   }
 
   .nav-menu li {

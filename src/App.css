@@ -22,15 +22,15 @@ html, body {
 }
 
 /* MAIN CONTENT */
+/* src/App.css */
 .app-main {
   flex: 1;
   width: 100%;
-  max-width: 1400px;
   margin: 0 auto;
-  padding: 2rem;
   overflow-y: auto;
+  position: relative; /* Ajout pour le contexte de position */
+  z-index: 1; /* Pour que le contenu soit au-dessus du background */
 }
-
 /* FOOTER */
 .app-footer {
   width: 100%;
@@ -39,6 +39,7 @@ html, body {
   text-align: center;
   border-top: 1px solid #e0e0e0;
   margin-top: auto;
+  z-index: 1000;
 }
 
 .app-footer p {
@@ -60,7 +61,6 @@ html, body {
   }
 
   .app-main {
-    padding: 1.5rem;
   }
 
   .app-footer {
@@ -84,7 +84,7 @@ html, body {
   }
 
   .app-main {
-    padding: 1rem;
+
   }
 
   .app-footer {

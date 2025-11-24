@@ -14,14 +14,14 @@ import Header from './components/Header';
 import './App.css';
 
 function App() {
+  
   return (
     <BrowserRouter>
       <PasswordProtection>
         <div className="App">
-          <header className="app-header">
           <Header /> 
 
-          </header>
+
 
           <main className="app-main">
             <Routes>
