@@ -1,0 +1,178 @@
+/* src/pages/Series.css */
+.series-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.series-hero {
+  width: 100%;
+  height: 50dvh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.series-title {
+position: absolute;
+top:  25dvh;
+align-self: center;
+z-index: 10000;
+color: white;
+font-size: 2rem;
+}
+
+
+.series-content {
+  flex: 1;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  width: 100%;
+}
+
+.series-section {
+  margin-bottom: 50px;
+}
+
+.series-section:last-child {
+  margin-bottom: 0;
+}
+
+.series-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.series-section p {
+  line-height: 1.8;
+  font-size: 1.1rem;
+  color: #555;
+  text-align: justify;
+  max-width: 100%;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .series-content {
+    padding: 40px 16px;
+  }
+
+  .series-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .series-section p {
+    font-size: 1rem;
+  }
+}
+
+
+/* Amélioration de la typographie et de la mise en page */
+
+.series-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 80px;
+  line-height: 1.8;
+}
+
+.series-section {
+  margin-bottom: 80px;
+}
+
+.series-section h2 {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 50px;
+  text-transform: capitalize;
+  letter-spacing: -1px;
+}
+
+/* Section Synopsis */
+.synopsis .synopsis-text p {
+  margin-bottom: 25px;
+  text-align: justify;
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+.synopsis strong {
+  font-weight: 700;
+}
+
+/* Section Themes */
+.themes-content p {
+  margin-bottom: 20px;
+  text-align: justify;
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+.themes-content .emphasis {
+  font-style: italic;
+  font-size: 16px;
+  margin: 30px 0;
+  text-align: center;
+}
+
+.themes-content .highlight {
+  font-style: italic;
+  font-weight: 500;
+}
+
+.themes-content .highlight-block {
+  font-weight: 700;
+  font-size: 16px;
+  margin: 35px 0;
+  padding: 15px 0;
+  text-align: left;
+}
+
+/* Section Arena */
+.arena-content p {
+  margin-bottom: 20px;
+  text-align: justify;
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+.arena-content .highlight-block {
+  font-weight: 700;
+  font-size: 16px;
+  margin: 35px 0;
+  text-align: left;
+}
+
+.arena-content .highlight-block.final {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .series-content {
+    padding: 40px 30px;
+  }
+  
+  .series-section h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .synopsis .synopsis-text p,
+  .themes-content p,
+  .arena-content p {
+    font-size: 14px;
+    text-align: left;
+  }
+  
+  .themes-content .emphasis,
+  .themes-content .highlight-block,
+  .arena-content .highlight-block {
+    font-size: 15px;
+  }
+}
