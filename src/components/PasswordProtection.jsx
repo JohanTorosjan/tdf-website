@@ -11,7 +11,7 @@ const PasswordProtection = ({ children }) => {
   const CORRECT_PASSWORD = 'YELLOWJERSEY';
   
   // Clé pour le sessionStorage (expire à la fermeture de l'onglet)
-  const AUTH_KEY = 'site_auth';
+  const AUTH_KEY = 'YELLOWJERSEY';
 
   useEffect(() => {
     // Vérifier si déjà authentifié dans cette session

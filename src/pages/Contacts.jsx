@@ -1,7 +1,7 @@
 // src/pages/Contact.js
 import React from 'react';
 
-function Contact() {
+function Contacts() {
   return (
     <div>
       <h1>Contact</h1>
@@ -10,4 +10,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default Contacts;
