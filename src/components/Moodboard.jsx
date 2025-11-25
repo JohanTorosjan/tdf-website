@@ -1,20 +1,56 @@
 // Moodboard.jsx
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './Moodboard.css';
+import moodboard1 from '../assets/moodboard/moodboard1.png'
+import moodboard2 from '../assets/moodboard/moodboard2.png'
+import moodboard3 from '../assets/moodboard/moodboard3.png'
+import moodboard5 from '../assets/moodboard/moodboard5.png'
+import moodboard6 from '../assets/moodboard/moodboard6.png'
+import moodboard7 from '../assets/moodboard/moodboard7.png'
+import moodboard8 from '../assets/moodboard/moodboard8.png'
+import moodboard9 from '../assets/moodboard/moodboard9.png'
+import moodboard10 from '../assets/moodboard/moodboard10.png'
+import moodboard11 from '../assets/moodboard/moodboard11.png'
+import moodboard12 from '../assets/moodboard/moodboard12.png'
 
 export default function Moodboard() {
-  const images = [
-    { id: 1, format: 'landscape', url: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=500&fit=crop', alt: 'Portrait carré 1' },
-    { id: 2, format: 'square', url: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=500&fit=crop', alt: 'Paysage 1' },
-    { id: 3, format: 'square', url: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=600&fit=crop', alt: 'Portrait vertical 1' },
-    { id: 4, format: 'square', url: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=500&h=500&fit=crop', alt: 'Portrait carré 2' },
-    { id: 5, format: 'square', url: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=600&fit=crop', alt: 'Portrait vertical 2' },
-    { id: 6, format: 'square', url: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&h=500&fit=crop', alt: 'Paysage 2' },
-    { id: 7, format: 'square', url: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&h=500&fit=crop', alt: 'Portrait carré 3' },
-    { id: 8, format: 'square', url: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&h=500&fit=crop', alt: 'Portrait carré 3' },
-    { id: 9, format: 'square', url: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&h=500&fit=crop', alt: 'Portrait carré 3' },
-  
-];
+      const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+    
+      useEffect(() => {
+        const handleResize = () => {
+          setIsMobile(window.innerWidth < 768);
+        };
+    
+        window.addEventListener("resize", handleResize);
+        return () => window.removeEventListener("resize", handleResize);
+      }, []);
+
+      let images;
+      if(!isMobile){
+        
+         images  = [
+    { id: 1, format: 'square', url: moodboard1, alt: 'Moodboard 1' },
+    { id: 2, format: 'square', url: moodboard2, alt: 'Moodboard 2' },
+    { id: 3, format: 'square', url: moodboard3, alt: 'Moodboard 3' },
+    { id: 5, format: 'square', url: moodboard5, alt: 'Moodboard 5' },
+    { id: 6, format: 'landscape', url: moodboard6, alt: 'Moodboard 6',cut:true },
+    { id: 7, format: 'landscape', url: moodboard7, alt: 'Moodboard 7' },
+    { id: 9, format: 'square', url: moodboard9, alt: 'Moodboard 9' },
+    { id: 10, format: 'square', url: moodboard10, alt: 'Moodboard 10' },
+    { id: 11, format: 'square', url: moodboard11, alt: 'Moodboard 11' },
+    { id: 12, format: 'square', url: moodboard12, alt: 'Moodboard 12' },
+  ]
+      }
+
+      else{
+         images = [
+    { id: 1, format: 'portrait', url: moodboard1, alt: 'Moodboard 1' },
+    { id: 2, format: 'portrait', url: moodboard2, alt: 'Moodboard 2' },
+    { id: 3, format: 'square', url: moodboard3, alt: 'Moodboard 3' },
+    { id: 5, format: 'portrait', url: moodboard5, alt: 'Moodboard 5' },
+    { id: 6, format: 'landscape', url: moodboard6, alt: 'Moodboard 6',cut:true },
+  ]
+      }
 
   return (
     <div className="moodboard-container">
@@ -23,7 +59,7 @@ export default function Moodboard() {
           {images.map((image) => (
             <div
               key={image.id}
-              className={`moodboard-item moodboard-${image.format}`}
+              className={`moodboard-item moodboard-${image.format} ${image?.cut?'cut':''}` }
             >
               <img
                 src={image.url}

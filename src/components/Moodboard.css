@@ -33,7 +33,6 @@
 .moodboard-item {
   position: relative;
   overflow: hidden;
-  border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
@@ -54,16 +53,21 @@
 .moodboard-landscape {
   grid-column: span 2;
   aspect-ratio: 16 / 9;
-  clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
+
 
 }
+.cut{
+        clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
 
+}
 /* Format PORTRAIT - 1 colonne, 2 lignes, ratio 3:4 */
 .moodboard-portrait {
   grid-column: span 1;
   grid-row: span 2;
   aspect-ratio: 3 / 4;
 }
+
 
 /* Image */
 .moodboard-image {
