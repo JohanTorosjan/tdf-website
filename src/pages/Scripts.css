@@ -38,7 +38,6 @@ font-family: 'Restaurant Menu Book', sans-serif;
 
 .episode-section {
   max-width: 1200px;
-  margin: 60px auto;
   /* border-top: 2px solid #000; */
   padding: 0;
     border-radius: 5px;
@@ -161,7 +160,6 @@ padding-top: 3dvh;
   }
 
   .episode-buttons {
-    flex-direction: column;
     padding: 30px 25px 40px;
     gap: 15px;
   }
