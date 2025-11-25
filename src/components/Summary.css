@@ -83,7 +83,6 @@
 /* Responsive - pour les petits écrans */
 @media (max-width: 768px) {
   .sommaire {
-    padding: 1.5rem 0.5rem;
   }
   
   .sommaire-button {
