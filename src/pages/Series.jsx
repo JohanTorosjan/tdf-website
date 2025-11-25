@@ -4,6 +4,9 @@ import seriesbg from "../assets/series-bg.jpg";
 import './Series.css';
 import Sommaire from '../components/Summary.jsx'
 import ScrollToTopButton from '../components/ScrollToTopButton.jsx'
+import themes from "../assets/themes.png";
+import arena from "../assets/arena.png";
+import Moodboard from '../components/Moodboard.jsx';
 function Series() {
   return (
     
@@ -45,7 +48,13 @@ function Series() {
         </section>
 
         <section className="series-section themes">
-          <h2>Themes</h2>
+            <div className='series-section-title'>
+    <img
+          className="imgthemes"
+          src={themes}
+          alt="loading"
+        />  
+            </div>
           <div className="themes-content">
             <p className="highlight-block">
               These two champions will clash all season long in a gripping and relentless battle for leadership. Their rivalry echoes the great sports duels (Ronaldo/Messi, Nadal/Federer, Lauda/Hunt) <span className="highlight"><strong>with one key difference: they're on the same team.</strong></span>
@@ -87,8 +96,14 @@ function Series() {
           <div className='arena-summary'></div>
         </section>
         <section className="series-section arena">
-          <h2>The arena</h2>
-          <div className="arena-content">
+            <div className='series-section-title'>
+    <img
+          className="imgthemes"
+          src={arena}
+          alt="loading"
+        />  
+            </div>
+             <div className="arena-content">
             <p className="highlight-block">
               This series is both an international arena and a love letter to France and its people.
             </p>
@@ -101,6 +116,7 @@ function Series() {
           </div>
         </section>
       </div>
+      <Moodboard/>
     </div>
   );
 }

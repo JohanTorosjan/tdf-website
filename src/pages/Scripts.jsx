@@ -4,6 +4,7 @@ import scriptsbgtel from "../assets/scripts-bg-tel.jpg";
 import episode1 from "../assets/episode1.jpg";
 import episode2 from "../assets/episode2.png";
 import episode3 from "../assets/episode3.png";
+import route from "../assets/route.png";
 
 import dsen from "../assets/dsen.png";
 import dsfr from "../assets/dsfr.png";
@@ -61,6 +62,8 @@ function Scripts() {
       )}
 
 <div className="scripts-content">
+              <div className='episode-1'></div>
+
   <div className="episode-section">
     {/* <div className="episode-header"> */}
               <img
@@ -105,11 +108,21 @@ In the mud and chaos of the Paris–Roubaix cobblestones, where everything shoul
           src={dsfr}
           alt="loading"
         /></button>
+                            <div className='episode-2'></div>
+
     </div>
   </div>
+
 </div>
 
+ <img
+          className="route"
+          src={route}
+          alt="Mon illustration"
+        />
+
 <div className="scripts-content">
+
   <div className="episode-section">
     {/* <div className="episode-header"> */}
               <img
@@ -150,11 +163,17 @@ Nora, on the other hand, sees her ambitions soar. Exhilarated by the scale of th
           src={dsfr}
           alt="loading"
         /></button>
+                            <div className='episode-3'></div>
+
     </div>
   </div>
 </div>
 
-
+ <img
+          className="route"
+          src={route}
+          alt="Mon illustration"
+        />
 <div className="scripts-content">
   <div className="episode-section">
     {/* <div className="episode-header"> */}
@@ -179,6 +198,111 @@ Meanwhile, Mathias sees his world falling apart. Consumed by bitterness, he blam
                         <p>
 On the mythical slopes of the Tourmalet, the pressure reaches its peak: Ayden becomes everyone’s target, Mathias and Andrea included. As Andrea looks set to claim the stage, Ayden crosses the line first. Everyone now believes in his chances of winning the Tour. The episode ends with Nora and Mathias finally giving in to their desire. At that very moment, the news breaks, relentless: Ayden is excluded from the competition.  </p>
                  
+                                     <div className='episode-4'></div>
+
+    </div>   
+  </div>
+</div>
+
+ <img
+          className="route"
+          src={route}
+          alt="Mon illustration"
+        />
+
+<div className="scripts-content">
+  <div className="episode-section">
+    {/* <div className="episode-header"> */}
+              <img
+          className="episode1"
+          src={episode3}
+          alt="Mon illustration"
+        />
+    {/* </div> */}
+        <div className="episode-body">
+      <p>
+The announcement of the yellow jersey’s exclusion casts a shadow over the competition   and fractures Deepblue, which chooses to continue without Ayden. But the peloton rises up in protest: in an unprecedented show of solidarity, the riders refuse to start the stage without the yellow jersey. The race authorities give in, and Ayden is reinstated but remains deeply affected  by what he experiences  as abandonment.
+On the fearsome  slopes of Mont Ventoux, under a hellish  thunderstorm, the young prodigy struggles to find his rhythm, until Nora manages to neutralize  the race with a move that borders on illegality. The yellow jersey is saved, but Ayden is only a shadow of his former self.. During a rest day in Nice, the city where he spent his early childhood, Nora tries to rebuild his trust and encourages him to forgive his mother.
+      </p>
+      <p>
+For Nora, Ayden’s exclusion throws her entire plan off course. She decides to team up with the head of Galactic, with Raphaël’s help. But Nora realizes too late that Scott's ambition surpasses her own. He wants to go as far as creating a competition that rivals the Tour de France. Nora realizes her attachment to the team, to Mathias, and to the values of the Tour. It's also by reconnecting with her sister that she becomes aware of what she is betraying. She wavers between two parts of herself, until everything shatters when Raphaël discovers her affair with Mathias.      </p>
+            <p>
+The former star is at the center of all contradictions, torn between pride and loyalty. Still weakened by his crash, he’s tempted by doping when his mother offers him a banned painkiller. How far is he willing to go? During a sweltering stage along the Mediterranean coast, driven  by his rage  to win, Mathias makes a brutal choice: he betrays Ayden mid-race. The yellow jersey breaks down mentally and loses his lead to Andrea. Now more isolated than ever, Mathias is sidelined by the team, and he is on the verge of breaking up with Nora.    </p>
+                  <p>
+                    Still reeling from Mathias’s betrayal, Ayden’s long-awaited meeting with his mother turns out to be a disillusionment. As morale hits rock bottom, a final blow crushes the team: Thibault, their friend and long-time teammate, has succumbed to his injuries.
+
+</p>                       
+    </div>   
+                                         <div className='episode-5'></div>
+
+  </div>
+</div>
+ <img
+          className="route"
+          src={route}
+          alt="Mon illustration"
+        />
+
+<div className="scripts-content">
+  <div className="episode-section">
+    {/* <div className="episode-header"> */}
+              <img
+          className="episode1"
+          src={episode3}
+          alt="Mon illustration"
+        />
+    {/* </div> */}
+        <div className="episode-body">
+      <p>
+        Thibault’s death shakes the entire team and plunges Mathias into deep guilt. Overwhelmed with grief, he allows himself a rare night of release, sharing drinks with Ayden. The lifelong rivals grow closer, but alcohol blurs the lines. The evening ends in police custody, threatening their participation in the next stage. This forced proximity brings a moment of truth. Mathias comes to understand that great victories are above all, collective and finally chooses to support Ayden as team leader. Thanks to Nora’s intervention, they manage to start the stage at the last possible moment, deep in the Provençal hinterland.
+
+      </p>
+      <p>
+Nora, loses control of her project, now monopolized by Scott and Raphaël, who seeks revenge for her affair with Mathias. The death of Thibault, combined with her riders’ selflessness and solidarity, hits her like a shockwave, a powerful barrier against the monster she helped create. Her feelings for Mathias are growing stronger, more complicated, and she begins to reconnect with her roots. As she recalls childhood memories of standing with her father on the roadside during the Tour de France, Nora feels a sense of purpose. She decides to stop Scott and Raphaël’s destructive scheme to protect the institution, and everything it represents.
+</p>            <p>
+    Ayden, for his part, is caught in the crosshairs of the media: the idol is torn down as quickly as he was built up, as violently as people once believed in his dream of victory. Back at the police station with Mathias, he finds unexpected solidarity with his old rival. He finally feels like he is part of a team.
+</p>
+  <p>
+During a spectacular night stage through the walled city of Briançon, Ayden regains his fighting spirit, and for the first time, the two riders show real chemistry on the bike. Despite exhaustion, they pull off a bold tactical move that thwarts Andrea's plans, still in the yellow jersey. It's the beginning of the comeback!  But as the hope of victory flickers back to life, Ayden’s heart gives out, and he collapses from cardiac arrest.
+</p>                       
+    </div>   
+                                         <div className='episode-6'></div>
+
+  </div>
+</div>
+
+
+
+ <img
+          className="route"
+          src={route}
+          alt="Mon illustration"
+        />
+
+<div className="scripts-content">
+  <div className="episode-section">
+    {/* <div className="episode-header"> */}
+              <img
+          className="episode1"
+          src={episode3}
+          alt="Mon illustration"
+        />
+    {/* </div> */}
+        <div className="episode-body">
+      <p>
+For the team, following Ayden's cardiac incident, there is only one option: he must withdraw. Against all odds, it’s Mathias who stands up for him. He chooses to protect Ayden’s dream, believing he can still win, even if it means bending the rules. The mission is clear for the final stages: keep Ayden’s heart rate below 200 beats per minute, at all costs.
+      </p>
+      <p>
+Racing along Alpine ridges, Ayden finds the strength to push beyond his limits, carried by the unwavering support of his team. But it’s not enough to hold off the threat of Andrea, who reclaims the lead in the general ranking. Everything will be decided in the final  and legendary stage, at the Alpe d’Huez.
+</p>            <p>
+Raphaël uses Thibault’s death as a pretext to challenge the Tour’s safety standards. Cornered, Nora has no choice but to sacrifice herself to save the institution. She calls a press conference and publicly exposes the conspiracy. The fallout is immediate. She is expelled from the race and financially ruined. She can’t attend the final stage but delivers a powerful farewell speech to her riders before they set off.</p>
+  <p>
+From now on, Mathias devotes himself entirely to his team and to his leader, Ayden. This extraordinary Tour, his relationship with Nora, but above all Thibault’s death and the fears of his own son have changed him: he realizes he’s no longer willing to die for victory. Yet, he understands that nothing will stop Ayden, and he chooses to help him continue the race as his side, as a big brother and final shield against the danger closing in, starting with Andrea, now closer than ever to the final win.
+</p>        
+
+  <p>
+During the last stage, on the dizzying descent of the Galibier, Ayden takes a violent fall, coming close to death. Ayden climbs back on his bike, long enough to give Mathias his last strength so he can go after Andrea and fight for the win. In an epic and brotherly duel on the slopes of the Alpe d’Huez, through pain and sacrifice, Mathias crosses the line as winner. He finally achieves the dream of a lifetime: winning the most difficult and iconic competition there is.
+</p>               
     </div>   
   </div>
 </div>

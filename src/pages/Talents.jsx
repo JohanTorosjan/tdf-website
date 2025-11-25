@@ -3,6 +3,8 @@ import React from 'react';
 import talentsbg from "../assets/talents.jpg";
 import './Talents.css'
 
+
+
 function Talents() {
   return (
     <div className="talents-container">

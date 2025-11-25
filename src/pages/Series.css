@@ -58,8 +58,21 @@ font-family: 'Restaurant Menu Book', sans-serif;
   max-width: 100%;
 }
 
+.series-section-title{
+    display: flex;
+    justify-content: center;
+}
+.imgthemes{
+    width: 50dvh;
+    align-self: center;
+    
+}
 /* Responsive */
 @media (max-width: 768px) {
+    .imgthemes{
+    max-width: 30dvh;
+    align-self: center;
+}
   .series-content {
     padding: 40px 16px;
   }

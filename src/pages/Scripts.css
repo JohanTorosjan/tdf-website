@@ -33,10 +33,12 @@ font-family: 'Restaurant Menu Book', sans-serif;
   width: 100%;
     padding-top: 2dvh  !important;;
 
+
 }
 
 
 .episode-section {
+
   max-width: 1200px;
   /* border-top: 2px solid #000; */
   padding: 0;
@@ -92,6 +94,8 @@ clip-path: polygon(2% 0, 100% 0, 80% 100%, 0 100%);
 padding-top: 3dvh;
   color: #000;
   line-height: 1.8;
+            border-top: 2px solid #000;
+
 }
 
 .episode-body p {
@@ -102,10 +106,10 @@ padding-top: 3dvh;
 .episode-buttons {
   display: flex;
   gap: 0;
-  padding: 40px 60px 60px;
   background-color: #D4C4A8;
   align-items: center;
     justify-content: center;
+    padding-top: 2dvh;
 
 }
 
@@ -130,13 +134,29 @@ padding-top: 3dvh;
 
 .episode1{
     width: 50dvh;
+    
 }
 .ds{
     width: 20dvh;
     align-self: center;
 }
+
+.route{
+    width: 30%;
+    align-self: center;
+    padding-top: 8dvh;
+        padding-bottom: 8dvh;
+
+}
 /* Responsive */
 @media (max-width: 768px) {
+    .route{
+    width: 80%;
+    align-self: center;
+        padding-top: 4dvh;
+        padding-bottom: 4dvh;
+
+}
 .episode1{
     max-width:70dvw;
 }
@@ -160,8 +180,6 @@ padding-top: 3dvh;
   }
 
   .episode-buttons {
-    padding: 30px 25px 40px;
-    gap: 15px;
   }
 
   .script-button {
