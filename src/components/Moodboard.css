@@ -3,7 +3,7 @@
 /* Container principal */
 .moodboard-container {
   min-height: 100vh;
-  background-color: #f3f4f6;
+  background-color: #D4C4A8;
   padding: 32px;
 }
 
@@ -138,5 +138,39 @@
 
   .moodboard-title {
     font-size: 1.75rem;
+  }
+}
+
+/* Grille Mobile - 2x2 */
+.moodboard-grid-mobile {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 12px;
+  height:50dvh;
+}
+
+.moodboard-item-mobile {
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.moodboard-image-mobile {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
   }
 }
