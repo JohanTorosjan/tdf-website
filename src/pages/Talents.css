@@ -20,6 +20,9 @@ align-self: center;
 z-index: 10000;
 color: white;
 font-size: 2rem;
+font-family: 'Restaurant Menu Book', sans-serif;
+
+
 }
 
 
@@ -29,4 +32,6 @@ font-size: 2rem;
   margin: 0 auto;
   padding: 60px 20px;
   width: 100%;
+    padding-top: 2dvh !important;;
+
 }

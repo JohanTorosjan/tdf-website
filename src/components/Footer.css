@@ -6,7 +6,7 @@
   color: #fff;
   padding: 2.3rem 2rem 1.5rem;
   margin-top: auto;
-  z-index: 1000;
+  z-index: 999;
 }
 
 .footer-content {

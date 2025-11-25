@@ -2,10 +2,14 @@
 import React from 'react';
 import seriesbg from "../assets/series-bg.jpg";
 import './Series.css';
-
+import Sommaire from '../components/Summary.jsx'
+import ScrollToTopButton from '../components/ScrollToTopButton.jsx'
 function Series() {
   return (
+    
     <div className="series-container">
+<ScrollToTopButton/>
+
       <div className="series-title">
         <h1>The series</h1>
       </div>
@@ -14,6 +18,11 @@ function Series() {
       </div>
       
       <div className="series-content">
+
+                        <Sommaire items={[
+        { className: 'theme-summary', titre: 'Themes' },
+        { className: 'arena-summary', titre: 'The Arena' },
+        ]} />
         <section className="series-section synopsis">
           <div className="synopsis-text">
             <p>
@@ -32,6 +41,7 @@ function Series() {
               <strong>Ayden</strong>, a rebellious, solitary orphan, is Nora's wild-card recruit, an unlikely contender for the Tour. A Deliveroo courier with magnetic and insolent energy, he masks his lack of grounding and deep fear of abandonment with a fierce, almost self-destructive drive to win. Convinced he can only rely on himself, he joins Deepblue as a rogue element, challenging Matteo and captivating France with his explosive performances. But over time, Ayden realizes that victory isn't just about individual strength. Embraced by the team, he lets go of his lone-wolf mentality and finally finds the family he never had.
             </p>
           </div>
+        <div className='theme-summary'></div>
         </section>
 
         <section className="series-section themes">
@@ -74,8 +84,8 @@ function Series() {
               Ultimately, the story is about cohesion and reconciliation. Rivals forced to unite. Generations clashing and finding common ground. And deeply personal reckonings with one's past, one's roots, and one's wounds. Nora, Matteo, and Ayden each learn to rise above their pride, grudges, and fears, to reclaim the meaning of their own story.
             </p>
           </div>
+          <div className='arena-summary'></div>
         </section>
-
         <section className="series-section arena">
           <h2>The arena</h2>
           <div className="arena-content">

@@ -9,6 +9,8 @@
   top: 0;
   z-index: 1000;
   backdrop-filter: blur(8px); /* Effet de flou pour un rendu plus moderne */
+  font-family: 'Akrobat-regular', sans-serif;
+
 }
 .app-nav {
   margin: 0 auto;
@@ -92,11 +94,13 @@
   font-weight: 500;
   transition: color 0.3s ease;
   color: #ffffff;
+  font-family: 'Akrobat-ExtraBold', sans-serif;
+
 
 }
 
 .nav-menu a:hover {
-  color: #007bff;
+  color: #efc650;
 }
 
 /* RESPONSIVE - Tablettes et mobiles */

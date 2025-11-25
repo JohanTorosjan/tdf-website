@@ -1,4 +1,25 @@
 /* src/App.css */
+@font-face {
+  font-family: 'Restaurant Menu Book';
+  src: url('./fonts/RestaurantMenuBook.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Akrobat-ExtraBold';
+  src: url('./fonts/Akrobat-ExtraBold\ 2.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Akrobat-regular';
+  src: url('./fonts/Akrobat-Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 /* Reset et configuration de base */
 * {
@@ -11,6 +32,7 @@ html, body {
   height: 100%;
   width: 100%;
   overflow-x: hidden;
+font-family: 'Akrobat-regular', sans-serif;
 }
 
 /* Structure principale : Header, Main, Footer */
