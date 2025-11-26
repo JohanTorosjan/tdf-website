@@ -87,6 +87,8 @@
   
   .sommaire-button {
     width: 20dvw;
+      font-size: 0.7rem;
+
   }
   
   .sommaire-item:not(:last-child)::after {
