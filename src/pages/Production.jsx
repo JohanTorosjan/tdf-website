@@ -1,9 +1,14 @@
 // src/pages/Home.js
-import React from 'react';
 import productionbg from "../assets/outstanding.jpg";
 import './Production.css'
+import React, { useState, useEffect } from 'react';
 
 function Production() {
+          useEffect(() => {
+                    document.body.scrollTo({
+              top: 0,
+            });})
+    
   return (
     <div className="production-container">
       <div className="production-title">

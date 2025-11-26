@@ -1,11 +1,15 @@
 // src/pages/Home.js
-import React from 'react';
 import talentsbg from "../assets/talents.jpg";
 import './Talents.css'
+import React, { useState, useEffect } from 'react';
 
 
 
 function Talents() {
+              useEffect(() => {
+                        document.body.scrollTo({
+                  top: 0,
+                });})
   return (
     <div className="talents-container">
       <div className="talents-title">

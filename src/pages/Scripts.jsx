@@ -18,6 +18,11 @@ function Scripts() {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
 
   useEffect(() => {
+
+                    document.body.scrollTo({
+              top: 0,
+            })
+    
     const handleResize = () => {
       setIsMobile(window.innerWidth < 768);
     };

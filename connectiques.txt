@@ -13,3 +13,9 @@ GU3SZE8cst6rHkWPq
 
 
 https://claude.ai/share/c4e59f32-f578-4d68-b811-e383359895d1
+
+
+docker compose down
+git pull
+docker-compose build --no-cache
+docker-compose up -d

@@ -1,5 +1,5 @@
 // src/pages/Series.js
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import seriesbg from "../assets/series-bg.jpg";
 import './Series.css';
 import Sommaire from '../components/Summary.jsx'
@@ -8,6 +8,12 @@ import themes from "../assets/themes.png";
 import arena from "../assets/arena.png";
 import Moodboard from '../components/Moodboard.jsx';
 function Series() {
+      useEffect(() => {
+                document.body.scrollTo({
+          top: 0,
+        });})
+
+        
   return (
     
     <div className="series-container">
