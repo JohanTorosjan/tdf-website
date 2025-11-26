@@ -33,7 +33,7 @@ html, body {
   width: 100%;
   overflow-x: hidden;
 font-family: 'Akrobat-regular', sans-serif;
-  background-color: #D4C4A8;
+    background-image: url("./assets/bg.jpg");
 
 }
 

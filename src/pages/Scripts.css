@@ -106,7 +106,6 @@ padding-top: 3dvh;
 .episode-buttons {
   display: flex;
   gap: 0;
-  background-color: #D4C4A8;
   align-items: center;
     justify-content: center;
     padding-top: 2dvh;
@@ -114,7 +113,7 @@ padding-top: 3dvh;
 }
 
 .script-button {
-  background-color: #D4C4A8;
+  background-color: transparent;
   border: none;
   font-size: 18px;
   cursor: pointer;
