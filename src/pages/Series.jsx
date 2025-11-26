@@ -6,6 +6,11 @@ import Sommaire from '../components/Summary.jsx'
 import ScrollToTopButton from '../components/ScrollToTopButton.jsx'
 import themes from "../assets/themes.png";
 import arena from "../assets/arena.png";
+import separator from "../assets/separator.png";
+import moodboardtitle from "../assets/moodboard.png";
+
+import line from "../assets/line.png";
+
 import Moodboard from '../components/Moodboard.jsx';
 function Series() {
       useEffect(() => {
@@ -31,7 +36,20 @@ function Series() {
                         <Sommaire items={[
         { className: 'theme-summary', titre: 'Themes' },
         { className: 'arena-summary', titre: 'The Arena' },
+        { className: 'moodboard-summary', titre: 'Moodboard' },
         ]} />
+
+
+
+        <div className='separator-div'>
+
+    <img
+          className="separator-item"
+          src={separator}
+          alt="loading"
+        />  
+
+        </div>
         <section className="series-section synopsis">
           <div className="synopsis-text">
             <p>
@@ -61,6 +79,15 @@ function Series() {
           alt="loading"
         />  
             </div>
+                                        <div className='line-div'>
+
+    <img
+          className="separator-item"
+          src={line}
+          alt="loading"
+        />  
+
+        </div>
           <div className="themes-content">
             <p className="highlight-block">
               These two champions will clash all season long in a gripping and relentless battle for leadership. Their rivalry echoes the great sports duels (Ronaldo/Messi, Nadal/Federer, Lauda/Hunt) <span className="highlight"><strong>with one key difference: they're on the same team.</strong></span>
@@ -108,7 +135,17 @@ function Series() {
           src={arena}
           alt="loading"
         />  
+
             </div>
+                            <div className='line-div'>
+
+    <img
+          className="separator-item"
+          src={line}
+          alt="loading"
+        />  
+
+        </div>
              <div className="arena-content">
             <p className="highlight-block">
               This series is both an international arena and a love letter to France and its people.
@@ -120,9 +157,39 @@ function Series() {
               Six episodes of 52 minutes each, propelled at full speed with no room to catch your breath or ease the cramps!
             </p>
           </div>
+                            <div className='moodboard-summary'></div>
+
         </section>
+
+
+<section className="series-section arena">
+            <div className='series-section-title'>
+    <img
+          className="imgthemes"
+          src={moodboardtitle}
+          alt="loading"
+        />  
+
+            </div>
+                            <div className='line-div'>
+
+    <img
+          className="separator-item"
+          src={line}
+          alt="loading"
+        />  
+
+        </div>
+             <div className="arena-content">
+
+          </div>
+        </section>
+
+        
       </div>
-      <Moodboard/>
+      
+                                <Moodboard/>
+
     </div>
   );
 }

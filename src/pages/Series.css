@@ -3,6 +3,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  color: #232120;
   
 }
 
@@ -47,13 +48,12 @@ font-family: 'Restaurant Menu Book', sans-serif;
   text-align: center;
   font-size: 2rem;
   margin-bottom: 20px;
-  color: #333;
+  color: #232120;
 }
 
 .series-section p {
   line-height: 1.8;
   font-size: 1.1rem;
-  color: #555;
   text-align: justify;
   max-width: 100%;
 }
@@ -63,20 +63,40 @@ font-family: 'Restaurant Menu Book', sans-serif;
     justify-content: center;
 }
 .imgthemes{
-    width: 50dvh;
+    width: 40dvh;
     align-self: center;
     
 }
+
+.separator-item{
+  width: 100%;
+}
+.separator-div{
+  padding-bottom: 5dvh;
+    padding-top: 5dvh;
+}
+
+.line-div{
+  padding-top: 0dvh;
+padding-bottom: 0dvh;
+}
 /* Responsive */
 @media (max-width: 768px) {
+  .sommaire-list {
+    padding-bottom: 1dvh;
+  }
     .imgthemes{
     max-width: 30dvh;
     align-self: center;
 }
   .series-content {
-    padding: 40px 16px;
   }
 
+  .separator-div{
+  padding-bottom: 2dvh;
+    padding-top: 2dvh;
+
+}
   .series-section h2 {
     font-size: 1.5rem;
   }
@@ -90,9 +110,8 @@ font-family: 'Restaurant Menu Book', sans-serif;
 /* Amélioration de la typographie et de la mise en page */
 
 .series-content {
-  max-width: 1200px;
+  max-width: 75%;
   margin: 0 auto;
-  padding: 60px 80px;
   line-height: 1.8;
 }
 
@@ -172,7 +191,8 @@ font-family: 'Restaurant Menu Book', sans-serif;
 /* Responsive */
 @media (max-width: 768px) {
   .series-content {
-    padding: 40px 30px;
+      max-width:100%;
+
   }
   
   .series-section h2 {
@@ -184,7 +204,6 @@ font-family: 'Restaurant Menu Book', sans-serif;
   .themes-content p,
   .arena-content p {
     font-size: 14px;
-    text-align: left;
   }
   
   .themes-content .emphasis,

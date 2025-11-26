@@ -14,6 +14,12 @@ import moodboard11 from '../assets/moodboard/moodboard11.png';
 import moodboard12 from '../assets/moodboard/moodboard12.png';
 
 export default function Moodboard() {
+
+
+
+
+
+  
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
   const [currentMobileImages, setCurrentMobileImages] = useState([]);
 
@@ -52,7 +58,7 @@ export default function Moodboard() {
 
       const interval = setInterval(() => {
         setCurrentMobileImages(getRandomImages());
-      }, 3000);
+      }, 6000);
 
       return () => clearInterval(interval);
     }
