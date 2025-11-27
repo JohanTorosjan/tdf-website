@@ -8,7 +8,7 @@ import themes from "../assets/themes.png";
 import arena from "../assets/arena.png";
 import separator from "../assets/separator.png";
 import moodboardtitle from "../assets/moodboard.png";
-
+import roues from '../assets/3roues.png'
 import line from "../assets/line.png";
 
 import Moodboard from '../components/Moodboard.jsx';
@@ -19,6 +19,27 @@ function Series() {
         });})
 
         
+
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+
+  useEffect(() => {
+
+                    document.body.scrollTo({
+              top: 0,
+            })
+    
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+
+
+
+
   return (
     
     <div className="series-container">
@@ -32,12 +53,33 @@ function Series() {
       </div>
       
       <div className="series-content">
-
+      {!isMobile && (
                         <Sommaire items={[
-        { className: 'theme-summary', titre: 'Themes' },
-        { className: 'arena-summary', titre: 'The Arena' },
+        { className: 'theme-summary', titre: 'seriesTheme' },
+        { className: 'arena-summary', titre: 'arena' },
         { className: 'moodboard-summary', titre: 'Moodboard' },
-        ]} />
+        { className: 'moodboard-summary', titre: 'Characters' },
+
+        ]}size={'four'} />
+      )}
+
+
+
+      {isMobile && (
+        <div className='Summary-mobile'>
+                                  <Sommaire items={[
+        { className: 'theme-summary', titre: 'seriesTheme' },
+        { className: 'arena-summary', titre: 'arena' },
+
+
+        ]}size={'two'} />
+                                <Sommaire items={[
+        { className: 'moodboard-summary', titre: 'Moodboard' },
+        { className: 'moodboard-summary', titre: 'Characters' },
+        ]}size={'two'} />
+          </div>
+
+      )}
 
 
 
@@ -70,7 +112,15 @@ function Series() {
           </div>
         <div className='theme-summary'></div>
         </section>
+                            <div className='roues-div'>
 
+    <img
+          className="roues-item"
+          src={roues}
+          alt="loading"
+        />  
+
+        </div>
         <section className="series-section themes">
             <div className='series-section-title'>
     <img
@@ -128,6 +178,17 @@ function Series() {
           </div>
           <div className='arena-summary'></div>
         </section>
+
+                            <div className='roues-div'>
+
+    <img
+          className="roues-item"
+          src={roues}
+          alt="loading"
+        />  
+
+        </div>
+
         <section className="series-section arena">
             <div className='series-section-title'>
     <img
@@ -161,7 +222,15 @@ function Series() {
 
         </section>
 
+                            <div className='roues-div'>
 
+    <img
+          className="roues-item"
+          src={roues}
+          alt="loading"
+        />  
+
+        </div>
 <section className="series-section arena">
             <div className='series-section-title'>
     <img
@@ -189,6 +258,15 @@ function Series() {
       </div>
       
                                 <Moodboard/>
+                                                            <div className='roues-div'>
+
+    <img
+          className="roues-item"
+          src={roues}
+          alt="loading"
+        />  
+
+        </div>
 
     </div>
   );

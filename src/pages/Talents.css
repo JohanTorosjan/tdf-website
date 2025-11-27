@@ -135,6 +135,9 @@ height: auto;
 
 
 @media (max-width: 768px) {
+  .fed-img{
+    width: 50dvw;
+  }
   .credits{
     flex-direction: column;
   }

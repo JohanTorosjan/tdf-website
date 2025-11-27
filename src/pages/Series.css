@@ -31,7 +31,6 @@ font-family: 'Restaurant Menu Book', sans-serif;
   flex: 1;
   max-width: 800px;
   margin: 0 auto;
-  padding: 60px 20px;
   width: 100%;
   padding-top: 2dvh !important;
 }
@@ -80,6 +79,17 @@ font-family: 'Restaurant Menu Book', sans-serif;
   padding-top: 0dvh;
 padding-bottom: 0dvh;
 }
+
+.roues-div{
+  height: fit-content;
+  align-items: center;
+  justify-content: center;
+  display:flex;
+  padding-bottom: 10dvh;
+}
+.roues-item{
+  height: 5dvh;
+}
 /* Responsive */
 @media (max-width: 768px) {
   .sommaire-list {
@@ -89,6 +99,7 @@ padding-bottom: 0dvh;
     align-self: center;
 }
   .series-content {
+    padding: 5dvw;
   }
 
   .separator-div{
@@ -109,7 +120,7 @@ padding-bottom: 0dvh;
 /* Amélioration de la typographie et de la mise en page */
 
 .series-content {
-  max-width: 75%;
+  max-width: 75dvw;
   margin: 0 auto;
   line-height: 1.8;
 }

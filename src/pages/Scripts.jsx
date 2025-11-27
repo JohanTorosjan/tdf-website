@@ -36,12 +36,12 @@ function Scripts() {
   }, []);
 
   const episodes = [
-    { className: 'episode-1', titre: 'EP.1' },
-    { className: 'episode-2', titre: 'EP.2' },
-    { className: 'episode-3', titre: 'EP.3' },
-    { className: 'episode-4', titre: 'EP.4' },
-    { className: 'episode-5', titre: 'EP.5' },
-    { className: 'episode-6', titre: 'EP.6' },
+    { className: 'episode-1', titre: 'EP1' },
+    { className: 'episode-2', titre: 'EP2' },
+    { className: 'episode-3', titre: 'EP3' },
+    { className: 'episode-4', titre: 'EP4' },
+    { className: 'episode-5', titre: 'EP5' },
+    { className: 'episode-6', titre: 'EP6' },
   ];
 
   return (
@@ -59,14 +59,14 @@ function Scripts() {
 
       {/* Desktop : un seul sommaire */}
       {!isMobile && (
-        <Sommaire items={episodes} />
+        <Sommaire items={episodes} size={'six'}/>
       )}
 
       {/* Mobile : deux sommaires avec 3 épisodes chacun */}
       {isMobile && (
         <>
-          <Sommaire items={episodes.slice(0, 3)} />
-          <Sommaire items={episodes.slice(3, 6)} />
+          <Sommaire items={episodes.slice(0, 3)} size={'three'} />
+          <Sommaire items={episodes.slice(3, 6)} size={'three'} />
         </>
       )}
 

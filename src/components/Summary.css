@@ -48,7 +48,7 @@
 
 /* Boutons - Hexagones */
 .sommaire-button {
-  background: #000;
+  background:transparent;
   color: #F9F9EA;
   border: none;
   padding: 0;
@@ -60,9 +60,9 @@
   z-index: 1;
   
   /* Dimensions de l'hexagone */
-  width: 7dvw;
-  height: 7dvh;
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  /* width: 7dvw;
+  height: 7dvh; */
+  /* clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); */
   
   display: flex;
   align-items: center;
@@ -71,8 +71,17 @@
   line-height: 1.2;
 }
 
+.summaryButton{
+    width: 6dvw;
+
+}
+
+.four{
+  width: 10dvw;
+}
+
 .sommaire-button:hover {
-  background: #333;
+  background: transparent;
   transform: scale(1.05);
 }
 
@@ -80,10 +89,18 @@
   transform: scale(0.98);
 }
 
+.two{
+  width: 10dvw;
+}
 /* Responsive - pour les petits écrans */
 @media (max-width: 768px) {
-  .sommaire {
-  }
+.summaryButton{
+  width: 10dvw;
+}
+
+.two{
+  width: 100%;
+}
   
   .sommaire-button {
     width: 20dvw;

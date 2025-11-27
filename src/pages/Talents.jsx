@@ -40,13 +40,17 @@ function Talents() {
       
       <div className="talents-content">
                                 <Sommaire items={[
-        { className: 'theme-summary', titre: 'Creators' },
-        { className: 'arena-summary', titre: 'Producers' },
-        { className: 'moodboard-summary', titre: 'Credits' },
-        ]} />
+        { className: 'Creators-summary', titre: 'Creators' },
+        { className: 'Producers-summary', titre: 'Producers' },
+        ]}
+                size='two'
+ />
 
 
         <section className="talents-section creators">
+          <div className="Creators-summary">
+
+          </div>
                     <div className='talents-section-title'>
           <img
                 className="imgthemes"
@@ -215,7 +219,9 @@ This sensitive perspective on groups, hierarchies, and personal vulnerabilities 
 
 
         </section>
-
+          <div className="Producers-summary">
+            
+          </div>
 
 
 

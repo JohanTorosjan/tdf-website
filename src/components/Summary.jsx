@@ -1,7 +1,42 @@
 import React from "react";
 import "./Summary.css";
 
-const Sommaire = ({ items }) => {
+
+
+import arena from "../assets/summary/arena.png";
+import Characters from "../assets/summary/Characters.png";
+import Creators from "../assets/summary/Creators.png";
+import EP1 from "../assets/summary/EP1.png";
+import EP2 from "../assets/summary/EP2.png";
+import EP3 from "../assets/summary/EP3.png";
+import EP4 from "../assets/summary/EP4.png";
+import EP5 from "../assets/summary/EP5.png";
+import EP6 from "../assets/summary/EP6.png";
+import Moodboard from "../assets/summary/Moodboard.png";
+import Producers from "../assets/summary/Producers.png";
+import seriesTheme from "../assets/summary/seriesTheme.png";
+import TheIP from "../assets/summary/TheIP.png";
+import WritersNote from "../assets/summary/WritersNote.png";
+
+const images = {
+  arena,
+  Characters,
+  Creators,
+  EP1,
+  EP2,
+  EP3,
+  EP4,
+  EP5,
+  EP6,
+  Moodboard,
+  Producers,
+  seriesTheme,
+  TheIP,
+  WritersNote,
+};
+
+
+const Sommaire = ({ items,size }) => {
   const scrollToSection = (className) => {
     const element = document.querySelector(`.${className}`);
     if (element) {
@@ -21,8 +56,11 @@ const Sommaire = ({ items }) => {
               className="sommaire-button"
               onClick={() => scrollToSection(item.className)}
             >
-              {item.titre}
-            </button>
+          <img
+                className={`summaryButton ${size}`}
+              src={images[item.titre]}
+              alt={item.titre}
+              />              </button>
           </li>
         ))}
       </ul>
