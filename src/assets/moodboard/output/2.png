@@ -1,0 +1,31 @@
+#!/usr/bin/env python3
+import os
+import shutil
+
+def main():
+    root = os.getcwd()
+    output_dir = os.path.join(root, "output")
+    os.makedirs(output_dir, exist_ok=True)
+
+    counter = 1
+
+    for dirpath, dirnames, filenames in os.walk(root):
+        # ignore output directory to avoid looping
+        if dirpath.startswith(output_dir):
+            continue
+
+        for filename in filenames:
+            old_path = os.path.join(dirpath, filename)
+            new_name = f"{counter}.png"
+            new_path = os.path.join(output_dir, new_name)
+
+            # copy then remove old file
+            shutil.move(old_path, new_path)
+
+            print(f"{old_path} → {new_path}")
+            counter += 1
+
+    print("Terminé !")
+
+if __name__ == "__main__":
+    main()

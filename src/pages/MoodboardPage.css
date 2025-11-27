@@ -1,0 +1,54 @@
+.moodboard-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+      text-align: center;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 17dvh;
+}
+
+.moodboard-hero {
+  width: 100%;
+  height: 50dvh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.moodboard-title {
+position: absolute;
+top:  25dvh;
+align-self: center;
+z-index: 10000;
+color: white;
+font-size: 2rem;
+font-family: 'Restaurant Menu Book', sans-serif;
+  color: white;
+
+}
+
+
+.moodboard-content {
+  flex: 1;
+  margin: 0 auto;
+  width: 100%;
+    padding-top: 2dvh  !important;
+padding: 1dvw;
+}
+.moodboard-section{
+    padding-top:10dvh
+}
+
+
+@media (max-width: 768px) {
+  .moodboard-content {
+      max-width:100%;
+
+  }
+  .moodboard-container{
+        padding-bottom: 8dvh;
+
+  }
+}
