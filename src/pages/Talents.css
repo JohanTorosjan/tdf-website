@@ -28,10 +28,89 @@ font-family: 'Restaurant Menu Book', sans-serif;
 
 .talents-content {
   flex: 1;
-  max-width: 800px;
+  max-width: 80%;
   margin: 0 auto;
-  padding: 60px 20px;
   width: 100%;
     padding-top: 2dvh !important;;
+        padding-bottom: 5dvh !important;;
+
+}
+
+.talents-section-title{
+    display: flex;
+    justify-content: center;
+}
+
+.talents-section{
+  margin-top: 5dvh;
+}
+
+
+
+
+.director-section-content {
+padding-top: 5dvh;
+}
+
+/* --- Titre "Director" --- */
+
+.director-title {
+  margin-bottom: 3dvh;
+}
+
+.director-title-img {
+  height: 60px;
+  object-fit: contain;
+}
+
+
+/* --- Contenu principal (image + texte) --- */
+
+.director-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+/* Image du réalisateur */
+.director-img img {
+  width: 260px;
+  height: 340px;
+  background: #999; /* gris placeholder si image lente */
+  object-fit: cover;
+}
+
+/* Bloc texte */
+.director-text {
+  max-width: 60dvw;
+  line-height: 1.5;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+/* Nom du réalisateur */
+.director-name {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+@media (max-width: 768px) {
+.director-content {
+flex-direction: column;
+}
+.director-section-content{
+  padding-left: 3dvw;
+
+}
+
+.talents-content{
+  max-width: none;
+align-items: center;
+}
+.director-text {
+max-width: 90%;
+}
 
 }
