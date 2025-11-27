@@ -25,11 +25,9 @@ const ScrollToTopButton = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrolled = document.body.scrollTop || document.documentElement.scrollTop;
-      console.log('Scroll position:', scrolled); // Debug
       if (scrolled > 300) {
         setIsVisible(true);
       } else {
-        console.log('tchao')
         setIsVisible(false);
       }
     };

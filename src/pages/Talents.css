@@ -76,11 +76,9 @@ padding-top: 5dvh;
 
 /* Image du réalisateur */
 .director-img img {
-  width: 260px;
-  height: 340px;
-  background: #999; /* gris placeholder si image lente */
+  width: 300px;
+  height: 361px;
   object-fit: cover;
-  border: 2px solid #EFC650 ;
 }
 
 /* Bloc texte */
