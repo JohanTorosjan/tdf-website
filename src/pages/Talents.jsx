@@ -5,10 +5,15 @@ import React, { useState, useEffect } from 'react';
 import Sommaire from '../components/Summary.jsx'
 import creators from '../assets/creators.png'
 import producers from '../assets/producers.jpg'
+import writers from '../assets/writers.png'
+
 import fed from "../assets/fedN.png";
 import ScrollToTopButton from '../components/ScrollToTopButton.jsx'
 import line from "../assets/line.png";
 import louis from '../assets/Louis.webp'
+import alexandre from '../assets/Alexandre.png'
+import gregory from '../assets/Gregory.jpeg'
+
 import director from '../assets/director.png'
 
 function Talents() {
@@ -102,6 +107,105 @@ A leading figure in international action cinema, he is recognized for his sense 
           </div>
 
         </div>
+
+
+
+
+      <div className='line-div'>
+
+        </div>
+        <div className="director-section-content">
+
+          <div className="director-title">
+             <img
+                className="director-title-img"
+                src={writers}
+                alt="loading"
+              />  
+          </div>
+
+          <div className="director-content">
+            <div className="director-img">
+             <img
+                className="creators-img"
+                src={alexandre}
+                alt="loading"
+              />  
+            </div>
+
+            <div className="director-text">
+              <div className="director-name">
+              Alexandre Delaporte
+              </div>
+            <p>
+Alexandre Delaporte is a screenwriter. After working in a bookstore, where he cultivated his passion for fiction and character-driven storytelling, he studied filmmaking at ESRA.</p>
+ <br/>
+<p> 
+ After graduating, he directed several short films and worked in production and post-production, notably at EuropaCorp.  </p>
+ <br/>
+  <p>
+He later turned to television writing. His encounter with Louis Farge, with whom he now collaborates regularly, led him to fully embrace collaborative writing and explore a wide range of genres, from dark comedy to crime drama, science-fiction, thrillers, and eventually sports drama with the Tour de France series, created and co-written with Grégory Nicolas.
+  </p>
+
+   <br/>
+  <p>
+ Fraternal conflict, redemption, and class struggle are recurring themes throughout his work.
+  </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+
+      <div className='line-div'>
+
+        </div>
+        <div className="director-section-content">
+
+
+          <div className="director-content">
+            <div className="director-img">
+             <img
+                className="creators-img"
+                src={gregory}
+                alt="loading"
+              />  
+            </div>
+
+            <div className="director-text">
+              <div className="director-name">
+              Gregory Nicolas
+              </div>
+            <p>
+Grégory Nicolas is a novelist and a screenwriter. His novels: Mathilde est revenue (Mathilde is back), Les fils du pêcheur (The Fisherman’s Sons), Mes sœurs, n’aimez pas les marins (My sisters, don’t fall for sailors) capture vibrant humanity, strong storytelling, humor, and an eye for life’s small details.
+</p>
+ <br/>
+<p> 
+His latest novel, Mes sœurs, n’aimez pas les marins, received the Henri Queffélec Prize and the Seal the World Award for Best Maritime Book. His work Équipiers (Teammates), a literary immersion into professional cycling, was honored with the Antoine-Blondin Prize and the Louis-Nucéra Prize. <br/>
+</p>
+<br/>
+  <p>
+A passionate cyclist since childhood and the descendant of a family of racers, he has built profound bonds within the professional peloton, granting him rare access to its inner workings.
+  </p>
+
+   <br/>
+  <p>
+This sensitive perspective on groups, hierarchies, and personal vulnerabilities feeds directly into his screenwriting. He is the co-creator, alongside Alexandre Delaporte, of the series Tour de France.
+  </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+
 
 
         </section>
