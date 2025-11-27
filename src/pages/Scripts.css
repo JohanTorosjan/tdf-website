@@ -48,6 +48,8 @@ font-family: 'Restaurant Menu Book', sans-serif;
 }
 
 
+
+
 /* .episode-section::after {
   content: "";
   position: absolute;
@@ -91,10 +93,10 @@ clip-path: polygon(2% 0, 100% 0, 80% 100%, 0 100%);
 }
 
 .episode-body {
-padding-top: 3dvh;
+padding-top: 4dvh;
   color: #000;
   line-height: 1.8;
-            border-top: 2px solid #000;
+  border-top: 2px solid yellow;
 
 }
 
@@ -133,8 +135,9 @@ padding-top: 3dvh;
 
 .episode1{
     width: 50dvh;
-    
-}
+    position: relative;
+  }
+
 .ds{
     width: 20dvh;
     align-self: center;
@@ -144,11 +147,50 @@ padding-top: 3dvh;
     width: 30%;
     align-self: center;
     padding-top: 8dvh;
-        padding-bottom: 8dvh;
-
+     padding-bottom: 8dvh;
 }
+
+.title-wrapper{
+  border-bottom: 2px solid black;
+  height: fit-content;
+}
+.title-wrapper::before {
+  content: "";
+  position: absolute;
+  left: -6dvw;
+  top: 0;
+  width: 10dvw;
+  height:10dvh;
+  background-image: url("../assets/roue.png");
+  background-size: contain;     /* adapte à la taille */
+  background-repeat: no-repeat;
+}
+/* .title-wrapper::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top:0;
+  bottom: -3px;            
+  width: 100%;             
+  height: 2px;            
+  background-color: yellow; 
+} */
+
 /* Responsive */
 @media (max-width: 768px) {
+.ds{
+  width: 14dvh;
+}
+  .title-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 12dvw;
+  height:12dvh;
+  background-image: url("../assets/roue.png");
+  background-size: contain;     /* adapte à la taille */
+  background-repeat: no-repeat;
+}
     .route{
     width: 80%;
     align-self: center;
@@ -190,3 +232,10 @@ padding-top: 3dvh;
   }
 }
 
+
+@media (max-width: 1000px) {
+  .title-wrapper::before {
+  left: -12dvw;
+
+  }
+}

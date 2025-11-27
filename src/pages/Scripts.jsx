@@ -4,6 +4,10 @@ import scriptsbgtel from "../assets/scripts-bg-tel.jpg";
 import episode1 from "../assets/episode1.jpg";
 import episode2 from "../assets/episode2.png";
 import episode3 from "../assets/episode3.png";
+import episode4 from "../assets/episode4.png";
+import episode5 from "../assets/episode5.png";
+import episode6 from "../assets/episode6.png";
+
 import route from "../assets/route.png";
 
 import dsen from "../assets/dsen.png";
@@ -70,13 +74,13 @@ function Scripts() {
               <div className='episode-1'></div>
 
   <div className="episode-section">
-    {/* <div className="episode-header"> */}
+    <div className="title-wrapper">
               <img
           className="episode1"
           src={episode1}
           alt="Mon illustration"
         />
-    {/* </div> */}
+    </div>
     
  <div className="episode-body">
       <p>
@@ -129,13 +133,13 @@ In the mud and chaos of the Paris–Roubaix cobblestones, where everything shoul
 <div className="scripts-content">
 
   <div className="episode-section">
-    {/* <div className="episode-header"> */}
+    <div className="title-wrapper">
               <img
           className="episode1"
           src={episode2}
           alt="Mon illustration"
         />
-    {/* </div> */}
+    </div>
         <div className="episode-body">
       <p>
 After months of training, the Tour de France finally begins. Deepblue, still a fragile unit, has one clear target: to get Mathias into the top ten by the end of the first week. Erik is relying on the flat stages to build momentum, before the brutal climbs begin. You can’t win the Tour in the first week, but you can certainly lose it.
@@ -181,13 +185,13 @@ Nora, on the other hand, sees her ambitions soar. Exhilarated by the scale of th
         />
 <div className="scripts-content">
   <div className="episode-section">
-    {/* <div className="episode-header"> */}
+    <div className="title-wrapper">
               <img
           className="episode1"
           src={episode3}
           alt="Mon illustration"
         />
-    {/* </div> */}
+    </div>
         <div className="episode-body">
       <p>
 In an electric atmosphere, Ayden’s conquest of the yellow jersey sparks huge hopes within Deepblue. But the revelation of his heart condition forces Nora to make a tough decision: she takes the risk of letting him race and keeping his illness a secret. Thrust into the spotlight, Ayden becomes intoxicated with his success. The exposure awakens ghosts from his past and unsettles him. A woman claiming to be his mother tries to get in touch.
@@ -217,13 +221,13 @@ On the mythical slopes of the Tourmalet, the pressure reaches its peak: Ayden be
 
 <div className="scripts-content">
   <div className="episode-section">
-    {/* <div className="episode-header"> */}
+    <div className="title-wrapper">
               <img
           className="episode1"
-          src={episode3}
+          src={episode4}
           alt="Mon illustration"
         />
-    {/* </div> */}
+    </div>
         <div className="episode-body">
       <p>
 The announcement of the yellow jersey’s exclusion casts a shadow over the competition   and fractures Deepblue, which chooses to continue without Ayden. But the peloton rises up in protest: in an unprecedented show of solidarity, the riders refuse to start the stage without the yellow jersey. The race authorities give in, and Ayden is reinstated but remains deeply affected  by what he experiences  as abandonment.
@@ -250,13 +254,13 @@ The former star is at the center of all contradictions, torn between pride and l
 
 <div className="scripts-content">
   <div className="episode-section">
-    {/* <div className="episode-header"> */}
+    <div className="title-wrapper">
               <img
           className="episode1"
-          src={episode3}
+          src={episode5}
           alt="Mon illustration"
         />
-    {/* </div> */}
+    </div>
         <div className="episode-body">
       <p>
         Thibault’s death shakes the entire team and plunges Mathias into deep guilt. Overwhelmed with grief, he allows himself a rare night of release, sharing drinks with Ayden. The lifelong rivals grow closer, but alcohol blurs the lines. The evening ends in police custody, threatening their participation in the next stage. This forced proximity brings a moment of truth. Mathias comes to understand that great victories are above all, collective and finally chooses to support Ayden as team leader. Thanks to Nora’s intervention, they manage to start the stage at the last possible moment, deep in the Provençal hinterland.
@@ -286,13 +290,13 @@ During a spectacular night stage through the walled city of Briançon, Ayden reg
 
 <div className="scripts-content">
   <div className="episode-section">
-    {/* <div className="episode-header"> */}
+    <div className="title-wrapper">
               <img
           className="episode1"
-          src={episode3}
+          src={episode6}
           alt="Mon illustration"
         />
-    {/* </div> */}
+    </div>
         <div className="episode-body">
       <p>
 For the team, following Ayden's cardiac incident, there is only one option: he must withdraw. Against all odds, it’s Mathias who stands up for him. He chooses to protect Ayden’s dream, believing he can still win, even if it means bending the rules. The mission is clear for the final stages: keep Ayden’s heart rate below 200 beats per minute, at all costs.

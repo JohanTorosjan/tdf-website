@@ -3,6 +3,7 @@ import talentsbg from "../assets/talents.jpg";
 import './Talents.css'
 import React, { useState, useEffect } from 'react';
 
+import ScrollToTopButton from '../components/ScrollToTopButton.jsx'
 
 
 function Talents() {
@@ -12,6 +13,8 @@ function Talents() {
                 });})
   return (
     <div className="talents-container">
+            <ScrollToTopButton />
+
       <div className="talents-title">
         <h1>Talents</h1>
       </div>
