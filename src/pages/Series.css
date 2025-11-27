@@ -33,6 +33,7 @@ font-family: 'Restaurant Menu Book', sans-serif;
   margin: 0 auto;
   width: 100%;
   padding-top: 2dvh !important;
+  padding-bottom: 5dvh !important;
 }
 
 .series-section {
@@ -232,11 +233,81 @@ justify-self: center;
   margin-bottom: 20px;
 }
 
+
+
+.characters-section-content {
+padding-top: 5dvh;
+}
+
+/* --- Titre "characters" --- */
+
+.characters-title {
+  margin-bottom: 3dvh;
+}
+
+.characters-title-img {
+  height: 60px;
+  object-fit: contain;
+}
+
+
+/* --- Contenu principal (image + texte) --- */
+
+.characters-content {
+  display: flex;
+  gap: 40px;
+  padding-bottom: 5dvh;
+}
+
+/* Image du réalisateur */
+.characters-img img {
+  width: 300px;
+  height: 361px;
+  object-fit: cover;
+}
+
+/* Bloc texte */
+.characters-text {
+  max-width: 60dvw;
+  line-height: 1.5;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+/* Nom du réalisateur */
+.characters-name {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+    font-family: 'Akrobat-ExtraBold', sans-serif;
+  border-bottom: 8px solid #FFEC00;
+  width: 50%;
+}
+
+
 /* Responsive */
 @media (max-width: 768px) {
   .series-content {
       max-width:100%;
 
+  }
+
+  .characters-content{
+display: flex;
+    flex-direction: column;
+
+  }
+
+  .characters-img{
+    align-self: center;
+  order:2;
+}
+.characters-text{
+  order: 1;
+}
+
+  .characters-text{
+    max-width: none;
   }
   
   .series-section h2 {
