@@ -96,7 +96,7 @@ clip-path: polygon(2% 0, 100% 0, 80% 100%, 0 100%);
 padding-top: 4dvh;
   color: #000;
   line-height: 1.8;
-  border-top: 2px solid #EFC650;
+  border-top: 7px solid #EFC650;
 
 }
 
@@ -154,6 +154,9 @@ padding-top: 4dvh;
 .title-wrapper{
   border-bottom: 2px solid black;
   height: fit-content;
+    margin-bottom:1px;
+    width: 95%;
+
 }
 .title-wrapper::before {
   content: "";

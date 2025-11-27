@@ -97,7 +97,8 @@ padding-top: 5dvh;
   font-weight: bold;
   margin-bottom: 20px;
     font-family: 'Akrobat-ExtraBold', sans-serif;
-
+  border-bottom: 8px solid #EFC650;
+  width: 50%;
 }
 
 
@@ -135,6 +136,10 @@ height: auto;
 
 
 @media (max-width: 768px) {
+  .director-name{
+      width: 100%;
+
+  }
   .fed-img{
     width: 50dvw;
   }
