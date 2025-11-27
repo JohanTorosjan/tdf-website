@@ -10,6 +10,7 @@ import separator from "../assets/separator.png";
 import moodboardtitle from "../assets/moodboard.png";
 import roues from '../assets/3roues.png'
 import line from "../assets/line.png";
+import synopsis from '../assets/synopsis.png'
 
 import Moodboard from '../components/Moodboard.jsx';
 function Series() {
@@ -53,7 +54,7 @@ function Series() {
       </div>
       
       <div className="series-content">
-      {!isMobile && (
+      {/* {!isMobile && (
                         <Sommaire items={[
         { className: 'theme-summary', titre: 'seriesTheme' },
         { className: 'arena-summary', titre: 'arena' },
@@ -79,10 +80,10 @@ function Series() {
         ]}size={'two'} />
           </div>
 
-      )}
+      )} */}
 
 
-
+{/* 
         <div className='separator-div'>
 
     <img
@@ -91,8 +92,24 @@ function Series() {
           alt="loading"
         />  
 
-        </div>
+        </div> */}
         <section className="series-section synopsis">
+                      <div className='series-section-title'>
+    <img
+          className="imgthemes"
+          src={synopsis}
+          alt="loading"
+        />  
+            </div>
+                                        <div className='line-div'>
+
+    <img
+          className="separator-item"
+          src={line}
+          alt="loading"
+        />  
+
+        </div>
           <div className="synopsis-text">
             <p>
               <strong>DEEPBLUE</strong>, the once-legendary French cycling team, is shattered after a spectacular crash during a stage of the Tour de France. <strong>Nora</strong>, a ruthless and opportunistic businesswoman, seizes the opportunity to buy the team for next to nothing, with the goal of restructuring it and turning a profit. A complete outsider to the cycling world, she makes bold and radical decisions that upend the team's balance and challenge the methods of its long-standing sports director. She manages to convince Mathias, the aging star rider, to stay with Deepblue. But that choice comes at a cost: Caterina, his mother and manager, breaks away and follows Andrea, Mathias's most loyal teammate, who now becomes his fiercest rival as the new leader of a powerful competing team.
@@ -139,14 +156,18 @@ function Series() {
 
         </div>
           <div className="themes-content">
-            <p className="highlight-block">
+            <div className='centered'>
+            <span className="highlight-block">
               These two champions will clash all season long in a gripping and relentless battle for leadership. Their rivalry echoes the great sports duels (Ronaldo/Messi, Nadal/Federer, Lauda/Hunt) <span className="highlight"><strong>with one key difference: they're on the same team.</strong></span>
-            </p>
+            </span>
+            </div>
+
             <p>
               That's the tragic paradox of professional cycling: while the work is collective, only one can claim glory on the Champs-Élysées. After a chaotic season of preparation, seen through Nora's fresh outsider lens, the team pulls off a surprise victory in the very first week of the Tour. Against all odds, Ayden dethrones Mathias and seizes the yellow jersey, becoming the center of a media frenzy.
             </p>
-            <p>
-              Could a Frenchman finally win the Tour de France for the first time since 1985?
+                          <p className="emphasis">
+                                        Could a Frenchman finally win the Tour de France for the first time since 1985?
+
             </p>
             <p>
               The country dares to dream and "Aydenmania" sweeps across France and beyond. Everyone is captivated by this underdog with an unorthodox past. The series chronicles the epic journey of a team rebuilt in haste, rallying unwanted riders willing to risk it all to prove they belong.
@@ -163,14 +184,21 @@ function Series() {
             <p>
               Drama and intimacy strike: the forbidden love story between Mathias and Nora, Ayden's painful past resurfacing, Nora's fractured family, and the lingering trauma of Thibault's accident that haunts them all, a constant reminder of how deadly this sport can be.
             </p>
-            <p className="highlight-block">
+                        <div className='centered'>
+            <span className="highlight-block">
               LE TOUR DE FRANCE remains, above all, a resolutely sports-driven and action-packed series.
-            </p>
+            </span>
+            </div>
+
             <p>
               Each race pushes the story forward, with narrative and sporting stakes constantly feeding into one another. Team spirit, humanity, and the values of sport shine through a young, scrappy collective. Erik, the long-standing sporting director and a charismatic, seasoned authority figure, both mentors and challenges Nora in a generational clash over leadership and methods. The audience is invited behind the scenes of this massive, free, traveling spectacle, from the team cars in the heat of the race to the buses during strategy briefings and post-stage debriefs, and even to the massage tables where riders recover. We delve into the riders' most intimate moments of doubt, uncover the secrets of their earpiece exchanges that can turn a stage upside down. Because to survive the 3,000 kilometers of this race, mental strength matters just as much as physical endurance.
             </p>
-            <p className="emphasis">
+                                    <div className='centered'>
+            <span className="highlight-block">
               The show explores the power of the collective without shying away from the quiet deals, the big plays, the betrayals, and the raw humanity behind the rider once the helmet, glasses, and jersey come off.
+            </span>
+            </div>
+            <p className="emphasis">
             </p>
             <p>
               Ultimately, the story is about cohesion and reconciliation. Rivals forced to unite. Generations clashing and finding common ground. And deeply personal reckonings with one's past, one's roots, and one's wounds. Nora, Mathias, and Ayden each learn to rise above their pride, grudges, and fears, to reclaim the meaning of their own story.
@@ -208,29 +236,29 @@ function Series() {
 
         </div>
              <div className="arena-content">
-            <p className="highlight-block">
+
+
+                          <div className='centered'>
+            <span className="highlight-block">
               This series is both an international arena and a love letter to France and its people.
-            </p>
+            </span>
+            </div>
             <p>
               No landscape is left out, from the Normandy beaches facing Mont-Saint-Michel to the punishing Alpine climbs, the cobbled streets of Roubaix and the historic heart of Avignon, all the way to the gentle beauty of the Côte d'Azur. The characters move through breathtaking settings that serve as the vast stage for a grand spectacle. Far from being mere scenic backdrops, these places actively drive the drama, especially for Ayden, the orphan bounced from foster homes to group care, now riding back through the roads of his past. A child from everywhere and son of nowhere, Ayden will end up being embraced by France, and even by the world.
             </p>
-            <p className="highlight-block final">
+
+
+                          <div className='centered'>
+            <span className="highlight-block">
               Six episodes of 52 minutes each, propelled at full speed with no room to catch your breath or ease the cramps!
-            </p>
+            </span>
+            </div>
           </div>
                             <div className='moodboard-summary'></div>
 
         </section>
 
-                            {/* <div className='roues-div'>
 
-    <img
-          className="roues-item"
-          src={roues}
-          alt="loading"
-        />  
-
-        </div> */}
       </div>
 
     </div>

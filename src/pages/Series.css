@@ -77,7 +77,7 @@ font-family: 'Restaurant Menu Book', sans-serif;
 
 .line-div{
   padding-top: 0dvh;
-padding-bottom: 0dvh;
+padding-bottom: 3dvh;
 }
 
 .roues-div{
@@ -171,13 +171,47 @@ padding-bottom: 0dvh;
 }
 
 .themes-content .highlight-block {
+
   font-weight: 700;
   font-size: 16px;
-  margin: 35px 0;
-  padding: 15px 0;
   text-align: left;
-}
+  border-radius: 8px;
+background-color: #FEEC00;
+line-height: 6dvh;
+padding-right: 3dvw;
+padding-left: 1dvw;
+padding-bottom: 2px;
 
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone; /* pour Safari */
+align-self: center;
+justify-content: center;
+text-align: center;
+justify-self: center;
+}
+.highlight-block {
+
+  font-weight: 700;
+  font-size: 16px;
+  text-align: left;
+  border-radius: 8px;
+background-color: #FEEC00;
+line-height: 6dvh;
+padding-right: 3dvw;
+padding-left: 1dvw;
+padding-bottom: 2px;
+
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone; /* pour Safari */
+align-self: center;
+justify-content: center;
+text-align: center;
+justify-self: center;
+}
+.centered{
+  text-align: center;
+  padding-bottom: 3dvh;
+}
 /* Section Arena */
 .arena-content p {
   margin-bottom: 20px;
