@@ -80,6 +80,7 @@ padding-top: 5dvh;
   height: 340px;
   background: #999; /* gris placeholder si image lente */
   object-fit: cover;
+  border: 2px solid #EFC650 ;
 }
 
 /* Bloc texte */
@@ -95,6 +96,8 @@ padding-top: 5dvh;
   font-size: 28px;
   font-weight: bold;
   margin-bottom: 20px;
+    font-family: 'Akrobat-ExtraBold', sans-serif;
+
 }
 
 
@@ -108,7 +111,33 @@ height: auto;
   justify-content: center;    /* centre horizontalement dans sa div */
 }
 
+
+
+
+
+.credits {
+  display: flex;
+  gap: 15dvw;       /* Espace entre les deux colonnes */
+  align-items: center;
+  justify-content: center;
+}
+
+.credits-col p {
+  font-weight: bold; 
+  margin: 4px 0;   /* Marges propres */
+  font-size: 1.2rem;
+  font-family: 'Akrobat-ExtraBold', sans-serif;
+}
+
+.credits-col  {
+  align-self: center;
+}
+
+
 @media (max-width: 768px) {
+  .credits{
+    flex-direction: column;
+  }
 .director-content {
 flex-direction: column;
 }

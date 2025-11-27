@@ -5,6 +5,12 @@ import React, { useState, useEffect } from 'react';
 import Sommaire from '../components/Summary.jsx'
 import creators from '../assets/creators.png'
 import producers from '../assets/producers.jpg'
+import theprod from '../assets/theprod.png'
+import pascal from '../assets/pascal.jpg'
+import judith from '../assets/judith.jpg'
+
+import credits from '../assets/credits.png'
+
 import writers from '../assets/writers.png'
 
 import fed from "../assets/fedN.png";
@@ -125,13 +131,7 @@ A leading figure in international action cinema, he is recognized for his sense 
           </div>
 
           <div className="director-content">
-            <div className="director-img">
-             <img
-                className="creators-img"
-                src={alexandre}
-                alt="loading"
-              />  
-            </div>
+  
 
             <div className="director-text">
               <div className="director-name">
@@ -153,7 +153,13 @@ He later turned to television writing. His encounter with Louis Farge, with whom
   </p>
 
             </div>
-
+          <div className="director-img">
+             <img
+                className="creators-img"
+                src={alexandre}
+                alt="loading"
+              />  
+            </div>
           </div>
 
         </div>
@@ -261,6 +267,116 @@ Federation International, the strong distribution arm of the company has been bu
           </div>
 
         </div>
+
+
+
+        <div className="director-section-content">
+
+          <div className="director-title">
+             <img
+                className="director-title-img"
+                src={theprod}
+                alt="loading"
+              />  
+          </div>
+
+          <div className="director-content">
+            <div className="director-img">
+             <img
+                className="creators-img"
+                src={pascal}
+                alt="loading"
+              />  
+            </div>
+
+            <div className="director-text">
+              <div className="director-name">
+              Pascal Breton
+              </div>
+            <p>
+Pascal Breton is President of Federation Studios, the top independent production and distribution company he founded in 2013. Among the group's top titles are The Bureau, In Treatment, Baby, Hostages, Marseille, Bad Banks, Deadly Tropics, Undercover, Around the World in 80 Days, Les Bleus 2018, Find me in Paris, to name a few. 
+</p>
+ <br/>
+<p> 
+Prior to creating Federation Studios, Pascal Breton directed one of the largest and most successful French production companies, Marathon, which he co-founded in 1990 and directed for 18 years. Under his direction, Marathon grew exponentially, becoming one of the major player in the international audio-visual landscape. The group was then sold to De Agostini and merged with Zodiak, Magnolia and RDF to form Zodiak Media (now Banijay). 
+  </p>
+ <br/>
+  <p>
+Breton  appeared in Variety’s list of the 500 Most Influential Personalities of the Audiovisual World. 
+  </p>
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+        <div className="director-section-content">
+
+       
+          <div className="director-content">
+            <div className="director-img">
+             <img
+                className="creators-img"
+                src={judith}
+                alt="loading"
+              />  
+            </div>
+
+            <div className="director-text">
+              <div className="director-name">
+                Judith Rochelois 
+              </div>
+            <p>
+Producer Judith Rochelois joined Federation Studios in 2017. She has overseen all aspects of creative development and production for some of the group’s huge successes, including Around the World in 80 Days for The European Alliance (France Télévisions, ZDF, RAI), and Masterpiece PBS, as well as Toledano & Nakache's acclaimed series In Treatment for Arte. </p>
+ <br/>
+<p> 
+She has also worked on Canal+ premium war series Les Sentinelles. Alongside Pascal Breton, she produced the award-winning and Netflix Top 10 series Bardot for France Télévisions and Mediaset, later released on Netflix.   </p>
+ 
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+
+
+
+  <div className="director-section-content">
+
+          <div className="director-title">
+             <img
+                className="director-title-img"
+                src={credits}
+                alt="loading"
+              />  
+          </div>
+        <div className="credits">
+          <div className="credits-col">
+            <p>Format: 6 X 52’</p>
+            <p>Created by Alexandre Delaporte and <br/> Gregory Nicolas</p>
+            <p>Based on an original idea by<br/> Louis Leterrier</p>
+            <p>Directed by Louis Leterrier</p>
+            <p>Written by Alexandre Delaporte and<br/> Gregory Nicolas</p>
+          </div>
+
+          <div className="credits-col">
+            <p>Cast coming soon</p>
+            <p>Produced by Federation<br/> Studio France<br/> (Pascal Breton and Judith Rochelois)</p>
+            <p>Original broadcaster: FTV</p>
+            <p>International sales: <br/>Federation International</p>
+          </div>
+        </div>
+        
+        </div>
+
+
+
+
+
 
 
         </section>
