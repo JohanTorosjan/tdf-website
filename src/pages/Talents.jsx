@@ -4,6 +4,8 @@ import './Talents.css'
 import React, { useState, useEffect } from 'react';
 import Sommaire from '../components/Summary.jsx'
 import creators from '../assets/creators.png'
+import producers from '../assets/producers.jpg'
+import fed from "../assets/fedN.png";
 import ScrollToTopButton from '../components/ScrollToTopButton.jsx'
 import line from "../assets/line.png";
 import louis from '../assets/Louis.webp'
@@ -103,6 +105,63 @@ A leading figure in international action cinema, he is recognized for his sense 
 
 
         </section>
+
+
+
+
+        <section className="talents-section creators">
+                    <div className='talents-section-title'>
+          <img
+                className="imgthemes"
+                src={producers}
+                alt="loading"
+              />  
+                  </div>
+                                                          <div className='line-div'>
+
+    <img
+          className="separator-item"
+          src={line}
+          alt="loading"
+        />  
+
+        </div>
+        <div className="director-section-content">
+
+
+          <div className="director-content">
+            <div className="fed-div-img">
+             <img
+                className="fed-img"
+                src={fed}
+                alt="loading"
+              />  
+            </div>
+
+            <div className="director-text">
+            <p>
+Run by founder Pascal Breton and co-led by Lionel Uzan and Marco Chimenz, Federation Studios heralds a new breed of independent European studios, focusing on the creation, production, financing and distribution of high-quality original productions for the global marketplace. Federation Studios works with the best worldwide talents and partners on the scene today to create a strong distribution portfolio as well as an array of premium international productions. 
+</p>
+ <br/>
+<p> 
+Active in the drama, kids & family, documentary and cinema space, Federation Studios today federates 35 production companies located in Paris, Los Angeles, Rome, Madrid, London, Berlin, Cologne and Tel-Aviv. 
+  </p>
+ <br/>
+  <p>
+Federation International, the strong distribution arm of the company has been building up a rich lineup, mixing in-house and third-party premium content. Its portfolio includes major award-winning and international successes such as The Bureau, In Treatment, Around the World in 80 Days, Find me in Paris, Bardot, Sherlock & Daughter, I, Jack Wright, Mediterranean, and Simon Super Rabbit.
+
+  </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        </section>
+
+
 
 
         </div>

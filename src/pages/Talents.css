@@ -70,6 +70,8 @@ padding-top: 5dvh;
   display: flex;
   align-items: flex-start;
   gap: 40px;
+   align-items: center;        /* centre verticalement */
+  justify-content: center;    /* centre horizontalement */
 }
 
 /* Image du réalisateur */
@@ -95,6 +97,16 @@ padding-top: 5dvh;
   margin-bottom: 20px;
 }
 
+
+
+.fed-img{
+  width: 18dvw;
+height: auto;
+}
+.fed-div-img{
+  align-items: center;        /* centre verticalement dans sa div */
+  justify-content: center;    /* centre horizontalement dans sa div */
+}
 
 @media (max-width: 768px) {
 .director-content {
