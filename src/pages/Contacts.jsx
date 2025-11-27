@@ -1,7 +1,7 @@
 // src/pages/Contact.js
 import React, { useState, useEffect } from 'react';
 import './Contacts.css'
-import contactsbg from "../assets/contactsbg.jpg";
+import contactsbg from "../assets/contacts.jpg";
 import ScrollToTopButton from '../components/ScrollToTopButton.jsx'
 import prod from '../assets/prod.png'
 import sales from '../assets/sale.png'

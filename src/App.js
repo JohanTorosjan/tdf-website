@@ -9,6 +9,8 @@ import Series from './pages/Series';
 import Contacts from './pages/Contacts';
 import Talents from './pages/Talents';
 import NotFound from './pages/NotFound';
+import MoodbardPage from './pages/MoodboardPage.jsx'; 
+
 import Header from './components/Header'; 
 import Footer from './components/Footer'; 
 import ScrollToTopButton from './components/ScrollToTopButton.jsx';
@@ -32,6 +34,7 @@ function App() {
             <Routes>
               
               <Route path="/" element={<Home />} />
+              <Route path="/moodboard" element={<MoodbardPage />} />
               <Route path="/the-series" element={<Series />} />
               <Route path="/scripts" element={<Scripts />} />
               <Route path="/an-outstanding-production" element={<Production />} />

@@ -95,24 +95,24 @@ function Series() {
         <section className="series-section synopsis">
           <div className="synopsis-text">
             <p>
-              <strong>DEEPBLUE</strong>, the once-legendary French cycling team, is shattered after a spectacular crash during a stage of the Tour de France. <strong>NORA</strong>, a ruthless and opportunistic businesswoman, seizes the opportunity to buy the team for next to nothing, with the goal of restructuring it and turning a profit. A complete outsider to the cycling world, she makes bold and radical decisions that upend the team's balance and challenge the methods of its long-standing sports director. She manages to convince Matteo, the aging star rider, to stay with Deepblue. But that choice comes at a cost: Caterina, his mother and manager, breaks away and follows Andres, Matteo's most loyal teammate, who now becomes his fiercest rival as the new leader of a powerful competing team.
+              <strong>DEEPBLUE</strong>, the once-legendary French cycling team, is shattered after a spectacular crash during a stage of the Tour de France. <strong>Nora</strong>, a ruthless and opportunistic businesswoman, seizes the opportunity to buy the team for next to nothing, with the goal of restructuring it and turning a profit. A complete outsider to the cycling world, she makes bold and radical decisions that upend the team's balance and challenge the methods of its long-standing sports director. She manages to convince Mathias, the aging star rider, to stay with Deepblue. But that choice comes at a cost: Caterina, his mother and manager, breaks away and follows Andrea, Mathias's most loyal teammate, who now becomes his fiercest rival as the new leader of a powerful competing team.
             </p>
             <p>
-              <strong>Nora</strong> must now rebuild a team around <strong>Matteo</strong>, scouting for riders who are hungry, reckless and cheap. Outsiders with nothing to lose, fueled by an untamable will to win. That's how she discovers Ayden, a raw cycling prodigy working as a Deliveroo courier. His raw power and wild flair seal the deal.
+              <strong>Nora</strong> must now rebuild a team around <strong>Mathias</strong>, scouting for riders who are hungry, reckless and cheap. Outsiders with nothing to lose, fueled by an untamable will to win. That's how she discovers Ayden, a raw cycling prodigy working as a Deliveroo courier. His raw power and wild flair seal the deal.
             </p>
             <p>
-              As Nora experiences the sheer magnitude and public fervor of the Tour de France, she begins to grasp just how massive and lucrative this free-to-watch event could be. Together with her partner Raphaël, she hatches a plan to monetize this traveling spectacle. But the lines between business and emotion quickly blur, especially as her relationship with Matteo, charged with admiration and power dynamics, turns increasingly passionate and complex. Caught in a love triangle that threatens to implode everything she's built, Nora finds herself torn. But through her growing bond with Matteo and the team, she's exposed to a world where sacrifice, pain (both physical and emotional), brotherhood and collective strength outweigh profit. The roaring crowds, a budding romance, and Ayden's meteoric rise under her wing force her to confront her contradictions. In trying to exploit the Tour, she might just destroy what makes it sacred. Once cynical and disconnected from the values of sport, Nora learns to reconnect with her working-class roots and embrace her own vulnerability, ultimately risking everything to save the Tour by blowing the whistle on her own plan.
+              As Nora experiences the sheer magnitude and public fervor of the Tour de France, she begins to grasp just how massive and lucrative this free-to-watch event could be. Together with her partner Raphaël, she hatches a plan to monetize this traveling spectacle. But the lines between business and emotion quickly blur, especially as her relationship with Mathias, charged with admiration and power dynamics, turns increasingly passionate and complex. Caught in a love triangle that threatens to implode everything she's built, Nora finds herself torn. But through her growing bond with Mathias and the team, she's exposed to a world where sacrifice, pain (both physical and emotional), brotherhood and collective strength outweigh profit. The roaring crowds, a budding romance, and Ayden's meteoric rise under her wing force her to confront her contradictions. In trying to exploit the Tour, she might just destroy what makes it sacred. Once cynical and disconnected from the values of sport, Nora learns to reconnect with her working-class roots and embrace her own vulnerability, ultimately risking everything to save the Tour by blowing the whistle on her own plan.
             </p>
             <p>
-              <strong>Matteo</strong>, the team's longtime superstar, is haunted by the crash he caused the previous season, one that landed his teammate Thibault in critical condition. The accident didn't just injure Matteo physically; it fractured the team and pushed him away from his loved ones, including his own son, now terrified to watch him race. Matteo embarks on this new season torn between guilt, a burning obsession to win, and a creeping fear of being overtaken by the next generation. He refuses to accept that his career might be over, and he's not ready to share the spotlight. But with Ayden's arrival, championed by Nora, he has no choice. The young prodigy soon surpasses him, seizing the yellow jersey. Through an extraordinary Tour de France, Matteo will finally discover the true meaning of being part of a team and what really matters. Only then will he be able to pass the torch.
+              <strong>Mathias</strong>, the team's longtime superstar, is haunted by the crash he caused the previous season, one that landed his teammate Thibault in critical condition. The accident didn't just injure Mathias physically; it fractured the team and pushed him away from his loved ones, including his own son, now terrified to watch him race. Mathias embarks on this new season torn between guilt, a burning obsession to win, and a creeping fear of being overtaken by the next generation. He refuses to accept that his career might be over, and he's not ready to share the spotlight. But with Ayden's arrival, championed by Nora, he has no choice. The young prodigy soon surpasses him, seizing the yellow jersey. Through an extraordinary Tour de France, Mathias will finally discover the true meaning of being part of a team and what really matters. Only then will he be able to pass the torch.
             </p>
             <p>
-              <strong>Ayden</strong>, a rebellious, solitary orphan, is Nora's wild-card recruit, an unlikely contender for the Tour. A Deliveroo courier with magnetic and insolent energy, he masks his lack of grounding and deep fear of abandonment with a fierce, almost self-destructive drive to win. Convinced he can only rely on himself, he joins Deepblue as a rogue element, challenging Matteo and captivating France with his explosive performances. But over time, Ayden realizes that victory isn't just about individual strength. Embraced by the team, he lets go of his lone-wolf mentality and finally finds the family he never had.
+              <strong>Ayden</strong>, a rebellious, solitary orphan, is Nora's wild-card recruit, an unlikely contender for the Tour. A Deliveroo courier with magnetic and insolent energy, he masks his lack of grounding and deep fear of abandonment with a fierce, almost self-destructive drive to win. Convinced he can only rely on himself, he joins Deepblue as a rogue element, challenging Mathias and captivating France with his explosive performances. But over time, Ayden realizes that victory isn't just about individual strength. Embraced by the team, he lets go of his lone-wolf mentality and finally finds the family he never had.
             </p>
           </div>
         <div className='theme-summary'></div>
         </section>
-                            <div className='roues-div'>
+                            {/* <div className='roues-div'>
 
     <img
           className="roues-item"
@@ -120,7 +120,7 @@ function Series() {
           alt="loading"
         />  
 
-        </div>
+        </div> */}
         <section className="series-section themes">
             <div className='series-section-title'>
     <img
@@ -143,7 +143,7 @@ function Series() {
               These two champions will clash all season long in a gripping and relentless battle for leadership. Their rivalry echoes the great sports duels (Ronaldo/Messi, Nadal/Federer, Lauda/Hunt) <span className="highlight"><strong>with one key difference: they're on the same team.</strong></span>
             </p>
             <p>
-              That's the tragic paradox of professional cycling: while the work is collective, only one can claim glory on the Champs-Élysées. After a chaotic season of preparation, seen through Nora's fresh outsider lens, the team pulls off a surprise victory in the very first week of the Tour. Against all odds, Ayden dethrones Matteo and seizes the yellow jersey, becoming the center of a media frenzy.
+              That's the tragic paradox of professional cycling: while the work is collective, only one can claim glory on the Champs-Élysées. After a chaotic season of preparation, seen through Nora's fresh outsider lens, the team pulls off a surprise victory in the very first week of the Tour. Against all odds, Ayden dethrones Mathias and seizes the yellow jersey, becoming the center of a media frenzy.
             </p>
             <p>
               Could a Frenchman finally win the Tour de France for the first time since 1985?
@@ -158,10 +158,10 @@ function Series() {
               Three perspectives. Three journeys. Who have no business being here, yet who will come together, for better or worse, and leave their mark on the most grueling competition in the history of sports: the third most-watched sporting event in the world after the FIFA World Cup and the Olympics, held every year!
             </p>
             <p>
-              This is an immersive dive into the heart of a team, following its journey from rebuilding to triumph, told through powerful themes: rivalry, of course, as the foundation of any competition, but also the collision of two starkly different paths. Matteo, the golden boy who never quite lived up to expectations, now wrestling with the twilight of his career; and Ayden, a magnetic daredevil and orphan, who brings an unprecedented surge of hope to a nation.
+              This is an immersive dive into the heart of a team, following its journey from rebuilding to triumph, told through powerful themes: rivalry, of course, as the foundation of any competition, but also the collision of two starkly different paths. Mathias, the golden boy who never quite lived up to expectations, now wrestling with the twilight of his career; and Ayden, a magnetic daredevil and orphan, who brings an unprecedented surge of hope to a nation.
             </p>
             <p>
-              Drama and intimacy strike: the forbidden love story between Matteo and Nora, Ayden's painful past resurfacing, Nora's fractured family, and the lingering trauma of Thibault's accident that haunts them all, a constant reminder of how deadly this sport can be.
+              Drama and intimacy strike: the forbidden love story between Mathias and Nora, Ayden's painful past resurfacing, Nora's fractured family, and the lingering trauma of Thibault's accident that haunts them all, a constant reminder of how deadly this sport can be.
             </p>
             <p className="highlight-block">
               LE TOUR DE FRANCE remains, above all, a resolutely sports-driven and action-packed series.
@@ -173,13 +173,13 @@ function Series() {
               The show explores the power of the collective without shying away from the quiet deals, the big plays, the betrayals, and the raw humanity behind the rider once the helmet, glasses, and jersey come off.
             </p>
             <p>
-              Ultimately, the story is about cohesion and reconciliation. Rivals forced to unite. Generations clashing and finding common ground. And deeply personal reckonings with one's past, one's roots, and one's wounds. Nora, Matteo, and Ayden each learn to rise above their pride, grudges, and fears, to reclaim the meaning of their own story.
+              Ultimately, the story is about cohesion and reconciliation. Rivals forced to unite. Generations clashing and finding common ground. And deeply personal reckonings with one's past, one's roots, and one's wounds. Nora, Mathias, and Ayden each learn to rise above their pride, grudges, and fears, to reclaim the meaning of their own story.
             </p>
           </div>
           <div className='arena-summary'></div>
         </section>
 
-                            <div className='roues-div'>
+                            {/* <div className='roues-div'>
 
     <img
           className="roues-item"
@@ -187,7 +187,7 @@ function Series() {
           alt="loading"
         />  
 
-        </div>
+        </div> */}
 
         <section className="series-section arena">
             <div className='series-section-title'>
@@ -222,7 +222,7 @@ function Series() {
 
         </section>
 
-                            <div className='roues-div'>
+                            {/* <div className='roues-div'>
 
     <img
           className="roues-item"
@@ -230,43 +230,8 @@ function Series() {
           alt="loading"
         />  
 
-        </div>
-<section className="series-section arena">
-            <div className='series-section-title'>
-    <img
-          className="imgthemes"
-          src={moodboardtitle}
-          alt="loading"
-        />  
-
-            </div>
-                            <div className='line-div'>
-
-    <img
-          className="separator-item"
-          src={line}
-          alt="loading"
-        />  
-
-        </div>
-             <div className="arena-content">
-
-          </div>
-        </section>
-
-        
+        </div> */}
       </div>
-      
-                                <Moodboard/>
-                                                            <div className='roues-div'>
-
-    <img
-          className="roues-item"
-          src={roues}
-          alt="loading"
-        />  
-
-        </div>
 
     </div>
   );

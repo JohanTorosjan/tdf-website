@@ -4,7 +4,7 @@ import './Talents.css'
 import React, { useState, useEffect } from 'react';
 import Sommaire from '../components/Summary.jsx'
 import creators from '../assets/creators.png'
-import producers from '../assets/producers.jpg'
+import producers from '../assets/producers.png'
 import theprod from '../assets/theprod.png'
 import pascal from '../assets/pascal.jpg'
 import judith from '../assets/judith.jpg'
@@ -277,14 +277,6 @@ Federation International, the strong distribution arm of the company has been bu
 
 
         <div className="director-section-content">
-
-          <div className="director-title">
-             <img
-                className="director-title-img"
-                src={theprod}
-                alt="loading"
-              />  
-          </div>
 
           <div className="director-content">
             <div className="director-img">

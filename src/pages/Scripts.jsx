@@ -1,6 +1,6 @@
 // src/pages/Home.js
 import scriptsbg from "../assets/scripts-bg.jpg";
-import scriptsbgtel from "../assets/scripts-bg-tel.jpg";
+import scriptsbgtel from "../assets/scripts-bg.jpg";
 import episode1 from "../assets/episode1.jpg";
 import episode2 from "../assets/episode2.png";
 import episode3 from "../assets/episode3.png";

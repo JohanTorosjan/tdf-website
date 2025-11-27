@@ -68,10 +68,8 @@ padding-top: 5dvh;
 
 .director-content {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 40px;
-   align-items: center;        /* centre verticalement */
-  justify-content: center;    /* centre horizontalement */
 }
 
 /* Image du réalisateur */
@@ -95,7 +93,7 @@ padding-top: 5dvh;
   font-weight: bold;
   margin-bottom: 20px;
     font-family: 'Akrobat-ExtraBold', sans-serif;
-  border-bottom: 8px solid #EFC650;
+  border-bottom: 8px solid #FFEC00;
   width: 50%;
 }
 

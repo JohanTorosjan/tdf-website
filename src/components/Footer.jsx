@@ -23,7 +23,7 @@ function Footer() {
           {/* Colonne 3 */}
           <div className="footer-column">
             <Link to="/production" className="footer-title">An outstanding production</Link>
-            <Link to="/production#directors-cut" className="footer-link">Director's cut</Link>
+            <Link to="/production#directors-cut" className="footer-link">Director's note</Link>
             <Link to="/production#writers-note" className="footer-link">Writer's note</Link>
             <Link to="/production#ip" className="footer-link">The IP</Link>
           </div>
