@@ -95,7 +95,6 @@
 @media (max-width: 768px) {
   .moodboard-container {
     min-height: auto;
-    padding: 1dvw;
     padding-bottom: 1dvh;
   }
 

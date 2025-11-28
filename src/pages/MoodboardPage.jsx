@@ -6,6 +6,7 @@ import prod from '../assets/prod.png'
 import sales from '../assets/sale.png'
 import line from '../assets/line.png'
 import Moodboard from '../components/Moodboard.jsx';
+import moodboardtitle from '../assets/moodboardtitle.png';
 function MoodboardPage() {
             useEffect(() => {
                       document.body.scrollTo({
@@ -23,6 +24,27 @@ function MoodboardPage() {
       </div>
       
       <div className="moodboard-content">
+
+                    <div className='moodboard-section-title'>
+    <img
+          className="imgthemes"
+          src={moodboardtitle}
+          alt="loading"
+        />  
+
+            </div>
+                            <div className='line-div'>
+
+    <img
+          className="separator-item"
+          src={line}
+          alt="loading"
+        />  
+        
+        </div>
+
+
+
       <Moodboard/>
 </div>
 </div>

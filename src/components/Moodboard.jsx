@@ -131,28 +131,28 @@ const images = [
   // }, [isMobile]);
 
   // Version Mobile
-  if (isMobile) {
-    return (
-      <div className="moodboard-container">
-        <div className="moodboard-wrapper">
-          <div className="moodboard-grid-mobile">
-            {currentMobileImages.map((image, index) => (
-              <div
-                key={`${image.id}-${index}`}
-                className="moodboard-item-mobile"
-              >
-                <img
-                  src={image.url}
-                  alt={image.alt}
-                  className="moodboard-image-mobile"
-                />
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-    );
-  }
+  // if (isMobile) {
+  //   return (
+  //     <div className="moodboard-container">
+  //       <div className="moodboard-wrapper">
+  //         <div className="moodboard-grid-mobile">
+  //           {currentMobileImages.map((image, index) => (
+  //             <div
+  //               key={`${image.id}-${index}`}
+  //               className="moodboard-item-mobile"
+  //             >
+  //               <img
+  //                 src={image.url}
+  //                 alt={image.alt}
+  //                 className="moodboard-image-mobile"
+  //               />
+  //             </div>
+  //           ))}
+  //         </div>
+  //       </div>
+  //     </div>
+  //   );
+  // }
 
   // Version Desktop
   return (

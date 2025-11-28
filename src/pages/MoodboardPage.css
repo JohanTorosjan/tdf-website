@@ -27,6 +27,7 @@ font-size: 2rem;
 font-family: 'Restaurant Menu Book', sans-serif;
   color: white;
 
+
 }
 
 
@@ -34,13 +35,18 @@ font-family: 'Restaurant Menu Book', sans-serif;
   flex: 1;
   margin: 0 auto;
   width: 100%;
+  
     padding-top: 2dvh  !important;
 padding: 1dvw;
 }
 .moodboard-section{
     padding-top:10dvh
+    
 }
 
+.moodboard-section-title{
+    padding-top: 11dvh;
+}
 
 @media (max-width: 768px) {
   .moodboard-content {
