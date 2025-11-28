@@ -15,6 +15,7 @@ import characters from '../assets/characters.png'
 import Moodboard from '../components/Moodboard.jsx';
 import char1 from '../assets/char1.png'
 import char2 from '../assets/char2.png'
+import { useLocation } from 'react-router-dom';
 
 function Series() {
       useEffect(() => {
@@ -22,7 +23,8 @@ function Series() {
           top: 0,
         });})
 
-        
+          const location = useLocation();
+
 
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
 
@@ -42,6 +44,18 @@ function Series() {
 
 
 
+  useEffect(() => {
+    // Vérifie s'il y a un hash dans l'URL
+    if (location.hash) {
+      console.log(location.hash)
+const selector = location.hash.replace('#', '.');
+    const element = document.querySelector(selector);
+      console.log(element)
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, [location]);
 
 
   return (

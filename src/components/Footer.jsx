@@ -11,13 +11,18 @@ function Footer() {
           {/* Colonne 1 */}
           <div className="footer-column">
             <Link to="/the-series" className="footer-title">The series</Link>
-            <Link to="/the-series#themes" className="footer-link">Themes</Link>
-            <Link to="/the-series#arena" className="footer-link">The arena</Link>
+            <Link to="/the-series#synopsis-summary" className="footer-link">Synopsis</Link>
+            <Link to="/the-series#theme-summary" className="footer-link">Themes</Link>
+            <Link to="/the-series#arena-summary" className="footer-link">The arena</Link>
+            <Link to="/the-series#character-summary" className="footer-link">Characters</Link>
+
           </div>
 
           {/* Colonne 2 */}
           <div className="footer-column">
             <Link to="/scripts" className="footer-title">Scripts</Link>
+            <Link to="/moodboard" className="footer-title">Moodboard</Link>
+
           </div>
 
           {/* Colonne 3 */}
@@ -31,9 +36,9 @@ function Footer() {
           {/* Colonne 4 */}
           <div className="footer-column">
             <Link to="/talents" className="footer-title">Talents</Link>
-            <Link to="/talents#creators" className="footer-link">Creators</Link>
-            <Link to="/talents#producers" className="footer-link">Producers</Link>
-            <Link to="/talents#credits" className="footer-link">Credits</Link>
+            <Link to="/talents#Creators-summary" className="footer-link">Creators</Link>
+            <Link to="/talents#Producers-summary" className="footer-link">Producers</Link>
+            <Link to="/talents#credits-summary" className="footer-link">Credits</Link>
           </div>
         </div>
 

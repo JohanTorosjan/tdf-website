@@ -21,12 +21,30 @@ import alexandre from '../assets/Alexandre.png'
 import gregory from '../assets/Gregory.jpeg'
 
 import director from '../assets/director.png'
+import { useLocation } from 'react-router-dom';
 
 function Talents() {
               useEffect(() => {
                         document.body.scrollTo({
                   top: 0,
                 });})
+
+
+                          const location = useLocation();
+  useEffect(() => {
+    // Vérifie s'il y a un hash dans l'URL
+    if (location.hash) {
+      console.log(location.hash)
+const selector = location.hash.replace('#', '.');
+    const element = document.querySelector(selector);
+      console.log(element)
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, [location]);
+
+
   return (
     <div className="talents-container">
             <ScrollToTopButton />
@@ -342,8 +360,11 @@ She has also worked on Canal+ premium war series Les Sentinelles. Alongside Pas
 
 
 
-
+          <div className="credits-summary">
+            
+          </div>
   <div className="director-section-content">
+
 
           <div className="director-title">
              <img
