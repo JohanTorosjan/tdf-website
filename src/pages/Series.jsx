@@ -15,6 +15,11 @@ import characters from '../assets/characters.png'
 import Moodboard from '../components/Moodboard.jsx';
 import char1 from '../assets/char1.png'
 import char2 from '../assets/char2.png'
+import picsynopsis from '../assets/picsynopsis.png'
+import picthemes from '../assets/picthemes.png'
+import picarena from '../assets/picarena.png'
+import route from "../assets/route.png";
+
 import { useLocation } from 'react-router-dom';
 
 function Series() {
@@ -74,7 +79,7 @@ const selector = location.hash.replace('#', '.');
       {!isMobile && (
                         <Sommaire items={[
         { className: 'synopsis-summary', titre: 'Synopsis' },
-        { className: 'theme-summary', titre: 'seriesTheme' },
+        { className: 'themes-summary', titre: 'seriesTheme' },
         { className: 'arena-summary', titre: 'arena' },
         { className: 'character-summary', titre: 'Characters' },
 
@@ -87,7 +92,7 @@ const selector = location.hash.replace('#', '.');
         <div className='Summary-mobile'>
                                   <Sommaire items={[
         { className: 'synopsis-summary', titre: 'Synopsis' },
-        { className: 'theme-summary', titre: 'seriesTheme' },
+        { className: 'themes-summary', titre: 'seriesTheme' },
 
 
         ]}size={'two'} />
@@ -146,7 +151,19 @@ const selector = location.hash.replace('#', '.');
               <strong>Ayden</strong>, a rebellious, solitary orphan, is Nora's wild-card recruit, an unlikely contender for the Tour. A Deliveroo courier with magnetic and insolent energy, he masks his lack of grounding and deep fear of abandonment with a fierce, almost self-destructive drive to win. Convinced he can only rely on himself, he joins Deepblue as a rogue element, challenging Mathias and captivating France with his explosive performances. But over time, Ayden realizes that victory isn't just about individual strength. Embraced by the team, he lets go of his lone-wolf mentality and finally finds the family he never had.
             </p>
           </div>
-        <div className='theme-summary'></div>
+        <div className='sections-pics'>
+
+            <img
+          className="sections-pics-img"
+          src={picsynopsis}
+          alt="loading"
+        />  
+
+
+        </div>
+
+                  <div className='themes-summary'></div>
+
         </section>
                             {/* <div className='roues-div'>
 
@@ -205,7 +222,7 @@ const selector = location.hash.replace('#', '.');
             </p>
                         <div className='centered'>
             <span className="highlight-block">
-              LE TOUR DE FRANCE remains, above all, a resolutely sports-driven and action-packed series.
+              Le Tour de France remains, above all, a resolutely sports-driven and action-packed series.
             </span>
             </div>
 
@@ -223,6 +240,16 @@ const selector = location.hash.replace('#', '.');
               Ultimately, the story is about cohesion and reconciliation. Rivals forced to unite. Generations clashing and finding common ground. And deeply personal reckonings with one's past, one's roots, and one's wounds. Nora, Mathias, and Ayden each learn to rise above their pride, grudges, and fears, to reclaim the meaning of their own story.
             </p>
           </div>
+            <div className='sections-pics'>
+
+            <img
+          className="sections-pics-img"
+          src={picthemes}
+          alt="loading"
+        />  
+
+
+        </div>
           <div className='arena-summary'></div>
         </section>
 
@@ -273,6 +300,18 @@ const selector = location.hash.replace('#', '.');
             </span>
             </div>
           </div>
+
+
+            <div className='sections-pics'>
+
+            <img
+          className="sections-pics-img"
+          src={picarena}
+          alt="loading"
+        />  
+
+</div>
+          
                             <div className='character-summary'></div>
 
         </section>
@@ -298,13 +337,13 @@ const selector = location.hash.replace('#', '.');
 
        
           <div className="characters-content">
-            <div className="characters-img">
+            {/* <div className="characters-img">
              <img
                 className="creators-img"
                 src={char1}
                 alt="loading"
               />  
-            </div>
+            </div> */}
 
             <div className="characters-text">
               <div className="characters-name">
@@ -330,10 +369,11 @@ Through cycling and through this new family she never expected, Nora learns to r
             </div>
 
           </div>
+          
   <div className="characters-content">
 
-            <div className="characters-text">
-              <div className="characters-name">
+            <div className="characters-text name-right">
+              <div className="characters-name name-right">
             Mathias              
 
             </div>
@@ -353,13 +393,13 @@ Yet Mathias’s struggle isn’t only athletic, it’s deeply personal. He has s
 Mathias is a man searching for resilience, compelled to redefine his identity not through the victories he claims, but through what he can pass on, both on the bike and in his life.
 </p> 
             </div>
-            <div className="characters-img">
+            {/* <div className="characters-img">
              <img
                 className="creators-img"
                 src={char2}
                 alt="loading"
               />  
-            </div>
+            </div> */}
 
 
 
@@ -369,17 +409,16 @@ Mathias is a man searching for resilience, compelled to redefine his identity no
 
           </div>
           
- <div className="characters-section-content">
 
        
           <div className="characters-content">
-            <div className="characters-img">
+            {/* <div className="characters-img">
              <img
                 className="creators-img"
                 src={char1}
                 alt="loading"
               />  
-            </div>
+            </div> */}
 
             <div className="characters-text">
               <div className="characters-name">
@@ -404,8 +443,8 @@ Ayden’s arc is as tragic as it is poetic: at first convinced he has nothing to
           </div>
   <div className="characters-content">
 
-            <div className="characters-text">
-              <div className="characters-name">
+            <div className="characters-text name-right">
+              <div className="characters-name name-right">
             Erik              
 
             </div>
@@ -417,42 +456,14 @@ Erik is one of Deepblue’s defining figures, an old-school sports characters wh
 His way of seeing the Tour quickly clashes with Nora’s modern, unconventional, and often unpredictable methods, creating a genuine showdown between the old school and the new. He’s tough on everyone, but that’s precisely why the riders respect him so deeply.
 </p>
             </div>
-            <div className="characters-img">
+            {/* <div className="characters-img">
              <img
                 className="creators-img"
                 src={char2}
                 alt="loading"
               />  
-            </div>
+            </div> */}
            </div>
-          </div>
-           <div className="characters-section-content">
-
-       
-          <div className="characters-content">
-            <div className="characters-img">
-             <img
-                className="creators-img"
-                src={char1}
-                alt="loading"
-              />  
-            </div>
-
-            <div className="characters-text">
-              <div className="characters-name">
-            Jenna             
-
-            </div>
-            <p>
-Jenna, in her twenties/thirties, is the team’s true Swiss army knife. She’s the driver of the bus that follows the riders throughout the Tour, making sure they have everything they need on a daily basis. As the wife of Thibault, Mathias’s former teammate who was gravely injured during the previous Tour, she embodies both the memory and the beating heart of the team.
-</p>
- <br/>
-             <p>
-She has always lived in the world of cycling and knows it inside out. With her blunt honesty and no-nonsense attitude, Jenna is above all a compassionate listener and a steady shoulder the team can lean on when things get tough. Her kindness and deep empathy, combined with her unwavering passion for the sport, make her a precious, luminous presence, someone who helps keep the team spirit alive.
-</p> 
-            </div>
-
-          </div>
   <div className="characters-content">
 
             <div className="characters-text">
@@ -469,13 +480,13 @@ But when he discovers Nora’s affair with Mathias, Raphaël unravels, consumed 
 </p> <br/>
 
             </div>
-            <div className="characters-img">
+            {/* <div className="characters-img">
              <img
                 className="creators-img"
                 src={char2}
                 alt="loading"
               />  
-            </div>
+            </div> */}
 
 
 
@@ -484,17 +495,20 @@ But when he discovers Nora’s affair with Mathias, Raphaël unravels, consumed 
 
 
           </div>
+       
+
+
             <div className="characters-content">
-            <div className="characters-img">
+            {/* <div className="characters-img">
              <img
                 className="creators-img"
                 src={char2}
                 alt="loading"
               />  
-            </div>
+            </div> */}
 
-            <div className="characters-text">
-              <div className="characters-name">
+            <div className="characters-text name-right">
+              <div className="characters-name name-right">
             Andrea              
 
             </div>
@@ -515,6 +529,29 @@ Now managed by Katrine, Mathias’s mother, Andrea becomes a formidable rival on
 
 
           </div>
+                    <div className="characters-content">
+            {/* <div className="characters-img">
+             <img
+                className="creators-img"
+                src={char1}
+                alt="loading"
+              />  
+            </div> */}
+
+            <div className="characters-text">
+              <div className="characters-name">
+            Jenna             
+
+            </div>
+            <p>
+Jenna, in her twenties/thirties, is the team’s true Swiss army knife. She’s the driver of the bus that follows the riders throughout the Tour, making sure they have everything they need on a daily basis. As the wife of Thibault, Mathias’s former teammate who was gravely injured during the previous Tour, she embodies both the memory and the beating heart of the team.
+</p>
+ <br/>
+             <p>
+She has always lived in the world of cycling and knows it inside out. With her blunt honesty and no-nonsense attitude, Jenna is above all a compassionate listener and a steady shoulder the team can lean on when things get tough. Her kindness and deep empathy, combined with her unwavering passion for the sport, make her a precious, luminous presence, someone who helps keep the team spirit alive.
+</p> 
+            </div>
+
           </div>
         </div>
 
@@ -527,7 +564,11 @@ Now managed by Katrine, Mathias’s mother, Andrea becomes a formidable rival on
 
 
 
-
+ <img
+          className="route"
+          src={route}
+          alt="Mon illustration"
+        />
       </div>
 
     </div>

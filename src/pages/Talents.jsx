@@ -109,7 +109,7 @@ const selector = location.hash.replace('#', '.');
                 Louis Leterrier
               </div>
             <p>
-Louis Leterrier is a French director and producer. He began his career working on French and American productions before gaining recognition with <strong> The Transporter,  Danny the Dog </strong>,  and <strong> Transporter 2 </strong>.
+Louis Leterrier is a French director and producer. He began his career working on French and American productions before gaining recognition with <strong> The Transporter,  Danny the Dog</strong>,  and <strong> Transporter 2</strong>.
 </p>
  <br/>
 <p> 
@@ -117,7 +117,7 @@ Louis Leterrier is a French director and producer. He began his career working 
   </p>
  <br/>
   <p>
-An <strong>Emmy Award winner for The Dark Crystal : Age of Resistance </strong>, Louis Leterrier also continues his work in television, returning as showrunner for the new season of <strong>Lupin </strong>.
+An <strong>Emmy Award winner for The Dark Crystal : Age of Resistance</strong>, Louis Leterrier also continues his work in television, returning as showrunner for the new season of <strong>Lupin</strong>.
 
   </p>
 
@@ -206,7 +206,7 @@ He later turned to television writing. His encounter with Louis Farge, with whom
 
             <div className="director-text">
               <div className="director-name">
-              Gregory Nicolas
+              Grégory Nicolas
               </div>
             <p>
 Grégory Nicolas is a novelist and a screenwriter. His novels: Mathilde est revenue (Mathilde is back), Les fils du pêcheur (The Fisherman’s Sons), Mes sœurs, n’aimez pas les marins (My sisters, don’t fall for sailors) capture vibrant humanity, strong storytelling, humor, and an eye for life’s small details.

@@ -13,6 +13,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  transform: scale(1.01);
 }
 
 .series-title {
@@ -29,16 +30,14 @@ font-family: 'Restaurant Menu Book', sans-serif;
 
 .series-content {
   flex: 1;
-  max-width: 800px;
   margin: 0 auto;
   width: 100%;
   padding-top: 2dvh !important;
   padding-bottom: 17dvh !important;
+  display: flex;
+  flex-direction: column;
+  gap:13dvh
 
-}
-
-.series-section {
-  margin-bottom: 50px;
 }
 
 .series-section:last-child {
@@ -55,7 +54,7 @@ font-family: 'Restaurant Menu Book', sans-serif;
 .series-section p {
   line-height: 1.8;
   font-size: 1.1rem;
-  text-align: justify;
+  text-align: left;
   max-width: 100%;
 }
 
@@ -79,7 +78,7 @@ font-family: 'Restaurant Menu Book', sans-serif;
 
 .line-div{
   padding-top: 0dvh;
-padding-bottom: 3dvh;
+padding-bottom: 4dvh;
 }
 
 .roues-div{
@@ -127,9 +126,6 @@ padding-bottom: 3dvh;
   line-height: 1.8;
 }
 
-.series-section {
-  margin-bottom: 80px;
-}
 
 .series-section h2 {
   font-size: 48px;
@@ -190,8 +186,10 @@ align-self: center;
 justify-content: center;
 text-align: center;
 justify-self: center;
+
 }
 .highlight-block {
+    font-family: 'Akrobat-ExtraBold', sans-serif;
 
   font-weight: 700;
   font-size: 16px;
@@ -237,7 +235,9 @@ justify-self: center;
 
 
 .characters-section-content {
-padding-top: 5dvh;
+display: flex;
+flex-direction: column;
+gap:5dvh;
 }
 
 /* --- Titre "characters" --- */
@@ -269,7 +269,6 @@ padding-top: 5dvh;
 
 /* Bloc texte */
 .characters-text {
-  max-width: 60dvw;
   line-height: 1.5;
   font-size: 0.9rem;
   color: #333;
@@ -282,12 +281,38 @@ padding-top: 5dvh;
   margin-bottom: 20px;
     font-family: 'Akrobat-ExtraBold', sans-serif;
   border-bottom: 8px solid #FFEC00;
-  width: 50%;
+  width: 35%;
 }
 
 
+.name-right{
+  margin-left: auto; /* Pousse l'élément vers la droite */
+  text-align: right;
+}
+
+.name-right p{
+  text-align: right;
+}
+
+.sections-pics{
+    width: 85%;
+    margin: 0 auto; /* Centre la div elle-même */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 4dvh;
+    padding-bottom: 10dvh;
+
+}
+.sections-pics-img{
+    max-width: 100%; /* Optionnel : empêche l'image de dépasser */
+    height: auto;
+
+}
 /* Responsive */
 @media (max-width: 768px) {
+  .sections-pics{width: 100%;}
   .series-content {
       max-width:100%;
 
