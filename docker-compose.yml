@@ -1,6 +1,6 @@
 services:
   traefik:
-    image: traefik:v2.10
+    image: traefik:v3.0
     container_name: traefik
     restart: unless-stopped
     security_opt:
@@ -9,7 +9,7 @@ services:
       - "80:80"
       - "443:443"
     environment:
-      - DOCKER_API_VERSION=1.44
+      - DOCKER_API_VERSION=1.52
     command:
       - "--providers.docker=true"
       - "--providers.docker.exposedbydefault=false"
