@@ -1,54 +1,30 @@
-version: "3.9"
+version: '3.8'
 
 services:
-  traefik:
-    image: traefik:v3.0
-    container_name: traefik
-    restart: unless-stopped
-    security_opt:
-      - no-new-privileges:true
-    ports:
-      - "80:80"
-      - "443:443"
-    command:
-      - "--providers.docker=true"
-      - "--providers.docker.exposedbydefault=false"
-      - "--entrypoints.web.address=:80"
-      - "--entrypoints.websecure.address=:443"
-      - "--certificatesresolvers.letsencrypt.acme.email=johandev999@gmail.com"
-      - "--certificatesresolvers.letsencrypt.acme.storage=/letsencrypt/acme.json"
-      - "--certificatesresolvers.letsencrypt.acme.httpchallenge=true"
-      - "--certificatesresolvers.letsencrypt.acme.httpchallenge.entrypoint=web"
-    volumes:
-      - /var/run:/var/run       # <- Mount the whole /var/run
-      - ./letsencrypt:/letsencrypt
-    networks:
-      - web
-
-  app:
+  web:
     build:
       context: .
       dockerfile: Dockerfile
       target: production
-    container_name: tourdefrance-app
+    ports:
+      - "80:80"
     restart: unless-stopped
     environment:
       - NODE_ENV=production
-    labels:
-      - "traefik.enable=true"
-      - "traefik.http.routers.app-http.rule=Host(`www.tourdefrance-theseries.com`) || Host(`tourdefrance-theseries.com`)"
-      - "traefik.http.routers.app-http.entrypoints=web"
-      - "traefik.http.routers.app-http.middlewares=redirect-to-https"
-      - "traefik.http.middlewares.redirect-to-https.redirectscheme.scheme=https"
-      - "traefik.http.middlewares.redirect-to-https.redirectscheme.permanent=true"
-      - "traefik.http.routers.app-https.rule=Host(`www.tourdefrance-theseries.com`) || Host(`tourdefrance-theseries.com`)"
-      - "traefik.http.routers.app-https.entrypoints=websecure"
-      - "traefik.http.routers.app-https.tls=true"
-      - "traefik.http.routers.app-https.tls.certresolver=letsencrypt"
-      - "traefik.http.services.app.loadbalancer.server.port=80"
-    networks:
-      - web
 
-networks:
-  web:
-    driver: bridge
+  # Service de développement (optionnel)
+  dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: development
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./src:/app/src
+      - ./public:/app/public
+    environment:
+      - NODE_ENV=development
+    command: npm start
+    profiles:
+      - dev
