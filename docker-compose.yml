@@ -1,4 +1,5 @@
 version: '3.8'
+
 services:
   web:
     build:
@@ -7,13 +8,10 @@ services:
       target: production
     ports:
       - "80:80"
-      - "443:443"
-    volumes:
-      - /etc/letsencrypt:/etc/letsencrypt:ro
     restart: unless-stopped
     environment:
       - NODE_ENV=production
-      
+
   # Service de développement (optionnel)
   dev:
     build:
