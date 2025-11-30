@@ -33,9 +33,11 @@ font-family: 'Restaurant Menu Book', sans-serif;
   max-width: 80%;
   margin: 0 auto;
   width: 100%;
-    padding-top: 2dvh !important;;
-        padding-bottom: 5dvh !important;;
-
+    padding-top: 2dvh !important;
+        padding-bottom: 10dvh !important;
+display: flex;
+flex-direction: column;
+  gap:13dvh
 }
 
 .talents-section-title{
@@ -44,7 +46,6 @@ font-family: 'Restaurant Menu Book', sans-serif;
 }
 
 .talents-section{
-  margin-top: 5dvh;
 }
 
 
@@ -116,9 +117,14 @@ height: auto;
 
 .credits {
   display: flex;
-  gap: 15dvw;       /* Espace entre les deux colonnes */
   align-items: center;
   justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  width: 70%;
+      margin-left: auto;
+    margin-right: auto;
+    line-height: 4dvh;
 }
 
 .credits-col p {
@@ -131,7 +137,13 @@ height: auto;
 .credits-col  {
   align-self: center;
 }
+.credit-line{
+  padding-bottom: 0dvh;
+}
 
+.Italic{
+  font-style: italic;
+}
 
 @media (max-width: 768px) {
   .director-name{
@@ -149,7 +161,7 @@ flex-direction: column;
 }
 .director-section-content{
   padding-left: 3dvw;
-
+  padding-right:3dvw
 }
 
 .talents-content{

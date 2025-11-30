@@ -59,14 +59,14 @@ function Scripts() {
 
       {/* Desktop : un seul sommaire */}
       {!isMobile && (
-        <Sommaire items={episodes} size={'six'}/>
+        <Sommaire items={episodes} size={'scripts'}/>
       )}
 
       {/* Mobile : deux sommaires avec 3 épisodes chacun */}
       {isMobile && (
         <>
-          <Sommaire items={episodes.slice(0, 3)} size={'three'} />
-          <Sommaire items={episodes.slice(3, 6)} size={'three'} />
+          <Sommaire items={episodes.slice(0, 3)} size={'scriptsT'} />
+          <Sommaire items={episodes.slice(3, 6)} size={'scriptsT'} />
         </>
       )}
 

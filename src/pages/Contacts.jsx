@@ -48,7 +48,8 @@ function Contacts() {
 
         <div className='prod-text'>
          <p>Pascal Breton – Founder and group CEO</p> 
-         <p>Judith ROCHELOIS - Producer</p>
+         <br/>
+         <p>Judith Rochelois - Producer</p>
          <p>judith.rochelois@fedent.com </p>
          <p>+33 6 22 06 71 59 </p>
         </div>

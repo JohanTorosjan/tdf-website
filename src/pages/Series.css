@@ -13,7 +13,6 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  transform: scale(1.01);
 }
 
 .series-title {
@@ -237,7 +236,7 @@ justify-self: center;
 .characters-section-content {
 display: flex;
 flex-direction: column;
-gap:5dvh;
+gap:8dvh;
 }
 
 /* --- Titre "characters" --- */

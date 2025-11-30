@@ -17,6 +17,8 @@ import Producers from "../assets/summary/Producers.png";
 import seriesTheme from "../assets/summary/seriesTheme.png";
 import TheIP from "../assets/summary/TheIP.png";
 import WritersNote from "../assets/summary/WritersNote.png";
+import DirNote from "../assets/summary/DirNote.png";
+
 import Synopsis from "../assets/summary/syn.png";
 
 const images = {
@@ -35,6 +37,7 @@ const images = {
   TheIP,
   WritersNote,
   Synopsis,
+  DirNote,
 };
 
 

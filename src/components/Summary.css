@@ -73,12 +73,12 @@
 }
 
 .summaryButton{
-    width: 6dvw;
+    width: 5dvw;
 
 }
 
-.four{
-  width: 10dvw;
+.series{
+  width: 7dvw;
 }
 
 .sommaire-button:hover {
@@ -90,8 +90,12 @@
   transform: scale(0.98);
 }
 
-.two{
-  width: 10dvw;
+.talents, .seriesT{
+  width: 7dvw;
+}
+
+.production{
+  width:11dvh;
 }
 /* Responsive - pour les petits écrans */
 @media (max-width: 768px) {
@@ -99,8 +103,11 @@
   width: 10dvw;
 }
 
-.two{
+.talents, .seriesT{
   width: 100%;
+}
+.production{
+  width: 22dvw;
 }
   
   .sommaire-button {

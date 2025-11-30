@@ -61,7 +61,7 @@ const selector = location.hash.replace('#', '.');
         { className: 'Creators-summary', titre: 'Creators' },
         { className: 'Producers-summary', titre: 'Producers' },
         ]}
-                size='two'
+                size='talents'
  />
 
 
@@ -155,8 +155,8 @@ A leading figure in international action cinema, he is recognized for his sense 
           <div className="director-content">
   
 
-            <div className="director-text">
-              <div className="director-name">
+            <div className="director-text name-right">
+              <div className="director-name name-right">
               Alexandre Delaporte
               </div>
             <p>
@@ -209,11 +209,11 @@ He later turned to television writing. His encounter with Louis Farge, with whom
               Grégory Nicolas
               </div>
             <p>
-Grégory Nicolas is a novelist and a screenwriter. His novels: Mathilde est revenue (Mathilde is back), Les fils du pêcheur (The Fisherman’s Sons), Mes sœurs, n’aimez pas les marins (My sisters, don’t fall for sailors) capture vibrant humanity, strong storytelling, humor, and an eye for life’s small details.
+Grégory Nicolas is a novelist and a screenwriter. His novels: Mathilde est revenue <span className="Italic">Mathilde is back </span>, Les fils du pêcheur<span className="Italic">The Fisherman’s Sons </span>, Mes sœurs, n’aimez pas les marins <span className="Italic">My sisters, don’t fall for sailors</span> capture vibrant humanity, strong storytelling, humor, and an eye for life’s small details.
 </p>
  <br/>
 <p> 
-His latest novel, Mes sœurs, n’aimez pas les marins, received the Henri Queffélec Prize and the Seal the World Award for Best Maritime Book. His work Équipiers (Teammates), a literary immersion into professional cycling, was honored with the Antoine-Blondin Prize and the Louis-Nucéra Prize. <br/>
+His latest novel, Mes sœurs, n’aimez pas les marins, received the Henri Queffélec Prize and the Seal the World Award for Best Maritime Book. His work Équipiers <span className="Italic">Teammates</span>, a literary immersion into professional cycling, was honored with the Antoine-Blondin Prize and the Louis-Nucéra Prize. <br/>
 </p>
 <br/>
   <p>
@@ -310,7 +310,7 @@ Federation International, the strong distribution arm of the company has been bu
               Pascal Breton
               </div>
             <p>
-Pascal Breton is President of Federation Studios, the top independent production and distribution company he founded in 2013. Among the group's top titles are The Bureau, In Treatment, Baby, Hostages, Marseille, Bad Banks, Deadly Tropics, Undercover, Around the World in 80 Days, Les Bleus 2018, Find me in Paris, to name a few. 
+Pascal Breton is President of Federation Studios, the top independent production and distribution company he founded in 2013.
 </p>
  <br/>
 <p> 
@@ -332,6 +332,19 @@ Breton  appeared in Variety’s list of the 500 Most Influential Personalities o
 
        
           <div className="director-content">
+
+
+            <div className="director-text name-right">
+              <div className="director-name name-right">
+                Judith Rochelois 
+              </div>
+            <p>
+Producer Judith Rochelois joined Federation Studios in 2017. She has overseen all aspects of creative development and production for some of the group’s huge successes, including Around the World in 80 Days for The European Alliance (France Télévisions, ZDF, RAI), and Masterpiece PBS, as well as Toledano & Nakache's acclaimed series In Treatment for Arte. </p>
+ <br/>
+<p> 
+Alongside Pascal Breton, she produced the award-winning and Netflix Top 10 series Bardot for France Télévisions and Mediaset, later released on Netflix. She has also worked on Canal+ premium war series Les Sentinelles.  </p>
+ 
+            </div>
             <div className="director-img">
              <img
                 className="creators-img"
@@ -339,19 +352,6 @@ Breton  appeared in Variety’s list of the 500 Most Influential Personalities o
                 alt="loading"
               />  
             </div>
-
-            <div className="director-text">
-              <div className="director-name">
-                Judith Rochelois 
-              </div>
-            <p>
-Producer Judith Rochelois joined Federation Studios in 2017. She has overseen all aspects of creative development and production for some of the group’s huge successes, including Around the World in 80 Days for The European Alliance (France Télévisions, ZDF, RAI), and Masterpiece PBS, as well as Toledano & Nakache's acclaimed series In Treatment for Arte. </p>
- <br/>
-<p> 
-She has also worked on Canal+ premium war series Les Sentinelles. Alongside Pascal Breton, she produced the award-winning and Netflix Top 10 series Bardot for France Télévisions and Mediaset, later released on Netflix.   </p>
- 
-            </div>
-
           </div>
 
         </div>
@@ -374,22 +374,37 @@ She has also worked on Canal+ premium war series Les Sentinelles. Alongside Pas
               />  
           </div>
         <div className="credits">
+                                                                    <div className='line-div credit-line'>
+
+    <img
+          className="separator-item"
+          src={line}
+          alt="loading"
+        />  
+
+        </div>
           <div className="credits-col">
             <p>Format: 6 X 52’</p>
-            <p>Created by Alexandre Delaporte and <br/> Gregory Nicolas</p>
-            <p>Based on an original idea by<br/> Louis Leterrier</p>
+            <p>Created by Alexandre Delaporte and Grégory Nicolas</p>
+            <p>Based on an original idea by Louis Leterrier</p>
             <p>Directed by Louis Leterrier</p>
-            <p>Written by Alexandre Delaporte and<br/> Gregory Nicolas</p>
-          </div>
-
-          <div className="credits-col">
+            <p>Written by Alexandre Delaporte and Grégory Nicolas</p>
             <p>Cast coming soon</p>
-            <p>Produced by Federation<br/> Studio France<br/> (Pascal Breton and Judith Rochelois)</p>
+            <p>Produced by Federation Studio France<br/>(Pascal Breton and Judith Rochelois)</p>
             <p>Original broadcaster: FTV</p>
-            <p>International sales: <br/>Federation International</p>
+            <p>International sales: Federation International</p>
           </div>
+                                                                              <div className='line-div credit-line'>
+
+    <img
+          className="separator-item"
+          src={line}
+          alt="loading"
+        />  
+
         </div>
-        
+        </div>
+
         </div>
 
 

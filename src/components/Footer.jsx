@@ -20,9 +20,8 @@ function Footer() {
 
           {/* Colonne 2 */}
           <div className="footer-column">
-            <Link to="/scripts" className="footer-title">Scripts</Link>
             <Link to="/moodboard" className="footer-title">Moodboard</Link>
-
+            <Link to="/scripts" className="footer-title">Scripts</Link>
           </div>
 
           {/* Colonne 3 */}

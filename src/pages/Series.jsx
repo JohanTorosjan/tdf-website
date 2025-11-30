@@ -83,7 +83,7 @@ const selector = location.hash.replace('#', '.');
         { className: 'arena-summary', titre: 'arena' },
         { className: 'character-summary', titre: 'Characters' },
 
-        ]}size={'four'} />
+        ]}size={'series'} />
       )}
 
 
@@ -95,11 +95,11 @@ const selector = location.hash.replace('#', '.');
         { className: 'themes-summary', titre: 'seriesTheme' },
 
 
-        ]}size={'two'} />
+        ]}size={'seriesT'} />
                                 <Sommaire items={[
         { className: 'arena-summary', titre: 'arena' },
         { className: 'character-summary', titre: 'Characters' },
-        ]}size={'two'} />
+        ]}size={'seriesT'} />
           </div>
 
       )}
