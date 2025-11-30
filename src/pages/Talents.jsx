@@ -394,7 +394,7 @@ Alongside Pascal Breton, she produced the award-winning and Netflix Top 10 serie
             <p>Original broadcaster: FTV</p>
             <p>International sales: Federation International</p>
           </div>
-                                                                              <div className='line-div credit-line'>
+                                                                              <div className='line-div credit-line endedline'>
 
     <img
           className="separator-item"

@@ -141,6 +141,9 @@ height: auto;
   padding-bottom: 0dvh;
 }
 
+.endedline{
+  padding-top: 3dvh;
+}
 .Italic{
   font-style: italic;
 }
