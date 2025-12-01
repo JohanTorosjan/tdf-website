@@ -1,3 +1,19 @@
+# Stage 1: Build
+FROM node:18-alpine AS build
+WORKDIR /app
+
+# Copier les fichiers de dépendances
+COPY package*.json ./
+
+# Installer les dépendances
+RUN npm ci --silent
+
+# Copier le code source
+COPY . .
+
+# Build de production
+RUN npm run build
+
 # Stage 2: Production avec Nginx
 FROM nginx:alpine AS production
 
@@ -13,3 +29,12 @@ EXPOSE 443
 
 # Démarrer Nginx
 CMD ["nginx", "-g", "daemon off;"]
+
+# Stage 3: Développement (optionnel)
+FROM node:18-alpine AS development
+WORKDIR /app
+COPY package*.json ./
+RUN npm install
+COPY . .
+EXPOSE 3000
+CMD ["npm", "start"]
