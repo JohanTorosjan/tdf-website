@@ -149,7 +149,7 @@ A leading figure in international action cinema, he is recognized for his sense 
           <div className="director-content">
   
 
-            <div className="director-text name-right">
+            <div className="director-text">
               <div className="director-name name-right">
               Alexandre Delaporte
               </div>
@@ -322,7 +322,7 @@ Breton  appeared in Variety’s list of the 500 Most Influential Personalities o
           <div className="director-content">
 
 
-            <div className="director-text name-right">
+            <div className="director-text">
               <div className="director-name name-right">
                 Judith Rochelois 
               </div>

@@ -399,7 +399,7 @@ Through cycling and through this new family she never expected, Nora learns to r
           
   <div className="characters-content">
 
-            <div className="characters-text name-right">
+            <div className="characters-text">
               <div className="characters-name name-right">
             Mathias              
 
@@ -470,7 +470,7 @@ Ayden’s arc is as tragic as it is poetic: at first convinced he has nothing to
           </div>
   <div className="characters-content">
 
-            <div className="characters-text name-right">
+            <div className="characters-text">
               <div className="characters-name name-right">
             Erik              
 
@@ -534,7 +534,7 @@ But when he discovers Nora’s affair with Mathias, Raphaël unravels, consumed 
               />  
             </div> */}
 
-            <div className="characters-text name-right">
+            <div className="characters-text">
               <div className="characters-name name-right">
             Andrea              
 

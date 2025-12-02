@@ -291,10 +291,12 @@ gap:8dvh;
 
 .name-right{
   margin-left: auto; /* Pousse l'élément vers la droite */
+    text-align: right;
+
 }
 
 .name-right p{
-  text-align: left;
+  text-align: right;
 }
 
 .sections-pics{
