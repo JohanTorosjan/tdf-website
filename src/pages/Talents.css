@@ -86,7 +86,7 @@ padding-top: 5dvh;
 .director-text {
   max-width: 60dvw;
   line-height: 1.5;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: #333;
 }
 
@@ -125,6 +125,7 @@ height: auto;
       margin-left: auto;
     margin-right: auto;
     line-height: 4dvh;
+    padding-top: 8dvh;
 }
 
 .credits-col p {

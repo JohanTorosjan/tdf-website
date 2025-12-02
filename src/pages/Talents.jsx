@@ -105,21 +105,21 @@ const selector = location.hash.replace('#', '.');
                 Louis Leterrier
               </div>
             <p>
-Louis Leterrier is a French director and producer.He began his career working on French and American productions before gaining recognition with <strong>The Transporter, Danny the Dog</strong>, and <strong> Transporter 2</strong>.
+Louis Leterrier is a French director and producer.He began his career working on French and American productions before gaining recognition with <span className='Italic'>The Transporter, Danny the Dog</span>, and <span className='Italic'> Transporter 2</span>.
 </p>
  <br/>
 <p> 
-  He then established himself in Hollywood with major successes such as <strong>The Incredible Hulk, Clash of the Titans, and Now You See Me, </strong> becoming <strong>over his career the French filmmaker with the highest global box-office revenue.</strong>In 2023, he joined <strong>the Fast & Furious franchise with Fast X </strong>and is directing the sequel.
+  He then established himself in Hollywood with major successes such as <span className='Italic'>The Incredible Hulk, Clash of the Titans, and Now You See Me, </span> becoming over his career the French filmmaker with the highest global box-office revenue.In 2023, he joined <span className='Italic'>the Fast & Furious franchise with Fast X </span>and is directing the sequel.
   </p>
  <br/>
   <p>
-An <strong>Emmy Award winner for The Dark Crystal : Age of Resistance</strong>, Louis Leterrier also continues his work in television, returning as showrunner for the new season of <strong>Lupin</strong>.
+An <span className='Italic'>Emmy Award winner for The Dark Crystal : Age of Resistance</span>, Louis Leterrier also continues his work in television, returning as showrunner for the new season of <span className='Italic'>Lupin</span>.
 
   </p>
 
    <br/>
   <p>
-In parallel, he develops and produces new projects within his studio <strong> Carrousel</strong>, including the science-fiction film <strong>11817</strong> for Netflix.
+In parallel, he develops and produces new projects within his studio  Carrousel, including the science-fiction film <span className='Italic'>11817</span> for Netflix.
 
   </p>
    <br/>
@@ -363,13 +363,16 @@ Alongside Pascal Breton, she produced the award-winning and Netflix Top 10 serie
     <div className="director-section-content">
 
 
-          <div className="director-title">
-             <img
-                className="director-title-img"
+          <div className="title-wrapper-yellow-prod">
+          <div className='title-wrapper'>
+            <img
+                className="episode1"
                 src={credits}
                 alt="loading"
               />  
+            </div>
           </div>
+
         <div className="credits">
                                                                     <div className='line-div credit-line'>
 
