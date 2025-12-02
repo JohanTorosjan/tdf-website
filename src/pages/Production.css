@@ -70,6 +70,7 @@ text-align: center;
 }
 .outName{
   width: 20dvw;
+  padding-bottom: 2dvh;
 }
 .writers-gap{
   height: 5dvh;
