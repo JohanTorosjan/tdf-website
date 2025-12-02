@@ -339,10 +339,10 @@ Breton  appeared in Variety’s list of the 500 Most Influential Personalities o
                 Judith Rochelois 
               </div>
             <p>
-Producer Judith Rochelois joined Federation Studios in 2017. She has overseen all aspects of creative development and production for some of the group’s huge successes, including Around the World in 80 Days for The European Alliance (France Télévisions, ZDF, RAI), and Masterpiece PBS, as well as Toledano & Nakache's acclaimed series In Treatment for Arte. </p>
+Producer Judith Rochelois joined Federation Studios in 2017. She has overseen all aspects of creative development and production for some of the group’s huge successes, including Around the World in 80 Days for The European Alliance (France Télévisions, ZDF, RAI), and Masterpiece PBS, as well as Toledano & Nakache's acclaimed series In Treatment for Arte. She has also worked on Canal+ premium war series Les Sentinelles.  </p>
  <br/>
 <p> 
-Alongside Pascal Breton, she produced the award-winning and Netflix Top 10 series Bardot for France Télévisions and Mediaset, later released on Netflix. She has also worked on Canal+ premium war series Les Sentinelles.  </p>
+Alongside Pascal Breton, she produced the award-winning and Netflix Top 10 series Bardot for France Télévisions and Mediaset, later released on Netflix.  </p>
  
             </div>
             <div className="director-img">
