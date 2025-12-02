@@ -13,7 +13,7 @@ function MoodboardPage() {
                 top: 0,
               });})
   return (
- <div className="moodboard-container">
+ <div className="moodboard-container ">
 <ScrollToTopButton/>
 
       <div className="moodboard-title">

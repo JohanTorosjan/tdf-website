@@ -104,8 +104,8 @@
   }
 
   .moodboard-grid {
-    grid-template-columns: repeat(2, 40dvw);
-    gap: 12px;
+    grid-template-columns: repeat(1, 98dvw);
+    gap: 1px;
     justify-content: center;
   }
 
@@ -114,7 +114,7 @@
   .moodboard-square {
     grid-column: span 1;
     grid-row: span 1;
-    aspect-ratio: 1 / 1;
+    aspect-ratio: 2 / 1;
   }
 
   .moodboard-item {
@@ -140,7 +140,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  gap: 12px;
+  gap: 1px;
   height:50dvh;
 }
 

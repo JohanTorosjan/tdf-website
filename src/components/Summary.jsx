@@ -53,8 +53,9 @@ const Sommaire = ({ items,size }) => {
   };
 
   return (
-    <nav className="sommaire">
-      {/* <ul className="sommaire-list">
+    <div className="summary-wrapper">
+          <nav className="sommaire">
+      <ul className="sommaire-list">
         {items.map((item, index) => (
           <li className="sommaire-item" key={index}>
             <button
@@ -68,8 +69,10 @@ const Sommaire = ({ items,size }) => {
               />              </button>
           </li>
         ))}
-      </ul> */}
+      </ul>
     </nav>
+      </div>
+
   );
 };
 

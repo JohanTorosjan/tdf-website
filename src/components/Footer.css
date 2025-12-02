@@ -25,7 +25,6 @@
   pointer-events: none; /* Pour que les clics passent à travers */
 }
 .footer-content {
-  max-width: 1400px;
   margin: 0 auto;
 
 }

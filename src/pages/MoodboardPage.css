@@ -54,12 +54,17 @@ padding: 1dvw;
 }
 
 @media (max-width: 768px) {
+
   .moodboard-content {
       max-width:100%;
+      padding-top: 1dvw !important;
 
   }
   .moodboard-container{
         padding-bottom: 8dvh;
-
+  }
+  .moodboard-wrapper{
+    margin-left:0;
+    margin-right:0;
   }
 }

@@ -29,7 +29,6 @@ font-family: 'Restaurant Menu Book', sans-serif;
 
 .scripts-content-section {
   flex: 1;
-  max-width: 75dvw;
   margin: 0 auto;
   width: 100%;
     padding-top: 2dvh  !important;;
@@ -185,6 +184,17 @@ padding-top: 4dvh;
   display: flex;
   flex-direction: column;
   gap: 13dvh;
+  width: 100%;
+  max-width: 75%;
+    width: 100%;
+    padding-bottom: 17dvh !important;
+    display: flex;
+    flex-direction: column;
+    gap: 13dvh;
+        max-width: 75dvw;
+    margin: 0 auto;
+    line-height: 1.8;
+    flex: 1 1 
 }
 @media (max-width: 768px) {
   .scripts-content-section {
@@ -239,7 +249,6 @@ padding-top: 4dvh;
   }
 
   .script-button {
-    width: 100%;
   }
 
   .script-button:first-child {

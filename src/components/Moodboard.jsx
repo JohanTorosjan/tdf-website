@@ -155,7 +155,7 @@ const images = [
 
   // Version Desktop
   return (
-    <div className="moodboard-container">
+    <div className="moodboard-container realcontainer">
       <div className="moodboard-wrapper">
         <div className="moodboard-grid">
           {images.map((image) => (

@@ -1,11 +1,17 @@
 /* Container du sommaire */
+.summary-wrapper{
+  height: 20dvh;
+  align-items: center;        /* centre verticalement dans sa div */
+  justify-content: center; 
+  display: flex;
+}
 .sommaire {
 
   border-radius: 8px;
   width: 100%;
   overflow-x: auto;
-  padding-bottom: 3dvh;
-
+    align-items: center;        /* centre verticalement dans sa div */
+  justify-content: center;    /* centre horizontalement dans sa div */
 }
 
 /* Liste */
@@ -20,8 +26,7 @@
   position: relative;
   flex-wrap: nowrap;
   min-width: max-content;
-    padding-top: 5dvh;
-    padding-bottom: 5dvh;
+
 
 
 }
