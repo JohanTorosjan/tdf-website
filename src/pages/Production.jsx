@@ -8,6 +8,7 @@ import line from "../assets/line.png";
 import dirNote from "../assets/dirnote.png";
 import writerNote from "../assets/writersnote.png";
 import theIp from "../assets/theip.png";
+import { useLocation } from 'react-router-dom';
 
 function Production() {
           useEffect(() => {
@@ -15,6 +16,21 @@ function Production() {
               top: 0,
             });})
     
+                          const location = useLocation();
+  useEffect(() => {
+    // Vérifie s'il y a un hash dans l'URL
+    if (location.hash) {
+      console.log(location.hash)
+const selector = location.hash.replace('#', '.');
+    const element = document.querySelector(selector);
+      console.log(element)
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, [location]);
+
+
   return (
     <div className="production-container">
       <div className="production-title">
@@ -65,7 +81,7 @@ function Production() {
 
 
         <section className="production-section">
-          <div className="Director-summary">
+          <div className="Writer-summary">
           </div>
           <div className="title-wrapper-yellow">
           <div className='title-wrapper'>
@@ -112,7 +128,7 @@ function Production() {
 
 
       <section className="production-section">
-          <div className="Director-summary">
+          <div className="IP-summary">
           </div>
           <div className="title-wrapper-yellow">
           <div className='title-wrapper'>

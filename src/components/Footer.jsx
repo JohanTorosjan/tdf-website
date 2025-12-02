@@ -28,10 +28,10 @@ function Footer() {
           </div>
           {/* Colonne 3 */}
           <div className="footer-column">
-            <Link to="/production" className="footer-title">An outstanding production</Link>
-            <Link to="/production#directors-cut" className="footer-link">Director's note</Link>
-            <Link to="/production#writers-note" className="footer-link">Writer's note</Link>
-            <Link to="/production#ip" className="footer-link">The IP</Link>
+            <Link to="/an-outstanding-production" className="footer-title">An outstanding production</Link>
+            <Link to="/an-outstanding-production#Director-summary" className="footer-link">Director's note</Link>
+            <Link to="/an-outstanding-production#Writer-summary" className="footer-link">Writer's note</Link>
+            <Link to="/an-outstanding-production#IP-summary" className="footer-link">The IP</Link>
           </div>
 
           {/* Colonne 4 */}
