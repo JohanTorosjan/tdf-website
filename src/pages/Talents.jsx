@@ -60,6 +60,8 @@ const selector = location.hash.replace('#', '.');
                                 <Sommaire items={[
         { className: 'Creators-summary', titre: 'Creators' },
         { className: 'Producers-summary', titre: 'Producers' },
+        { className: 'credits-summary', titre: 'cred' },
+
         ]}
                 size='talents'
  />

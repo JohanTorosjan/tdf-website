@@ -37,25 +37,25 @@ function Scripts() {
   }, []);
     const dsen1 = () => {
       const link = document.createElement("a");
-      link.href = "/assets/EN_TDF_Episode 1.pdf";   // chemin vers ton PDF
+      link.href = "/assets/EN_TDF_Episode 1-1.pdf";   // chemin vers ton PDF
       link.download = "EN_TDF_Episode 1.pdf";       // nom du fichier téléchargé
       link.click();
     };
         const dsen2 = () => {
       const link = document.createElement("a");
-      link.href = "/assets/EN_TDF_Episode 2.pdf";   // chemin vers ton PDF
+      link.href = "/assets/EN_TDF_Episode 2-1.pdf";   // chemin vers ton PDF
       link.download = "EN_TDF_Episode 2.pdf";       // nom du fichier téléchargé
       link.click();
     };
         const dsfr1 = () => {
       const link = document.createElement("a");
-      link.href = "/assets/FR_TDF_Episode 1.pdf";   // chemin vers ton PDF
+      link.href = "/assets/FR_TDF_Episode 1-1.pdf";   // chemin vers ton PDF
       link.download = "FR_TDF_Episode 1.pdf";       // nom du fichier téléchargé
       link.click();
     };
         const dsfr2 = () => {
       const link = document.createElement("a");
-      link.href = "/assets/FR_TDF_Episode 2.pdf";   // chemin vers ton PDF
+      link.href = "/assets/FR_TDF_Episode 2-1.pdf";   // chemin vers ton PDF
       link.download = "FR_TDF_Episode 2.pdf";       // nom du fichier téléchargé
       link.click();
     };

@@ -30,7 +30,7 @@ function Footer() {
           <div className="footer-column">
             <Link to="/an-outstanding-production" className="footer-title">An outstanding production</Link>
             <Link to="/an-outstanding-production#Director-summary" className="footer-link">Director's note</Link>
-            <Link to="/an-outstanding-production#Writer-summary" className="footer-link">Writer's note</Link>
+            <Link to="/an-outstanding-production#Writer-summary" className="footer-link">Writers' notes</Link>
             <Link to="/an-outstanding-production#IP-summary" className="footer-link">The IP</Link>
           </div>
 

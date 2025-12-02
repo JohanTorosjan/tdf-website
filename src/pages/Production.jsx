@@ -142,22 +142,19 @@ const selector = location.hash.replace('#', '.');
           <div className="theip-text">
                         <p>
 
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pulvinar augue vitae feugiat fringilla. Proin dolor mauris, bibendum in pulvinar viverra, tincidunt a nisi. Mauris eget magna sed magna interdum gravida eget in purus. Nulla fringilla sem quam, in dapibus velit iaculis ut. Aenean at dolor leo. Fusce scelerisque sit amet risus eget blandit. Fusce mollis blandit lorem, nec pretium lectus lobortis et. Cras eleifend volutpat ornare. Vestibulum placerat enim faucibus erat sagittis ornare. Aliquam ut cursus diam. Morbi auctor sollicitudin hendrerit. Phasellus quis nulla imperdiet, vulputate magna in, fringilla erat.
+            Coming soon !
                       </p>
 
             <p>
 
-            Phasellus facilisis ipsum et mauris posuere suscipit. Donec condimentum tortor nec ante placerat pharetra. Vivamus blandit id leo aliquet porttitor. Nulla varius nunc eu mauris dictum ultricies. Cras vestibulum, felis sed pretium condimentum, diam lacus sollicitudin augue, vitae interdum ipsum diam in turpis. Donec libero mi, venenatis a lacus eu, laoreet volutpat urna. Nullam nec pharetra arcu.
             </p>
 
             <p>
 
-            Morbi at erat ac ante euismod consequat. Donec faucibus mattis auctor. Fusce in urna volutpat, pellentesque diam vel, lacinia erat. Aenean ultrices tempus gravida. Cras vitae elit neque. Morbi ac purus a velit rutrum faucibus eget ac quam. Sed a faucibus quam. Donec eget urna sed quam imperdiet facilisis. Morbi ac hendrerit nunc, ut varius purus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec dictum massa at massa consequat molestie. Etiam a massa vitae nulla varius blandit non quis risus. Curabitur dapibus interdum nulla, sit amet egestas lectus aliquam eu. Donec ullamcorper ultricies metus, ac consequat felis lobortis eget. Fusce pulvinar turpis dolor, non tincidunt erat volutpat vitae.
                        </p>
 
             <p>
 
-            Nam imperdiet fermentum diam, sed dictum felis. Vestibulum eget felis diam. Fusce fermentum varius tortor rhoncus congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at faucibus ex. Morbi sollicitudin leo eget lectus volutpat malesuada. Ut sagittis erat at sapien tempor, vitae gravida urna iaculis. Donec fermentum felis ac diam laoreet dictum. Nulla volutpat neque ut commodo luctus. Etiam ac porttitor nisi, facilisis pretium nulla.
                       </p>
 
           </div>

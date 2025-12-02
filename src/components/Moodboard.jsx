@@ -1,6 +1,8 @@
 // Moodboard.jsx
 import React, { useState, useEffect } from 'react';
 import './Moodboard.css';
+import moodboard1 from '../assets/moodboard/output/1.png';
+import moodboard2 from '../assets/moodboard/output/2.png';
 import moodboard3 from '../assets/moodboard/output/3.png';
 import moodboard4 from '../assets/moodboard/output/4.png';
 import moodboard5 from '../assets/moodboard/output/5.png';
@@ -64,7 +66,8 @@ export default function Moodboard() {
   //   return () => window.removeEventListener("resize", handleResize);
   // }, []);
 const images = [
-
+  { id: 1, format: 'landscape', url: moodboard1, alt: 'Moodboard 3' },
+  { id: 2, format: 'landscape', url: moodboard2, alt: 'Moodboard 3' },
   { id: 3, format: 'landscape', url: moodboard3, alt: 'Moodboard 3' },
   { id: 4, format: 'landscape', url: moodboard4, alt: 'Moodboard 4' },
   { id: 5, format: 'landscape', url: moodboard5, alt: 'Moodboard 5' },
