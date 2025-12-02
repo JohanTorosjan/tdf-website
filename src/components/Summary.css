@@ -100,12 +100,23 @@
 }
 
 .production{
-  width:11dvh;
+  width:13dvh;
+}
+
+.scripts{
+  width: 4dvw;
+  height: 8dvh;
 }
 /* Responsive - pour les petits écrans */
 @media (max-width: 768px) {
 .summaryButton{
   width: 10dvw;
+}
+.summary-wrapper{
+  height: 15dvh;
+}
+.scripts{
+  width: 3dvw;
 }
 
 .talents, .seriesT{

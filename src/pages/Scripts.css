@@ -197,7 +197,7 @@ padding-top: 4dvh;
     flex: 1 1 
 }
 @media (max-width: 768px) {
-  .scripts-content-section {
+  .scripts-content {
       max-width:90%;
 
   }

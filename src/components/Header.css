@@ -143,7 +143,6 @@
   .nav-menu.open {
     right: 0;
     background-color: rgba(0, 0, 0, 0.7); /* Noir avec 70% d'opacité */
-
   }
 
   .nav-menu li {
