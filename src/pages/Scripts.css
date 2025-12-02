@@ -27,7 +27,7 @@ font-family: 'Restaurant Menu Book', sans-serif;
 }
 
 
-.scripts-content {
+.scripts-content-section {
   flex: 1;
   max-width: 75dvw;
   margin: 0 auto;
@@ -97,7 +97,7 @@ clip-path: polygon(2% 0, 100% 0, 80% 100%, 0 100%);
 padding-top: 4dvh;
   color: #000;
   line-height: 1.8;
-  border-top: 7px solid #FFEC00;
+  border-top: 3px solid black;
 
 }
 
@@ -111,7 +111,7 @@ padding-top: 4dvh;
   gap: 0;
   align-items: center;
     justify-content: center;
-    padding-top: 2dvh;
+    padding-top: 4dvh;
 
 }
 
@@ -147,17 +147,16 @@ padding-top: 4dvh;
 .route{
     width: 30%;
     align-self: center;
-    padding-top: 8dvh;
-     padding-bottom: 8dvh;
+
      opacity: 50%;
 }
 
 .title-wrapper{
-  border-bottom: 2px solid black;
+  border-bottom: 5px solid #FFEC00;
   height: fit-content;
     margin-bottom:1px;
     width: 95%;
-
+        line-height: 0.5;
 }
 /* .title-wrapper::before {
   content: "";
@@ -182,7 +181,16 @@ padding-top: 4dvh;
 } */
 
 /* Responsive */
+.scripts-content{
+  display: flex;
+  flex-direction: column;
+  gap: 13dvh;
+}
 @media (max-width: 768px) {
+  .scripts-content-section {
+      max-width:90%;
+
+  }
 .ds{
   width: 14dvh;
 }
@@ -199,8 +207,7 @@ padding-top: 4dvh;
     .route{
     width: 80%;
     align-self: center;
-        padding-top: 4dvh;
-        padding-bottom: 4dvh;
+
 
 }
 .episode1{

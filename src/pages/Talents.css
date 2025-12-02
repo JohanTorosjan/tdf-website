@@ -30,7 +30,7 @@ font-family: 'Restaurant Menu Book', sans-serif;
 
 .talents-content {
   flex: 1;
-  max-width: 80%;
+  max-width: 75%;
   margin: 0 auto;
   width: 100%;
     padding-top: 2dvh !important;
@@ -149,10 +149,13 @@ height: auto;
 }
 
 .title-wrapper-yellow-prod{
-          border-bottom: 7px solid #FFEC00;
+          border-bottom: 3px solid black;
         width: 100%;
 }
 @media (max-width: 768px) {
+  .talents-section{
+    max-width: 90%;
+  }
   .director-name{
       width: 100%;
 
@@ -167,8 +170,7 @@ height: auto;
 flex-direction: column;
 }
 .director-section-content{
-  padding-left: 3dvw;
-  padding-right:3dvw
+
 }
 
 .talents-content{

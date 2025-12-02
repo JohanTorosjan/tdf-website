@@ -252,13 +252,7 @@ This sensitive perspective on groups, hierarchies, and personal vulnerabilities 
 
 
           <div className="director-content">
-            <div className="fed-div-img">
-             <img
-                className="fed-img"
-                src={fed}
-                alt="loading"
-              />  
-            </div>
+
 
             <div className="director-text">
             <p>
@@ -275,7 +269,13 @@ Federation International, the strong distribution arm of the company has been bu
   </p>
 
             </div>
-
+            <div className="fed-div-img">
+             <img
+                className="fed-img"
+                src={fed}
+                alt="loading"
+              />  
+            </div>
           </div>
 
         </div>
@@ -351,7 +351,14 @@ Alongside Pascal Breton, she produced the award-winning and Netflix Top 10 serie
           <div className="credits-summary">
             
           </div>
-  <div className="director-section-content">
+
+
+
+
+        </section>
+
+<section className="talents-section">
+    <div className="director-section-content">
 
 
           <div className="director-title">
@@ -397,12 +404,7 @@ Alongside Pascal Breton, she produced the award-winning and Netflix Top 10 serie
 
 
 
-
-
-
-        </section>
-
-
+</section>
 
 
         </div>

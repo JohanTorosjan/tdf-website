@@ -81,6 +81,10 @@ function Scripts() {
         style={{ backgroundImage: `url(${isMobile ? scriptsbgtel : scriptsbg})` }}
       />
 
+
+
+  <div className="scripts-content">
+
       {/* Desktop : un seul sommaire */}
       {!isMobile && (
         <Sommaire items={episodes} size={'scripts'}/>
@@ -93,8 +97,7 @@ function Scripts() {
           <Sommaire items={episodes.slice(3, 6)} size={'scriptsT'} />
         </>
       )}
-
-<div className="scripts-content">
+<section className="scripts-content-section">
               <div className='episode-1'></div>
 
   <div className="episode-section">
@@ -152,7 +155,7 @@ In the mud and chaos of the Paris–Roubaix cobblestones, where everything shoul
     </div>
   </div>
 
-</div>
+</section>
 
  <img
           className="route"
@@ -160,7 +163,7 @@ In the mud and chaos of the Paris–Roubaix cobblestones, where everything shoul
           alt="Mon illustration"
         />
 
-<div className="scripts-content">
+<section className="scripts-content-section">
 
   <div className="episode-section">
     <div className="title-wrapper">
@@ -211,14 +214,14 @@ Nora, on the other hand, sees her ambitions soar. Exhilarated by the scale of th
 
     </div>
   </div>
-</div>
+</section>
 
  <img
           className="route"
           src={route}
           alt="Mon illustration"
         />
-<div className="scripts-content">
+<section className="scripts-content-section">
   <div className="episode-section">
     <div className="title-wrapper">
               <img
@@ -246,7 +249,7 @@ On the mythical slopes of the Tourmalet, the pressure reaches its peak: Ayden be
 
     </div>   
   </div>
-</div>
+</section>
 
  <img
           className="route"
@@ -254,7 +257,7 @@ On the mythical slopes of the Tourmalet, the pressure reaches its peak: Ayden be
           alt="Mon illustration"
         />
 
-<div className="scripts-content">
+<section className="scripts-content-section">
   <div className="episode-section">
     <div className="title-wrapper">
               <img
@@ -280,14 +283,14 @@ The former star is at the center of all contradictions, torn between pride and l
                                          <div className='episode-5'></div>
 
   </div>
-</div>
+</section>
  <img
           className="route"
           src={route}
           alt="Mon illustration"
         />
 
-<div className="scripts-content">
+<section className="scripts-content-section">
   <div className="episode-section">
     <div className="title-wrapper">
               <img
@@ -313,7 +316,7 @@ During a spectacular night stage through the walled city of Briançon, Ayden reg
                                          <div className='episode-6'></div>
 
   </div>
-</div>
+</section>
 
 
 
@@ -323,7 +326,7 @@ During a spectacular night stage through the walled city of Briançon, Ayden reg
           alt="Mon illustration"
         />
 
-<div className="scripts-content">
+<section className="scripts-content-section">
   <div className="episode-section">
     <div className="title-wrapper">
               <img
@@ -349,8 +352,8 @@ During the last stage, on the dizzying descent of the Galibier, Ayden takes a vi
 </p>               
     </div>   
   </div>
+</section>
 </div>
-
     </div>
   );
 }

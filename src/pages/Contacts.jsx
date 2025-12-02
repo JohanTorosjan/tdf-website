@@ -3,10 +3,10 @@ import React, { useState, useEffect } from 'react';
 import './Contacts.css'
 import contactsbg from "../assets/contacts.jpg";
 import ScrollToTopButton from '../components/ScrollToTopButton.jsx'
-import prod from '../assets/prod.png'
+import prod from '../assets/peod.png'
 import sales from '../assets/sale.png'
 import line from '../assets/line.png'
-
+import meet from '../assets/meet.png'
 function Contacts() {
             useEffect(() => {
                       document.body.scrollTo({
@@ -24,27 +24,23 @@ function Contacts() {
       </div>
       
       <div className="contacts-content">
-      
+      <div className='nothingg'>
+        
+      </div>
 
 
       <section className="contacts-section">
-            <div className='contacts-section-title'>
+                  <div className="title-wrapper-yellow">
+
+    <div className='title-wrapper flexeur'>
     <img
-          className="imgthemes"
+          className="episode1"
           src={prod}
           alt="loading"
         />  
-
-            </div>
-                            <div className='line-div'>
-
-    <img
-          className="separator-item"
-          src={line}
-          alt="loading"
-        />  
-        
-        </div>
+    </div>
+</div>
+               
 
         <div className='prod-text'>
          <p>Pascal Breton – Founder and group CEO</p> 
@@ -57,23 +53,17 @@ function Contacts() {
 
 
       <section className="contacts-section">
-            <div className='contacts-section-title'>
+                  <div className="title-wrapper-yellow">
+
+            <div className='title-wrapper flexeur'>
     <img
-          className="imgthemes"
+          className="episode1"
           src={sales}
           alt="loading"
         />  
-
-            </div>
-                            <div className='line-div'>
-
-    <img
-          className="separator-item"
-          src={line}
-          alt="loading"
-        />  
-        
-        </div>
+    </div>
+</div>
+               
 
         <div className='prod-text'>
          <p>Guillaume Pommier – Co-chief of distribution</p> 
@@ -82,6 +72,18 @@ function Contacts() {
         </div>
     </section>
 
+      </div>
+
+      <div className='meet'>
+        <img
+          className="meet-btn"
+          src={meet}
+          alt="loading"
+          onClick={() => window.open('https://federationstudios.com/sales-acquisitions/', '_blank')}
+          style={{ cursor: 'pointer' }}
+        />
+
+      
       </div>
 
   </div>
