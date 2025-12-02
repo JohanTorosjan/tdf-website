@@ -103,21 +103,21 @@ const selector = location.hash.replace('#', '.');
                 Louis Leterrier
               </div>
             <p>
-Louis Leterrier is a French director and producer. He began his career working on French and American productions before gaining recognition with <strong> The Transporter,  Danny the Dog</strong>,  and <strong> Transporter 2</strong>.
+Louis Leterrier is a French director and producer.He began his career working on French and American productions before gaining recognition with <strong>The Transporter, Danny the Dog</strong>, and <strong> Transporter 2</strong>.
 </p>
  <br/>
 <p> 
-  He then established himself in Hollywood with major successes such as <strong>The Incredible Hulk, Clash of the Titans, and Now You See Me, </strong> becoming <strong>over his career the French filmmaker with the highest global box-office revenue.  </strong>In 2023, he joined <strong>the Fast & Furious franchise with Fast X  </strong>and is directing the sequel.
+  He then established himself in Hollywood with major successes such as <strong>The Incredible Hulk, Clash of the Titans, and Now You See Me, </strong> becoming <strong>over his career the French filmmaker with the highest global box-office revenue.</strong>In 2023, he joined <strong>the Fast & Furious franchise with Fast X </strong>and is directing the sequel.
   </p>
  <br/>
   <p>
-An <strong>Emmy Award winner for The Dark Crystal : Age of Resistance</strong>, Louis Leterrier also continues his work in television, returning as showrunner for the new season of <strong>Lupin</strong>.
+An <strong>Emmy Award winner for The Dark Crystal : Age of Resistance</strong>, Louis Leterrier also continues his work in television, returning as showrunner for the new season of <strong>Lupin</strong>.
 
   </p>
 
    <br/>
   <p>
-In parallel, he develops and produces new projects within his studio <strong> Carrousel</strong>, including the science-fiction film <strong>11817</strong> for Netflix.
+In parallel, he develops and produces new projects within his studio <strong> Carrousel</strong>, including the science-fiction film <strong>11817</strong> for Netflix.
 
   </p>
    <br/>
@@ -154,13 +154,13 @@ A leading figure in international action cinema, he is recognized for his sense 
               Alexandre Delaporte
               </div>
             <p>
-Alexandre Delaporte is a screenwriter. After working in a bookstore, where he cultivated his passion for fiction and character-driven storytelling, he studied filmmaking at ESRA.</p>
+Alexandre Delaporte is a screenwriter. After working in a bookstore, where he cultivated his passion for fiction and character-driven storytelling, he studied filmmaking at ESRA.</p>
  <br/>
 <p> 
  After graduating, he directed several short films and worked in production and post-production, notably at EuropaCorp.  </p>
  <br/>
   <p>
-He later turned to television writing. His encounter with Louis Farge, with whom he now collaborates regularly, led him to fully embrace collaborative writing and explore a wide range of genres, from dark comedy to crime drama, science-fiction, thrillers, and eventually sports drama with the Tour de France series, created and co-written with Grégory Nicolas.
+He later turned to television writing. His encounter with Louis Farge, with whom he now collaborates regularly, led him to fully embrace collaborative writing and explore a wide range of genres, from dark comedy to crime drama, science-fiction, thrillers, and eventually sports drama with the series Tour de France, created and co-written with Grégory Nicolas.
   </p>
 
    <br/>

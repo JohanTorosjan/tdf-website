@@ -86,7 +86,7 @@ padding-top: 5dvh;
 .director-text {
   max-width: 60dvw;
   line-height: 1.5;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   color: #333;
 }
 
@@ -153,6 +153,9 @@ height: auto;
         width: 100%;
 }
 @media (max-width: 768px) {
+  .director-text{
+    font-size: 1rem;
+  }
   .talents-section{
     max-width: 90%;
   }

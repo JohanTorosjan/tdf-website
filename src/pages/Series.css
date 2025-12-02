@@ -240,7 +240,7 @@ justify-self: center;
 display: flex;
 flex-direction: column;
 gap:8dvh;
-      border-top: 7px solid #FFEC00;
+      border-top: 3px solid #333;
   padding-top: 10dvh;
 }
 

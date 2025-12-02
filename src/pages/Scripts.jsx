@@ -92,10 +92,10 @@ function Scripts() {
 
       {/* Mobile : deux sommaires avec 3 épisodes chacun */}
       {isMobile && (
-        <>
+        <div className="Summary-mobile">
           <Sommaire items={episodes.slice(0, 3)} size={'scriptsT'} />
           <Sommaire items={episodes.slice(3, 6)} size={'scriptsT'} />
-        </>
+        </div>
       )}
 <section className="scripts-content-section">
               <div className='episode-1'></div>
@@ -123,13 +123,13 @@ Mathias is torn between his loyalty to DeepBlue and an enticing offer from Galac
 Nora rebuilds her roster around Mathias and sets out to recruit riders driven by a hunger for redemption. During a Rad Race, she spots Ayden Legrand, a twenty-year-old orphan - a loner, a daredevil and a true cycling prodigy. Impressed by his flair, she offers him a place on the team. Ayden, who is hiding a heart condition, is torn between seizing this once-in-a-lifetime chance at the risk of his health or undergoing surgery and temporarily giving up cycling. But Nora leaves him no choice: it’s now or never. Realizing the opportunity may never come again, he ultimately accepts.
       </p>
                         <p>
- At the season’s opening briefing, Nora announces that DeepBlue’s participation in the next Tour de France depends on winning the Paris-Roubaix race. With only four months to prepare, the mission borders on the impossible. The grueling training pushes the fragile balance of the team to its limits. Ayden, meanwhile, struggles to adapt to this relentless discipline and authority, while an ambiguous relationship, somewhere between fascination and rivalry, develops between him and Mathias.
+At the season’s opening briefing, Nora announces that DeepBlue’s participation in the next Tour de France depends on winning the Paris-Roubaix race. With only four months to prepare, the mission borders on the impossible. The grueling training pushes the fragile balance of the team to its limits. Ayden, meanwhile, struggles to adapt to this relentless discipline and authority, while an ambiguous relationship, somewhere between fascination and rivalry, develops between him and Mathias.
       </p>
                               <p>
 In the mud and chaos of the Paris–Roubaix cobblestones, where everything should have been set up for Mathias to win, Ayden, fueled by adrenaline and the obsession to cross the finish line first, breaks the team’s strategy and causes their defeat, destroying their chances of being invited to the Tour. A violent argument erupts between the two men, and Ayden, exhausted by the suffocating rules, decides to leave the team.
       </p>
                                     <p>
- Against all odds, Nora manages to convince the Tour’s director to give them one last chance, betting on the return of a fallen champion to guarantee a spectacle. Meanwhile, Ayden prepares to undergo surgery, but memories of the race and the intoxicating pull of the peloton catch up with him: he is ready to risk his life for one more shot at glory.
+Against all odds, Nora manages to convince the Tour’s director to give them one last chance, betting on the return of a fallen champion to guarantee a spectacle. Meanwhile, Ayden prepares to undergo surgery, but memories of the race and the intoxicating pull of the peloton catch up with him: he is ready to risk his life for one more shot at glory.
       </p>
     </div>
 
@@ -186,7 +186,7 @@ Nora enters the Tour like a gambler, strategic, cold-blooded, ready to manipulat
 The former delivery rider is a loose cannon. He refuses to play for the team and won’t fall in line to support Mathias. Impulsive and unpredictable, he makes a critical error: in trying to lead out William in a sprint, he causes him to crash. Deepblue is now down to seven riders, missing a crucial rider. Worse still, William’s job was to shield Mathias from Andrea, once his teammate, now his fiercest rival. Andrea knows Mathias’s weaknesses better than anyone, and the entire Galactic squad is working to exploit them to make him crash. 
       </p>
                         <p>
-In this tense context, William’s fall is a wake-up call for Ayden. For the first time, he understands the cost of his actions, and the need to fall into line. A form of balance starts to emerge. As a unit, Deepblue launches into the time trial like a band of warriors. But just as he’s leading, Mathias is overwhelmed by flashbacks of his crash with Thibault on this same course and he breaks. Faced with the urgency of the situation, Nora makes a radical and unexpected  call: she orders Ayden to abandon Mathias to take  the lead. Against all expectations, he wins the stage and claims the yellow jersey! But instead of uniting the team, the victory deepens the fracture. While the team starts to dream bigger, Mathias sees this success as a betrayal and is determined to regain his rightful place.			      </p>
+In this tense context, William’s fall is a wake-up call for Ayden. For the first time, he understands the cost of his actions, and the need to fall into line. A form of balance starts to emerge. As a unit, Deepblue launches into the time trial like a band of warriors. But just as he’s leading, Mathias is overwhelmed by flashbacks of his crash with Thibault on this same course and he breaks. Faced with the urgency of the situation, Nora makes a radical and unexpected call: she orders Ayden to abandon Mathias to take the lead. Against all expectations, he wins the stage and claims the yellow jersey! But instead of uniting the team, the victory deepens the fracture. While the team starts to dream bigger, Mathias sees this success as a betrayal and is determined to regain his rightful place.			      </p>
                               <p>
 Nora, on the other hand, sees her ambitions soar. Exhilarated by the scale of the competition, she glimpses the colossal financial gains that the Tour de France would represent by monetizing it. She decides to risk it all and tears up the deal with the Koreans. It is then that she discovers that Ayden has a heart condition. A potentially fatal disorder, threatening to bring down everything she has gambled on. 
       </p>
@@ -268,13 +268,13 @@ On the mythical slopes of the Tourmalet, the pressure reaches its peak: Ayden be
     </div>
         <div className="episode-body">
       <p>
-The announcement of the yellow jersey’s exclusion casts a shadow over the competition   and fractures Deepblue, which chooses to continue without Ayden. But the peloton rises up in protest: in an unprecedented show of solidarity, the riders refuse to start the stage without the yellow jersey. The race authorities give in, and Ayden is reinstated but remains deeply affected  by what he experiences  as abandonment.
-On the fearsome  slopes of Mont Ventoux, under a hellish  thunderstorm, the young prodigy struggles to find his rhythm, until Nora manages to neutralize  the race with a move that borders on illegality. The yellow jersey is saved, but Ayden is only a shadow of his former self.. During a rest day in Nice, the city where he spent his early childhood, Nora tries to rebuild his trust and encourages him to forgive his mother.
+The announcement of the yellow jersey’s exclusion casts a shadow over the competition and fractures Deepblue, which chooses to continue without Ayden. But the peloton rises up in protest: in an unprecedented show of solidarity, the riders refuse to start the stage without the yellow jersey. The race authorities give in, and Ayden is reinstated but remains deeply affected by what he experiences as abandonment.
+On the fearsome slopes of Mont Ventoux, under a hellish thunderstorm, the young prodigy struggles to find his rhythm, until Nora manages to neutralize the race with a move that borders on illegality. The yellow jersey is saved, but Ayden is only a shadow of his former self. During a rest day in Nice, the city where he spent his early childhood, Nora tries to rebuild his trust and encourages him to forgive his mother.
       </p>
       <p>
 For Nora, Ayden’s exclusion throws her entire plan off course. She decides to team up with the head of Galactic, with Raphaël’s help. But Nora realizes too late that Scott's ambition surpasses her own. He wants to go as far as creating a competition that rivals the Tour de France. Nora realizes her attachment to the team, to Mathias, and to the values of the Tour. It's also by reconnecting with her sister that she becomes aware of what she is betraying. She wavers between two parts of herself, until everything shatters when Raphaël discovers her affair with Mathias.      </p>
             <p>
-The former star is at the center of all contradictions, torn between pride and loyalty. Still weakened by his crash, he’s tempted by doping when his mother offers him a banned painkiller. How far is he willing to go? During a sweltering stage along the Mediterranean coast, driven  by his rage  to win, Mathias makes a brutal choice: he betrays Ayden mid-race. The yellow jersey breaks down mentally and loses his lead to Andrea. Now more isolated than ever, Mathias is sidelined by the team, and he is on the verge of breaking up with Nora.    </p>
+The former star is at the center of all contradictions, torn between pride and loyalty. Still weakened by his crash, he’s tempted by doping when his mother offers him a banned painkiller. How far is he willing to go? During a sweltering stage along the Mediterranean coast, driven by his rage to win, Mathias makes a brutal choice: he betrays Ayden mid-race. The yellow jersey breaks down mentally and loses his lead to Andrea. Now more isolated than ever, Mathias is sidelined by the team, and he is on the verge of breaking up with Nora.    </p>
                   <p>
                     Still reeling from Mathias’s betrayal, Ayden’s long-awaited meeting with his mother turns out to be a disillusionment. As morale hits rock bottom, a final blow crushes the team: Thibault, their friend and long-time teammate, has succumbed to his injuries.
 

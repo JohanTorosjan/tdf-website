@@ -203,7 +203,7 @@ const selector = location.hash.replace('#', '.');
           <div className="episode-body">
             <div className='centered'>
             <span className="highlight-block">
-              These two champions will clash all season long in a gripping and relentless battle for leadership. Their rivalry echoes the great sports duels (Ronaldo/Messi, Nadal/Federer, Lauda/Hunt) <span className="highlight"><strong>with one key difference: they're on the same team.</strong></span>
+              These two champions will clash all season long in a gripping and relentless battle for leadership. Their rivalry echoes the great sports duels (Ronaldo/Messi, Nadal/Federer, Lauda/Hunt) <span className="highlight">with one key difference: they're on the same team.</span>
             </span>
             </div>
 
@@ -218,7 +218,7 @@ const selector = location.hash.replace('#', '.');
               The country dares to dream and "Aydenmania" sweeps across France and beyond. Everyone is captivated by this underdog with an unorthodox past. The series chronicles the epic journey of a team rebuilt in haste, rallying unwanted riders willing to risk it all to prove they belong.
             </p>
             <p>
-              <span className="highlight">We'll follow these outcasts as they storm the Tour</span>, winning stages, defending the yellow jersey like starving wolves, dazzling with breakout moves, but also doubting themselves, losing faith, using trickery, standing up to rivals, stumbling, and pushing through the grueling chaos of internal and external battles. Until a final stage where only reconciliation can pave the way to victory.
+              We'll follow these outcasts as they storm the Tour, winning stages, defending the yellow jersey like starving wolves, dazzling with breakout moves, but also doubting themselves, losing faith, using trickery, standing up to rivals, stumbling, and pushing through the grueling chaos of internal and external battles. Until a final stage where only reconciliation can pave the way to victory.
             </p>
             <p>
               Three perspectives. Three journeys. Who have no business being here, yet who will come together, for better or worse, and leave their mark on the most grueling competition in the history of sports: the third most-watched sporting event in the world after the FIFA World Cup and the Olympics, held every year!
@@ -540,7 +540,7 @@ But when he discovers Nora’s affair with Mathias, Raphaël unravels, consumed 
 
             </div>
             <p>
-Andrea is one of the most promising riders of his generation. A former key member of Deepblue, he was also Mathias’s best friend and most loyal teammate.Everything changes when Galactic offers him the chance to become their new leader, a golden opportunity he accepts, triggering a brutal rupture with Mathias, who sees it as a deep personal betrayal.
+Andrea is one of the most promising riders of his generation. A former key member of Deepblue, he was also Mathias’s best friend and most loyal teammate. Everything changes when Galactic offers him the chance to become their new leader, a golden opportunity he accepts, triggering a brutal rupture with Mathias, who sees it as a deep personal betrayal.
 </p>
 <br/>
              <p>
