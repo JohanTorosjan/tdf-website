@@ -41,7 +41,6 @@
   flex-direction: column;
   gap: 0.75rem;
   position: relative;
-  padding-right: 2rem;
 }
 
 .footer-column:not(:last-child)::after {

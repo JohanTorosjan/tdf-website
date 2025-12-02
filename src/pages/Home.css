@@ -6,7 +6,7 @@
 }
 
 .page-background {
-    background-image: url("../assets/main2.jpg");
+    background-image: url("../../public/main2.jpg");
   position: absolute; /* Au lieu de fixed */
   top: 0;
   left: 0;
