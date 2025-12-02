@@ -34,7 +34,6 @@ text-align: center;
   width: 100%;
 
   padding-top: 2dvh !important;
-  padding-bottom: 10dvh !important;
   display: flex;
   flex-direction: column;
   gap: 13dvh;
@@ -76,7 +75,21 @@ text-align: center;
   height: 5dvh;
 }
 
+.theip-text{
+align-self: center;}
+.IpPrez{
+width: 70dvw;
+
+}   
+
+.beforeIp{
+  margin-bottom: 0;
+}
+
 @media (max-width: 768px) {
+  .IpPrez{
+    width: 100%;
+  }
   .outName{
   width: 50dvw;
   padding-bottom: 2dvh;

@@ -11,7 +11,7 @@ import theIp from "../assets/theip.png";
 import outLouis from "../assets/outLouis.png";
 import outAlex from "../assets/outAlex.png";
 import outGreg from "../assets/outGreg.png";
-
+import IpPrez from "../assets/TheIpPrez.jpg"
 import { useLocation } from 'react-router-dom';
 
 function Production() {
@@ -146,7 +146,7 @@ const selector = location.hash.replace('#', '.');
       <section className="production-section">
           <div className="IP-summary">
           </div>
-          <div className="title-wrapper-yellow">
+          <div className="title-wrapper-yellow beforeIp">
           <div className='title-wrapper'>
             <img
                 className="episode1"
@@ -155,27 +155,17 @@ const selector = location.hash.replace('#', '.');
               />  
             </div>
           </div>
-          <div className="theip-text">
-                        <p>
 
-            Coming soon !
-                      </p>
-
-            <p>
-
-            </p>
-
-            <p>
-
-                       </p>
-
-            <p>
-
-                      </p>
-
-          </div>
         </section>  
         </div>
+                  <div className="theip-text">
+            
+                <img
+                className="IpPrez"
+                src={IpPrez}
+                alt="loading"
+              />  
+          </div>
     </div>
 
   );
