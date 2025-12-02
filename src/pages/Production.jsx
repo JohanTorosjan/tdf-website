@@ -30,27 +30,75 @@ function Production() {
                                               <Sommaire items={[
         { className: 'Director-summary', titre:'DirNote' },
         { className: 'Writer-summary', titre: "WritersNote" },
-        { className: 'IP-summary', titre: "WritersNote" },
+        { className: 'IP-summary', titre: "TheIP" },
 
         ]}size='production'/>
         <section className="production-section">
           <div className="Director-summary">
           </div>
-          <div className='talents-section-title'>
+          <div className="title-wrapper-yellow">
+          <div className='title-wrapper'>
             <img
-                className="imgthemes"
+                className="episode1"
                 src={dirNote}
                 alt="loading"
               />  
             </div>
-          <div className='line-div'>
-            <img
-              className="separator-item"
-              src={line}
-              alt="loading"
-            />  
           </div>
+
+
+         <div className="dir-title-name">
+              Louis Leterrier
+            </div>
           <div className="directors-vimeo">
+   
+            <iframe
+              src="https://player.vimeo.com/video/1142370663?h=b2a4a8353f
+"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowFullScreen
+              title="Vimeo Video"
+            />
+          </div>
+        </section>
+
+
+
+        <section className="production-section">
+          <div className="Director-summary">
+          </div>
+          <div className="title-wrapper-yellow">
+          <div className='title-wrapper'>
+            <img
+                className="episode1"
+                src={writerNote}
+                alt="loading"
+              />  
+            </div>
+          </div>
+
+
+         <div className="dir-title-name">
+             Alexandre Delaporte
+            </div>
+          <div className="directors-vimeo">
+   
+            <iframe
+              src="https://player.vimeo.com/video/1141402028?h=c62b529e17"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowFullScreen
+              title="Vimeo Video"
+            />
+          </div>
+          <div className="writers-gap">
+
+          </div>
+
+                   <div className="dir-title-name">
+              Grégory Nicolas
+            </div>
+          <div className="directors-vimeo">
+   
             <iframe
               src="https://player.vimeo.com/video/1141402028?h=c62b529e17"
               allow="autoplay; fullscreen; picture-in-picture"
@@ -61,51 +109,20 @@ function Production() {
         </section>
 
 
-       <section className="production-section">
-          <div className="Director-summary">
-          </div>
-          <div className='talents-section-title'>
-            <img
-                className="imgthemes"
-                src={writerNote}
-                alt="loading"
-              />  
-            </div>
-          <div className='line-div'>
-            <img
-              className="separator-item"
-              src={line}
-              alt="loading"
-            />  
-          </div>
-          <div className="directors-vimeo">
-            <iframe
-              src="https://player.vimeo.com/video/1141402028?h=c62b529e17"
-              allow="autoplay; fullscreen; picture-in-picture"
-              allowFullScreen
-              title="Vimeo Video"
-            />
-          </div>
-        </section>  
 
       <section className="production-section">
           <div className="Director-summary">
           </div>
-          <div className='talents-section-title'>
+          <div className="title-wrapper-yellow">
+          <div className='title-wrapper'>
             <img
-                className="imgthemes"
+                className="episode1"
                 src={theIp}
                 alt="loading"
               />  
             </div>
-          <div className='line-div'>
-            <img
-              className="separator-item"
-              src={line}
-              alt="loading"
-            />  
           </div>
-          <div className="synopsis-text">
+          <div className="theip-text">
                         <p>
 
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pulvinar augue vitae feugiat fringilla. Proin dolor mauris, bibendum in pulvinar viverra, tincidunt a nisi. Mauris eget magna sed magna interdum gravida eget in purus. Nulla fringilla sem quam, in dapibus velit iaculis ut. Aenean at dolor leo. Fusce scelerisque sit amet risus eget blandit. Fusce mollis blandit lorem, nec pretium lectus lobortis et. Cras eleifend volutpat ornare. Vestibulum placerat enim faucibus erat sagittis ornare. Aliquam ut cursus diam. Morbi auctor sollicitudin hendrerit. Phasellus quis nulla imperdiet, vulputate magna in, fringilla erat.

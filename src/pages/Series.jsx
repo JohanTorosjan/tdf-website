@@ -118,14 +118,16 @@ const selector = location.hash.replace('#', '.');
         <section className="series-section synopsis">
                   <div className='synopsis-summary'></div>
 
-                      <div className='series-section-title'>
+            
+    <div className='title-wrapper'>
     <img
-          className="imgthemes"
+          className="episode1"
           src={synopsis}
           alt="loading"
         />  
-            </div>
-                                        <div className='line-div'>
+    </div>
+
+                                        {/* <div className='line-div'>
 
     <img
           className="separator-item"
@@ -133,8 +135,8 @@ const selector = location.hash.replace('#', '.');
           alt="loading"
         />  
 
-        </div>
-          <div className="synopsis-text">
+        </div> */}
+          <div className="episode-body">
             <p>
               <strong>DEEPBLUE</strong>, the once-legendary French cycling team, is shattered after a spectacular crash during a stage of the Tour de France. <strong>Nora</strong>, a ruthless and opportunistic businesswoman, seizes the opportunity to buy the team for next to nothing, with the goal of restructuring it and turning a profit. A complete outsider to the cycling world, she makes bold and radical decisions that upend the team's balance and challenge the methods of its long-standing sports director. She manages to convince Mathias, the aging star rider, to stay with Deepblue. But that choice comes at a cost: Caterina, his mother and manager, breaks away and follows Andrea, Mathias's most loyal teammate, who now becomes his fiercest rival as the new leader of a powerful competing team.
             </p>
@@ -175,7 +177,14 @@ const selector = location.hash.replace('#', '.');
 
         </div> */}
         <section className="series-section themes">
-            <div className='series-section-title'>
+              <div className='title-wrapper'>
+    <img
+          className="episode1"
+          src={themes}
+          alt="loading"
+        />  
+    </div>
+            {/* <div className='series-section-title'>
     <img
           className="imgthemes"
           src={themes}
@@ -190,8 +199,8 @@ const selector = location.hash.replace('#', '.');
           alt="loading"
         />  
 
-        </div>
-          <div className="themes-content">
+        </div> */}
+          <div className="episode-body">
             <div className='centered'>
             <span className="highlight-block">
               These two champions will clash all season long in a gripping and relentless battle for leadership. Their rivalry echoes the great sports duels (Ronaldo/Messi, Nadal/Federer, Lauda/Hunt) <span className="highlight"><strong>with one key difference: they're on the same team.</strong></span>
@@ -264,7 +273,16 @@ const selector = location.hash.replace('#', '.');
         </div> */}
 
         <section className="series-section arena">
-            <div className='series-section-title'>
+
+
+                        <div className='title-wrapper'>
+    <img
+          className="episode1"
+          src={arena}
+          alt="loading"
+        />  
+    </div>
+            {/* <div className='series-section-title'>
     <img
           className="imgthemes"
           src={arena}
@@ -280,8 +298,8 @@ const selector = location.hash.replace('#', '.');
           alt="loading"
         />  
 
-        </div>
-             <div className="arena-content">
+        </div> */}
+             <div className="episode-body">
 
 
                           <div className='centered'>
@@ -316,7 +334,7 @@ const selector = location.hash.replace('#', '.');
 
         </section>
         <section className="series-section arena">
-            <div className='series-section-title'>
+            {/* <div className='series-section-title'>
     <img
           className="imgthemes"
           src={characters}
@@ -332,7 +350,16 @@ const selector = location.hash.replace('#', '.');
           alt="loading"
         />  
 
-        </div>
+        </div> */}
+
+
+                                <div className='title-wrapper'>
+    <img
+          className="episode1"
+          src={characters}
+          alt="loading"
+        />  
+    </div>
         <div className="characters-section-content">
 
        

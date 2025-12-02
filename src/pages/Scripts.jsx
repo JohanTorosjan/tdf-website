@@ -31,10 +31,34 @@ function Scripts() {
       setIsMobile(window.innerWidth < 768);
     };
 
+
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
-
+    const dsen1 = () => {
+      const link = document.createElement("a");
+      link.href = "/assets/EN_TDF_Episode 1.pdf";   // chemin vers ton PDF
+      link.download = "EN_TDF_Episode 1.pdf";       // nom du fichier téléchargé
+      link.click();
+    };
+        const dsen2 = () => {
+      const link = document.createElement("a");
+      link.href = "/assets/EN_TDF_Episode 2.pdf";   // chemin vers ton PDF
+      link.download = "EN_TDF_Episode 2.pdf";       // nom du fichier téléchargé
+      link.click();
+    };
+        const dsfr1 = () => {
+      const link = document.createElement("a");
+      link.href = "/assets/FR_TDF_Episode 1.pdf";   // chemin vers ton PDF
+      link.download = "FR_TDF_Episode 1.pdf";       // nom du fichier téléchargé
+      link.click();
+    };
+        const dsfr2 = () => {
+      const link = document.createElement("a");
+      link.href = "/assets/FR_TDF_Episode 2.pdf";   // chemin vers ton PDF
+      link.download = "FR_TDF_Episode 2.pdf";       // nom du fichier téléchargé
+      link.click();
+    };
   const episodes = [
     { className: 'episode-1', titre: 'EP1' },
     { className: 'episode-2', titre: 'EP2' },
@@ -107,12 +131,18 @@ In the mud and chaos of the Paris–Roubaix cobblestones, where everything shoul
     </div>
 
     <div className="episode-buttons">
-      <button className="script-button">    <img
+      <button className="script-button"
+      onClick={dsen1}
+      >    <img
           className="ds"
           src={dsen}
           alt="loading"
         /></button>
-      <button className="script-button">    <img
+      <button className="script-button"
+      
+            onClick={dsfr1}
+
+      >    <img
           className="ds"
           src={dsfr}
           alt="loading"
@@ -162,12 +192,17 @@ Nora, on the other hand, sees her ambitions soar. Exhilarated by the scale of th
    
 
     <div className="episode-buttons">
-      <button className="script-button">    <img
+      <button className="script-button"
+                  onClick={dsen2}
+>    <img
           className="ds"
           src={dsen}
           alt="loading"
         /></button>
-      <button className="script-button">    <img
+      <button className="script-button"
+                        onClick={dsfr2}
+
+      >    <img
           className="ds"
           src={dsfr}
           alt="loading"

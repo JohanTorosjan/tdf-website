@@ -21,9 +21,11 @@ function Footer() {
           {/* Colonne 2 */}
           <div className="footer-column">
             <Link to="/moodboard" className="footer-title">Moodboard</Link>
-            <Link to="/scripts" className="footer-title">Scripts</Link>
           </div>
 
+          <div className="footer-column">
+          <Link to="/scripts" className="footer-title">Scripts</Link>
+          </div>
           {/* Colonne 3 */}
           <div className="footer-column">
             <Link to="/production" className="footer-title">An outstanding production</Link>
@@ -38,6 +40,10 @@ function Footer() {
             <Link to="/talents#Creators-summary" className="footer-link">Creators</Link>
             <Link to="/talents#Producers-summary" className="footer-link">Producers</Link>
             <Link to="/talents#credits-summary" className="footer-link">Credits</Link>
+          </div>
+                    <div className="footer-column">
+            <Link to="/contacts" className="footer-title">Contacts</Link>
+
           </div>
         </div>
 

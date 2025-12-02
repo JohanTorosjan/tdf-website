@@ -148,6 +148,10 @@ height: auto;
   font-style: italic;
 }
 
+.title-wrapper-yellow-prod{
+          border-bottom: 7px solid #FFEC00;
+        width: 100%;
+}
 @media (max-width: 768px) {
   .director-name{
       width: 100%;

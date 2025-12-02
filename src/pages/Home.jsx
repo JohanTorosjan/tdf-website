@@ -22,23 +22,44 @@ function Home() {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  return (
-    <div className="page-container">
-      <div className="page-background"></div>
-      <div className="page-content">
-        <img
-          className="logo-center"
-          src={isMobile ? logomaintel : logomain}
-          alt="Mon illustration"
-        />
-        <img
-          className="logo-bottom-right"
-          src={fed}
-          alt="Mon illustration"
-        />
+  if(isMobile){
+    return(
+      <div className="page-container">
+        <div className="page-background"></div>
+        <div className="page-content">
+          <img
+            className="logo-center"
+            src={isMobile ? logomaintel : logomain}
+            alt="Mon illustration"
+          />
+          <img
+            className="logo-bottom-right"
+            src={fed}
+            alt="Mon illustration"
+          />
+        </div>
       </div>
-    </div>
-  );
+    )
+  }
+  else{
+    return (
+      <div className="page-container">
+        <div className="page-background"></div>
+        <div className="page-content">
+          {/* <img
+            className="logo-center"
+            src={isMobile ? logomaintel : logomain}
+            alt="Mon illustration"
+          /> */}
+          <img
+            className="logo-bottom-right"
+            src={fed}
+            alt="Mon illustration"
+          />
+        </div>
+      </div>
+    );
+  }
 }
 
 export default Home;

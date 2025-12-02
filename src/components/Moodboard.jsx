@@ -43,8 +43,7 @@ import moodboard41 from '../assets/moodboard/output/41.png';
 import moodboard42 from '../assets/moodboard/output/42.png';
 import moodboard43 from '../assets/moodboard/output/43.png';
 import moodboard44 from '../assets/moodboard/output/44.png';
-import moodboard45 from '../assets/moodboard/output/45.png';
-import moodboard46 from '../assets/moodboard/output/46.png';
+
 
 
 export default function Moodboard() {
@@ -66,48 +65,48 @@ export default function Moodboard() {
   // }, []);
 const images = [
 
-  { id: 3, format: 'square', url: moodboard3, alt: 'Moodboard 3' },
-  { id: 4, format: 'square', url: moodboard4, alt: 'Moodboard 4' },
-  { id: 5, format: 'square', url: moodboard5, alt: 'Moodboard 5' },
-  { id: 6, format: 'square', url: moodboard6, alt: 'Moodboard 6' },
-  { id: 7, format: 'square', url: moodboard7, alt: 'Moodboard 7' },
+  { id: 3, format: 'landscape', url: moodboard3, alt: 'Moodboard 3' },
+  { id: 4, format: 'landscape', url: moodboard4, alt: 'Moodboard 4' },
+  { id: 5, format: 'landscape', url: moodboard5, alt: 'Moodboard 5' },
+  { id: 6, format: 'landscape', url: moodboard6, alt: 'Moodboard 6' },
+  { id: 7, format: 'landscape', url: moodboard7, alt: 'Moodboard 7' },
   { id: 8, format: 'landscape', url: moodboard8, alt: 'Moodboard 8' },
-  { id: 9, format: 'square', url: moodboard9, alt: 'Moodboard 9' },
-  { id: 10, format: 'portrait', url: moodboard10, alt: 'Moodboard 10' },
-  { id: 11, format: 'portrait', url: moodboard11, alt: 'Moodboard 11' },
-  { id: 12, format: 'portrait', url: moodboard12, alt: 'Moodboard 12' },
-  { id: 13, format: 'portrait', url: moodboard13, alt: 'Moodboard 13' },
+  { id: 9, format: 'landscape', url: moodboard9, alt: 'Moodboard 9' },
+  { id: 10, format: 'landscape', url: moodboard10, alt: 'Moodboard 10' },
+  { id: 11, format: 'landscape', url: moodboard11, alt: 'Moodboard 11' },
+  { id: 12, format: 'landscape', url: moodboard12, alt: 'Moodboard 12' },
+  { id: 13, format: 'landscape', url: moodboard13, alt: 'Moodboard 13' },
   { id: 14, format: 'landscape', url: moodboard14, alt: 'Moodboard 14'},
   { id: 15, format: 'landscape', url: moodboard15, alt: 'Moodboard 15' },
-  { id: 16, format: 'square', url: moodboard16, alt: 'Moodboard 16' },
-  { id: 17, format: 'square', url: moodboard17, alt: 'Moodboard 17' },
-  { id: 18, format: 'square', url: moodboard18, alt: 'Moodboard 18' },
-  { id: 19, format: 'square', url: moodboard19, alt: 'Moodboard 19' },
+  { id: 16, format: 'landscape', url: moodboard16, alt: 'Moodboard 16' },
+  { id: 17, format: 'landscape', url: moodboard17, alt: 'Moodboard 17' },
+  { id: 18, format: 'landscape', url: moodboard18, alt: 'Moodboard 18' },
+  { id: 19, format: 'landscape', url: moodboard19, alt: 'Moodboard 19' },
   { id: 20, format: 'landscape', url: moodboard20, alt: 'Moodboard 20' },
-  { id: 21, format: 'portrait', url: moodboard21, alt: 'Moodboard 21' },
-  { id: 22, format: 'portrait', url: moodboard22, alt: 'Moodboard 22' },
-  { id: 23, format: 'portrait', url: moodboard23, alt: 'Moodboard 23' },
-  { id: 24, format: 'portrait', url: moodboard24, alt: 'Moodboard 24' },
-  { id: 25, format: 'square', url: moodboard25, alt: 'Moodboard 25' },
-  { id: 26, format: 'square', url: moodboard26, alt: 'Moodboard 26' },
+  { id: 21, format: 'landscape', url: moodboard21, alt: 'Moodboard 21' },
+  { id: 22, format: 'landscape', url: moodboard22, alt: 'Moodboard 22' },
+  { id: 23, format: 'landscape', url: moodboard23, alt: 'Moodboard 23' },
+  { id: 24, format: 'landscape', url: moodboard24, alt: 'Moodboard 24' },
+  { id: 25, format: 'landscape', url: moodboard25, alt: 'Moodboard 25' },
+  { id: 26, format: 'landscape', url: moodboard26, alt: 'Moodboard 26' },
   { id: 27, format: 'landscape', url: moodboard27, alt: 'Moodboard 27',},
-  { id: 28, format: 'square', url: moodboard28, alt: 'Moodboard 28' },
-  { id: 29, format: 'square', url: moodboard29, alt: 'Moodboard 29' },
-  { id: 30, format: 'portrait', url: moodboard30, alt: 'Moodboard 30' },
-  { id: 31, format: 'portrait', url: moodboard31, alt: 'Moodboard 31' },
-  { id: 32, format: 'portrait', url: moodboard32, alt: 'Moodboard 32' },
-  { id: 33, format: 'portrait', url: moodboard33, alt: 'Moodboard 33' },
-  { id: 34, format: 'square', url: moodboard34, alt: 'Moodboard 34' },
-  { id: 35, format: 'square', url: moodboard35, alt: 'Moodboard 35' },
+  { id: 28, format: 'landscape', url: moodboard28, alt: 'Moodboard 28' },
+  { id: 29, format: 'landscape', url: moodboard29, alt: 'Moodboard 29' },
+  { id: 30, format: 'landscape', url: moodboard30, alt: 'Moodboard 30' },
+  { id: 31, format: 'landscape', url: moodboard31, alt: 'Moodboard 31' },
+  { id: 32, format: 'landscape', url: moodboard32, alt: 'Moodboard 32' },
+  { id: 33, format: 'landscape', url: moodboard33, alt: 'Moodboard 33' },
+  { id: 34, format: 'landscape', url: moodboard34, alt: 'Moodboard 34' },
+  { id: 35, format: 'landscape', url: moodboard35, alt: 'Moodboard 35' },
   { id: 36, format: 'landscape', url: moodboard36, alt: 'Moodboard 36' },
-  { id: 37, format: 'square', url: moodboard37, alt: 'Moodboard 37' },
-  { id: 38, format: 'square', url: moodboard38, alt: 'Moodboard 38' },
-  { id: 39, format: 'square', url: moodboard39, alt: 'Moodboard 39' },
-  { id: 40, format: 'square', url: moodboard40, alt: 'Moodboard 40' },
-  { id: 41, format: 'portrait', url: moodboard41, alt: 'Moodboard 41' },
-  { id: 42, format: 'portrait', url: moodboard42, alt: 'Moodboard 42' },
-  { id: 43, format: 'portrait', url: moodboard43, alt: 'Moodboard 43' },
-  { id: 44, format: 'portrait', url: moodboard44, alt: 'Moodboard 44' },
+  { id: 37, format: 'landscape', url: moodboard37, alt: 'Moodboard 37' },
+  { id: 38, format: 'landscape', url: moodboard38, alt: 'Moodboard 38' },
+  { id: 39, format: 'landscape', url: moodboard39, alt: 'Moodboard 39' },
+  { id: 40, format: 'landscape', url: moodboard40, alt: 'Moodboard 40' },
+  { id: 41, format: 'landscape', url: moodboard41, alt: 'Moodboard 41' },
+  { id: 42, format: 'landscape', url: moodboard42, alt: 'Moodboard 42' },
+  { id: 43, format: 'landscape', url: moodboard43, alt: 'Moodboard 43' },
+  { id: 44, format: 'landscape', url: moodboard44, alt: 'Moodboard 44' },
 
 ];
 
@@ -171,9 +170,9 @@ const images = [
               />
               <div className="moodboard-overlay">
                 {/* <span className="moodboard-label">
-                  {image.format === 'square' && '■ Carré'}
+                  {image.format === 'landscape' && '■ Carré'}
                   {image.format === 'landscape' && '▭ Paysage'}
-                  {image.format === 'portrait' && '▯ Portrait'}
+                  {image.format === 'landscape' && '▯ landscape'}
                 </span> */}
               </div>
             </div>

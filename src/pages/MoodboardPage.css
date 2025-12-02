@@ -45,7 +45,12 @@ padding: 1dvw;
 }
 
 .moodboard-section-title{
-    padding-top: 11dvh;
+  display: flex;
+  width: 100%;
+  padding-top: 11dvh;
+  align-items: flex-start;
+
+
 }
 
 @media (max-width: 768px) {

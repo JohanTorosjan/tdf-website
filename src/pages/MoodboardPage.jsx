@@ -22,18 +22,21 @@ function MoodboardPage() {
       
       <div className="moodboard-hero" style={{ backgroundImage: `url(${moodboardbg})` }}>
       </div>
-      
-      <div className="moodboard-content">
-
-                    <div className='moodboard-section-title'>
+                          {/* <div className='moodboard-section-title'>
+    <div className='title-wrapper'>
     <img
-          className="imgthemes"
+          className="episode1"
           src={moodboardtitle}
           alt="loading"
         />  
+    </div>
 
-            </div>
-                            <div className='line-div'>
+
+            </div> */}
+      <div className="moodboard-content">
+
+
+                            {/* <div className='line-div'>
 
     <img
           className="separator-item"
@@ -41,7 +44,7 @@ function MoodboardPage() {
           alt="loading"
         />  
         
-        </div>
+        </div> */}
 
 
 

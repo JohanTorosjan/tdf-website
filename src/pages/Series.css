@@ -142,6 +142,9 @@ padding-bottom: 4dvh;
   font-size: 15px;
   line-height: 1.75;
 }
+.synopsis-text{
+      border-top: 7px solid #FFEC00;
+}
 
 .synopsis strong {
   font-weight: 700;
@@ -191,12 +194,12 @@ justify-self: center;
     font-family: 'Akrobat-ExtraBold', sans-serif;
 
   font-weight: 700;
-  font-size: 16px;
+  font-size: 20px;
   text-align: left;
   border-radius: 8px;
 background-color: #FEEC00;
 line-height: 6dvh;
-padding-right: 3dvw;
+padding-right: 1dvw;
 padding-left: 1dvw;
 padding-bottom: 2px;
 
@@ -237,6 +240,8 @@ justify-self: center;
 display: flex;
 flex-direction: column;
 gap:8dvh;
+      border-top: 7px solid #FFEC00;
+  padding-top: 10dvh;
 }
 
 /* --- Titre "characters" --- */
@@ -286,11 +291,10 @@ gap:8dvh;
 
 .name-right{
   margin-left: auto; /* Pousse l'élément vers la droite */
-  text-align: right;
 }
 
 .name-right p{
-  text-align: right;
+  text-align: left;
 }
 
 .sections-pics{
@@ -346,6 +350,10 @@ display: flex;
     font-size: 14px;
   }
   
+  .highlight-block {
+  font-size: 17px;
+  }
+  .characters-name {font-size: 22px;}
   .themes-content .emphasis,
   .themes-content .highlight-block,
   .arena-content .highlight-block {

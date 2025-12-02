@@ -69,22 +69,16 @@ const selector = location.hash.replace('#', '.');
           <div className="Creators-summary">
 
           </div>
-                    <div className='talents-section-title'>
-          <img
-                className="imgthemes"
+          <div className="title-wrapper-yellow-prod">
+          <div className='title-wrapper'>
+            <img
+                className="episode1"
                 src={creators}
                 alt="loading"
               />  
-                  </div>
-                                                          <div className='line-div'>
+            </div>
+          </div>
 
-    <img
-          className="separator-item"
-          src={line}
-          alt="loading"
-        />  
-
-        </div>
         <div className="director-section-content">
 
           <div className="director-title">
@@ -244,22 +238,16 @@ This sensitive perspective on groups, hierarchies, and personal vulnerabilities 
 
 
         <section className="talents-section creators">
-                    <div className='talents-section-title'>
-          <img
-                className="imgthemes"
+          <div className="title-wrapper-yellow-prod">
+          <div className='title-wrapper'>
+            <img
+                className="episode1"
                 src={producers}
                 alt="loading"
               />  
-                  </div>
-                                                          <div className='line-div'>
+            </div>
+          </div>
 
-    <img
-          className="separator-item"
-          src={line}
-          alt="loading"
-        />  
-
-        </div>
         <div className="director-section-content">
 
 
@@ -389,7 +377,6 @@ Alongside Pascal Breton, she produced the award-winning and Netflix Top 10 serie
             <p>Based on an original idea by Louis Leterrier</p>
             <p>Directed by Louis Leterrier</p>
             <p>Written by Alexandre Delaporte and Grégory Nicolas</p>
-            <p>Cast coming soon</p>
             <p>Produced by Federation Studio France<br/>(Pascal Breton and Judith Rochelois)</p>
             <p>Original broadcaster: FTV</p>
             <p>International sales: Federation International</p>

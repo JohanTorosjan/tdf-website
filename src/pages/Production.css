@@ -29,7 +29,7 @@ text-align: center;
 
 .production-content {
   flex: 1;
-  max-width: 80%;
+  max-width: 75%;
   margin: 0 auto;
   width: 100%;
 
@@ -53,4 +53,26 @@ text-align: center;
   width: 100%;
   height: 50dvh;
   border: none;
+}
+
+.title-wrapper-yellow{
+        border-bottom: 7px solid #FFEC00;
+        margin-bottom: 8dvh;
+        width: 100%;
+
+}
+
+.dir-title-name{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 3dvh;
+    font-family: 'Akrobat-ExtraBold', sans-serif;
+text-decoration: underline;
+font-size: 25px;
+  text-underline-offset: 1dvh; /* ajuste la valeur selon ton besoin */
+
+}
+
+.writers-gap{
+  height: 5dvh;
 }
