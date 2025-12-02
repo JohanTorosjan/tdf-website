@@ -8,6 +8,10 @@ import line from "../assets/line.png";
 import dirNote from "../assets/dirnote.png";
 import writerNote from "../assets/writersnote.png";
 import theIp from "../assets/theip.png";
+import outLouis from "../assets/outLouis.png";
+import outAlex from "../assets/outAlex.png";
+import outGreg from "../assets/outGreg.png";
+
 import { useLocation } from 'react-router-dom';
 
 function Production() {
@@ -64,7 +68,11 @@ const selector = location.hash.replace('#', '.');
 
 
          <div className="dir-title-name">
-              Louis Leterrier
+                          <img
+                className="outName"
+                src={outLouis}
+                alt="loading"
+              /> 
             </div>
           <div className="directors-vimeo">
    
@@ -95,7 +103,11 @@ const selector = location.hash.replace('#', '.');
 
 
          <div className="dir-title-name">
-             Alexandre Delaporte
+                          <img
+                className="outName"
+                src={outAlex}
+                alt="loading"
+              /> 
             </div>
           <div className="directors-vimeo">
    
@@ -112,7 +124,11 @@ const selector = location.hash.replace('#', '.');
           </div>
 
                    <div className="dir-title-name">
-              Grégory Nicolas
+                                       <img
+                className="outName"
+                src={outGreg}
+                alt="loading"
+              /> 
             </div>
           <div className="directors-vimeo">
    

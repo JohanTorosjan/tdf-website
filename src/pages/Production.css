@@ -9,7 +9,7 @@
 
 .production-hero {
   width: 100%;
-  height: 50dvh;
+  height: 75dvh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -17,7 +17,7 @@
 
 .production-title {
 position: absolute;
-top:  25dvh;
+top:  37dvh;
 align-self: center;
 z-index: 10000;
 color: white;
@@ -64,20 +64,22 @@ text-align: center;
 
 .dir-title-name{
   width: 100%;
-  text-align: center;
-  margin-bottom: 3dvh;
+  text-align: left;
     font-family: 'Akrobat-ExtraBold', sans-serif;
-text-decoration: underline;
-font-size: 25px;
-  text-underline-offset: 1dvh; /* ajuste la valeur selon ton besoin */
 
 }
-
+.outName{
+  width: 20dvw;
+}
 .writers-gap{
   height: 5dvh;
 }
 
 @media (max-width: 768px) {
+  .outName{
+  width: 50dvw;
+  padding-bottom: 2dvh;
+}
   .production-content{
     max-width: 90%;
   }
