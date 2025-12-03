@@ -138,7 +138,7 @@ const selector = location.hash.replace('#', '.');
         </div> */}
           <div className="episode-body">
             <p>
-              <strong>DEEPBLUE</strong>, the once-legendary French cycling team, is shattered after a spectacular crash during a stage of the Tour de France. <strong>Nora</strong>, a ruthless and opportunistic businesswoman, seizes the opportunity to buy the team for next to nothing, with the goal of restructuring it and turning a profit. A complete outsider to the cycling world, she makes bold and radical decisions that upend the team's balance and challenge the methods of its long-standing sports director. She manages to convince Mathias, the aging star rider, to stay with Deepblue. But that choice comes at a cost: Caterina, his mother and manager, breaks away and follows Andrea, Mathias's most loyal teammate, who now becomes his fiercest rival as the new leader of a powerful competing team.
+              <strong>DeepBlue</strong>, the once-legendary French cycling team, is shattered after a spectacular crash during a stage of the Tour de France. <strong>Nora</strong>, a ruthless and opportunistic businesswoman, seizes the opportunity to buy the team for next to nothing, with the goal of restructuring it and turning a profit. A complete outsider to the cycling world, she makes bold and radical decisions that upend the team's balance and challenge the methods of its long-standing sports director. She manages to convince Mathias, the aging star rider, to stay with DeepBlue. But that choice comes at a cost: Katrine, his mother and manager, breaks away and follows Andrea, Mathias's most loyal teammate, who now becomes his fiercest rival as the new leader of a powerful competing team.
             </p>
             <p>
               <strong>Nora</strong> must now rebuild a team around <strong>Mathias</strong>, scouting for riders who are hungry, reckless and cheap. Outsiders with nothing to lose, fueled by an untamable will to win. That's how she discovers Ayden, a raw cycling prodigy working as a Deliveroo courier. His raw power and wild flair seal the deal.
@@ -150,7 +150,7 @@ const selector = location.hash.replace('#', '.');
               <strong>Mathias</strong>, the team's longtime superstar, is haunted by the crash he caused the previous season, one that landed his teammate Thibault in critical condition. The accident didn't just injure Mathias physically; it fractured the team and pushed him away from his loved ones, including his own son, now terrified to watch him race. Mathias embarks on this new season torn between guilt, a burning obsession to win, and a creeping fear of being overtaken by the next generation. He refuses to accept that his career might be over, and he's not ready to share the spotlight. But with Ayden's arrival, championed by Nora, he has no choice. The young prodigy soon surpasses him, seizing the yellow jersey. Through an extraordinary Tour de France, Mathias will finally discover the true meaning of being part of a team and what really matters. Only then will he be able to pass the torch.
             </p>
             <p>
-              <strong>Ayden</strong>, a rebellious, solitary orphan, is Nora's wild-card recruit, an unlikely contender for the Tour. A Deliveroo courier with magnetic and insolent energy, he masks his lack of grounding and deep fear of abandonment with a fierce, almost self-destructive drive to win. Convinced he can only rely on himself, he joins Deepblue as a rogue element, challenging Mathias and captivating France with his explosive performances. But over time, Ayden realizes that victory isn't just about individual strength. Embraced by the team, he lets go of his lone-wolf mentality and finally finds the family he never had.
+              <strong>Ayden</strong>, a rebellious, solitary orphan, is Nora's wild-card recruit, an unlikely contender for the Tour. A Deliveroo courier with magnetic and insolent energy, he masks his lack of grounding and deep fear of abandonment with a fierce, almost self-destructive drive to win. Convinced he can only rely on himself, he joins DeepBlue as a rogue element, challenging Mathias and captivating France with his explosive performances. But over time, Ayden realizes that victory isn't just about individual strength. Embraced by the team, he lets go of his lone-wolf mentality and finally finds the family he never had.
             </p>
           </div>
         <div className='sections-pics'>
@@ -378,7 +378,7 @@ const selector = location.hash.replace('#', '.');
 
             </div>
             <p>
-Nora, thirty-five, is a social climber who left her working-class background behind to make it in the world of business. Haunted by a childhood she’s ashamed of a strict, domineering father and a mother who devoted herself to the family until illness took her, Nora built herself into a strong, independent, audacious woman. Determined to carve out a place in a male-dominated, upper-class world, she buys struggling companies, turns them around, and sells them for profit.
+Nora, thirty-five, is a social climber who left her working-class background behind to make it in the world of business. Haunted by a childhood she’s ashamed of, shaped by a strict, domineering father and a mother who devoted herself to the family until illness took her, Nora built herself into a strong, independent, audacious woman. Determined to carve out a place in a male-dominated, upper-class world, she buys struggling companies, turns them around, and sells them for profit.
 </p>
  <br/>
              <p>
@@ -408,7 +408,7 @@ Through cycling and through this new family she never expected, Nora learns to r
 Mathias, in his late thirties, tall and wiry, is the long-standing leader of the team. A true star, he has accumulated prestigious victories throughout his career, yet still clings to the dream of winning the Tour de France. As the season begins, he is recovering from a serious crash during the previous Tour. Beyond the physical injury, he is haunted by guilt, he caused the fall that left his teammate Thibault in critical condition.</p> 
 <br/>
              <p>
-Consumed by ambition and terrified of becoming irrelevant as younger riders rise, Mathias doesn’t hesitate to abandon his most loyal teammate, Andrea, as well as his own mother, who also serves as their manager in order to secure his position as Deepblue’s leader. But despite his sacrifices and iron will, Ayden’s arrival in the team shakes the foundations of his leadership.
+Consumed by ambition and terrified of becoming irrelevant as younger riders rise, Mathias doesn’t hesitate to abandon his most loyal teammate, Andrea, as well as his own mother, who also serves as their manager in order to secure his position as DeepBlue’s leader. But despite his sacrifices and iron will, Ayden’s arrival in the team shakes the foundations of his leadership.
 </p> <br/>
              <p>
 Mathias’s journey is one of slow acceptance: understanding that dominance won’t guarantee his place anymore, and that he must learn to reinvent himself in a secondary role. His rivalry with Andrea exposes his fear of being pushed aside, and his relationship with Ayden begins with bitterness and resentment. Eventually, he reconciles with the idea of stepping back for the good of the team.
@@ -460,7 +460,7 @@ Ayden, in his twenties, is a charismatic young rider, tattooed, cocky, reckless,
 His journey is that of a brilliant individual forced to confront the reality of the collective. A cycling prodigy convinced he doesn’t need anyone, he starts the season as a loose cannon, only to crash headfirst into the discipline and demands of elite competition. As Ayden discovers the glare of the spotlight and the complexities of living within a team, the sudden reappearance of his biological mother shakes his world and threatens his fragile balance.
 </p> <br/>
              <p>
-Yet, he eventually finds in Deepblue a structure that allows him to rebuild himself. Nora becomes a protective figure for him, almost maternal, though manipulative, someone who sees beyond his arrogant façade. With Mathias, he oscillates between open rivalry and quiet respect, locked in a generational power struggle.
+Yet, he eventually finds in DeepBlue a structure that allows him to rebuild himself. Nora becomes a protective figure for him, almost maternal, though manipulative, someone who sees beyond his arrogant façade. With Mathias, he oscillates between open rivalry and quiet respect, locked in a generational power struggle.
 </p> <br/>
              <p>
 Ayden’s arc is as tragic as it is poetic: at first convinced he has nothing to lose and willing to flirt with death for the thrill, he gradually realizes the value of what he’s found — a place to belong, and a new family he never expected to have.
@@ -476,7 +476,7 @@ Ayden’s arc is as tragic as it is poetic: at first convinced he has nothing to
 
             </div>
             <p>
-Erik is one of Deepblue’s defining figures, an old-school sports characters who has shaped the team for decades. Imposing, gruff, and straight to the point, he embodies a traditional vision of cycling: one where hard work, discipline, and strategy trump everything else.
+Erik is one of DeepBlue’s defining figures, an old-school sports characters who has shaped the team for decades. Imposing, gruff, and straight to the point, he embodies a traditional vision of cycling: one where hard work, discipline, and strategy trump everything else.
 </p>
 <br/>
              <p>
@@ -540,11 +540,11 @@ But when he discovers Nora’s affair with Mathias, Raphaël unravels, consumed 
 
             </div>
             <p>
-Andrea is one of the most promising riders of his generation. A former key member of Deepblue, he was also Mathias’s best friend and most loyal teammate. Everything changes when Galactic offers him the chance to become their new leader, a golden opportunity he accepts, triggering a brutal rupture with Mathias, who sees it as a deep personal betrayal.
+Andrea is one of the most promising riders of his generation. A former key member of DeepBlue, he was also Mathias’s best friend and most loyal teammate. Everything changes when Galactic offers him the chance to become their new leader, a golden opportunity he accepts, triggering a brutal rupture with Mathias, who sees it as a deep personal betrayal.
 </p>
 <br/>
              <p>
-Now managed by Katrine, Mathias’s mother, Andrea becomes a formidable rival on the road. But more than his new status as team leader, it’s his intimate knowledge of Mathias’s weaknesses and of the internal tensions shaking Deepblue that makes him truly dangerous. He knows exactly where to strike to destabilize them, and give himself every advantage he needs to try to win the Tour.
+Now managed by Katrine, Mathias’s mother, Andrea becomes a formidable rival on the road. But more than his new status as team leader, it’s his intimate knowledge of Mathias’s weaknesses and of the internal tensions shaking DeepBlue that makes him truly dangerous. He knows exactly where to strike to destabilize them, and give himself every advantage he needs to try to win the Tour.
 </p> <br/>
 
             </div>

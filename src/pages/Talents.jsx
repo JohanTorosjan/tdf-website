@@ -1,5 +1,5 @@
 // src/pages/Home.js
-import talentsbg from "../assets/talents.jpg";
+import talentsbg from "../assets/talentsbg.jpg";
 import './Talents.css'
 import React, { useState, useEffect } from 'react';
 import Sommaire from '../components/Summary.jsx'
@@ -105,15 +105,15 @@ const selector = location.hash.replace('#', '.');
                 Louis Leterrier
               </div>
             <p>
-Louis Leterrier is a French director and producer.He began his career working on French and American productions before gaining recognition with <span className='Italic'>The Transporter, Danny the Dog</span>, and <span className='Italic'> Transporter 2</span>.
+Louis Leterrier is a French director and producer. He began his career working on French and American productions before gaining recognition with <span className='Italic'>The Transporter, Danny the Dog</span>, and <span className='Italic'> Transporter 2</span>.
 </p>
  <br/>
 <p> 
-  He then established himself in Hollywood with major successes such as <span className='Italic'>The Incredible Hulk, Clash of the Titans, and Now You See Me, </span> becoming over his career the French filmmaker with the highest global box-office revenue.In 2023, he joined <span className='Italic'>the Fast & Furious franchise with Fast X </span>and is directing the sequel.
+  He then established himself in Hollywood with major successes such as <span className='Italic'>The Incredible Hulk, Clash of the Titans,</span> and <span className="Italic">Now You See Me, </span> becoming over his career the French filmmaker with the highest global box-office revenue. In 2023, he joined <span className='Italic'>the Fast & Furious franchise with Fast X </span>and is directing the sequel.
   </p>
  <br/>
   <p>
-An <span className='Italic'>Emmy Award winner for The Dark Crystal : Age of Resistance</span>, Louis Leterrier also continues his work in television, returning as showrunner for the new season of <span className='Italic'>Lupin</span>.
+An <span className='Italic'>Emmy Award winner for The Dark Crystal: Age of Resistance</span>, Louis Leterrier also continues his work in television, returning as showrunner for the new season of <span className='Italic'>Lupin</span>.
 
   </p>
 
@@ -266,7 +266,7 @@ Active in the drama, kids & family, documentary and cinema space, Federation Stu
   </p>
  <br/>
   <p>
-Federation International, the strong distribution arm of the company has been building up a rich lineup, mixing in-house and third-party premium content. Its portfolio includes major award-winning and international successes such as The Bureau, In Treatment, Around the World in 80 Days, Find me in Paris, Bardot, Sherlock & Daughter, I, Jack Wright, Mediterranean, and Simon Super Rabbit.
+Federation International, the strong distribution arm of the company has been building up a rich lineup, mixing in-house and third-party premium content. Its portfolio includes major award-winning and international successes such as <span className="Italic">The Bureau, In Treatment, Around the World in 80 Days, Find me in Paris, Bardot, Sherlock & Daughter, I, Jack Wright, Mediterranean, </span>and <span className="Italic"> Simon Super Rabbit.</span>
 
   </p>
 
@@ -329,10 +329,10 @@ Breton  appeared in Variety’s list of the 500 Most Influential Personalities o
                 Judith Rochelois 
               </div>
             <p>
-Producer Judith Rochelois joined Federation Studios in 2017. She has overseen all aspects of creative development and production for some of the group’s huge successes, including Around the World in 80 Days for The European Alliance (France Télévisions, ZDF, RAI), and Masterpiece PBS, as well as Toledano & Nakache's acclaimed series In Treatment for Arte. She has also worked on Canal+ premium war series Les Sentinelles.  </p>
+Producer Judith Rochelois joined Federation Studios in 2017. She has overseen all aspects of creative development and production for some of the group’s huge successes, including <span className="Italic">Around the World in 80 Days</span> for The European Alliance (France Télévisions, ZDF, RAI), and Masterpiece PBS, as well as Toledano & Nakache's acclaimed series <span className="Italic">In Treatment</span> for Arte. She has also worked on Canal+ premium war series <span className="Italic">Les Sentinelles.</span>  </p>
  <br/>
 <p> 
-Alongside Pascal Breton, she produced the award-winning and Netflix Top 10 series Bardot for France Télévisions and Mediaset, later released on Netflix.  </p>
+Alongside Pascal Breton, she produced the award-winning and Netflix Top 10 series <span className="Italic">Bardot</span> for France Télévisions and Mediaset, later released on Netflix.  </p>
  
             </div>
             <div className="director-img">

@@ -36,8 +36,8 @@ function Header() {
 
         {/* Menu de navigation */}
         <ul className={`nav-menu ${isMenuOpen ? 'open' : ''}`}>
-          <li><Link to="/the-series" onClick={closeMenu}>The Series</Link></li>
-          <li><Link to="/moodboard" onClick={closeMenu}>Moodbard</Link></li>
+          <li><Link to="/the-series" onClick={closeMenu}>The series</Link></li>
+          <li><Link to="/moodboard" onClick={closeMenu}>Moodboard</Link></li>
           <li><Link to="/scripts" onClick={closeMenu}>Scripts</Link></li>
           <li><Link to="/an-outstanding-production" onClick={closeMenu}>An outstanding production</Link></li>
           <li><Link to="/talents" onClick={closeMenu}>Talents</Link></li>
